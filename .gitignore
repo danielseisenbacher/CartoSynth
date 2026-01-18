@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# font data
+fonts/png_fonts/
+fonts/svg_fonts/
+fonts/tiff_fonts/
+
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
