@@ -6,9 +6,9 @@ __pycache__/
 .Python
 
 # font data
-fonts/png_fonts/
-fonts/svg_fonts/
-fonts/tiff_fonts/
+fonts/data/png_fonts/
+fonts/data/svg_fonts/
+fonts/data/tiff_fonts/
 
 
 # OS files
