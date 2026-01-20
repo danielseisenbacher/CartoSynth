@@ -8,7 +8,9 @@ WORKDIR /workspace
 RUN apt-get update && apt-get install -y \
     fontforge \
     vim \
+    inkscape \
     && rm -rf /var/lib/apt/lists/*
+    
 
 # Copy requirements file
 COPY requirements.txt .
