@@ -1,9 +1,21 @@
 <svg width="300" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
-  <text x="200" y="90"
-        text-anchor="middle"
-        font-family="font6"
-        font-size="42"
-        fill="black">
-    ABCDEF
+
+  <path
+    id="curve"
+    d="M 50 50 Q 125 -50 200 50"
+    fill="none"
+    stroke="lightgray"
+  />
+  <text
+    font-family="font6"
+    font-size="20"
+    fill="black"
+    letter-spacing="0"
+    word-spacing="30"
+  >
+    <textPath href="#curve" startOffset="50%" text-anchor="middle">
+      Daniel Seisenbacher
+    </textPath>
   </text>
+
 </svg>

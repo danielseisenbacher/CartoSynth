@@ -6,7 +6,7 @@ import sys
 
 
 CUSTOM_FONTS_DIR = '/workspaces/SynthMap/fonts'
-SYSTEM_FONT_DIR = '/usr/share/fonts/truetype/'
+SYSTEM_FONT_DIR = '/usr/share/fonts/opentype/'
 FONT_PATHS = []
 
 def create_custom_font():
@@ -36,10 +36,7 @@ def create_custom_font():
 
                 # get the existing glyph instance of the letter
                 glyph = font[letter]
-                try:
-                    glyph.unicode = ord(letter)   # CRITICAL: restore Unicode mapping
-                except Exception as e:
-                    print(e)
+                
                 # get the bounding box and existing anchors
                 template_bb = glyph.boundingBox()
                 existing_anchors = glyph.anchorPoints
@@ -108,26 +105,24 @@ def create_custom_font():
                 glyph.correctDirection()
         
 
-        # Save the font TrueType Font in the svg Directories
-        family = d
+        # Configure for new Font
+        family = d  # the font family == directory name
         style  = "Regular"
-
         font.familyname = family
         font.fullname   = f"{family} {style}"
-        font.fontname   = f"{family}-{style}"   # PostScript name, no spaces
-
-        font.default_base_filename = family
+        font.fontname   = f"{family}-{style}"
 
         # Fix style info so fontconfig matches correctly
-        font.weight = style
+        font.weight = "Regular" 
         font.italicangle = 0
-
-        # Fix OS/2 table (THIS IS VERY IMPORTANT)
-        font.os2_weight = 400        # Regular
+        font.os2_weight = 400        
         font.os2_width  = 5
-        font.os2_stylemap = 64       # Regular  
-
-        font_save_dir = os.path.join(svg_font_dir, d, "TrueType_Font")
+        font.os2_stylemap = 64       
+        font.os2_family_class = 0    
+        font.sfnt_names = ()  
+        
+        # Save the Font in the container font dir
+        font_save_dir = os.path.join(svg_font_dir, d, "OpenType_Font")
         os.makedirs(font_save_dir, exist_ok=True)
         font_path = os.path.join(font_save_dir, f"{d}.otf")
         font.generate(font_path)
@@ -155,7 +150,7 @@ def install_custom_font():
     print(f"Copied {installed} fonts. Rebuilding font cache...")
 
     # Rebuild font cache
-    subprocess.run(["fc-cache", "-f", SYSTEM_FONT_DIR], check=True)
+    subprocess.run(["fc-cache", "-f"], check=True)
 
     print("All fonts installed!")
 
