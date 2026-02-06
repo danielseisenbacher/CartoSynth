@@ -12,7 +12,7 @@ fonts/tiff_fonts/
 
 # Generated Synth Maps & annotation visualization
 synth_maps/
-annotations/annotation_visualized
+annotations/annotation_visualized/
 
 # OS files
 .DS_Store
