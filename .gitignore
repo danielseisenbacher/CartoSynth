@@ -9,8 +9,10 @@ __pycache__/
 fonts/png_fonts/
 fonts/svg_fonts/
 fonts/tiff_fonts/
-training_data/
 
+# Generated Synth Maps & annotation visualization
+synth_maps/
+annotations/annotation_visualized
 
 # OS files
 .DS_Store
