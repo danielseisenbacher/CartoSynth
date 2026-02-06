@@ -1,20 +1,32 @@
-<svg width="300" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+<svg
+  width="500"
+  height="200"
+  viewBox="0 0 500 200"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
 
+  <!-- Cubic Bezier curve -->
   <path
-    id="curve"
-    d="M 50 50 Q 125 -50 200 50"
+    id="bezierCurve"
+    d="M 50 120 C 150 20, 350 20, 450 120"
     fill="none"
-    stroke="lightgray"
+    stroke="#cccccc"
+    stroke-width="2"
   />
+
+  <!-- Text on the curve -->
   <text
-    font-family="font6"
-    font-size="20"
+    font-family="Arial"
+    font-size="32"
     fill="black"
-    letter-spacing="0"
-    word-spacing="30"
   >
-    <textPath href="#curve" startOffset="50%" text-anchor="middle">
-      Daniel Seisenbacher
+    <textPath
+      xlink:href="#bezierCurve"
+      startOffset="50%"
+      text-anchor="middle"
+    >
+      TEST TEXT
     </textPath>
   </text>
 
