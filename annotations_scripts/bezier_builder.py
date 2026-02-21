@@ -1,17 +1,17 @@
 import os
 import uuid
-from svgpathtools import svg2paths, wsvg, Path, Line, CubicBezier
+from svgpathtools import svg2paths, wsvg, Path, Line, CubicBezier, parse_path
 from shapely.geometry import MultiPoint
 import subprocess
 import xml.etree.ElementTree as ET
 import numpy as np
 from scipy.special import comb as n_over_k
+from oriented_bbox import oriented_bbox_from_path
 
 
-svg_with_glyphs_dir = "svg_with_glyphs"
-svg_with_glyph_paths_dir ="svg_with_glyph_paths"
-svg_annotated_dir ="svg_annotated"
-
+svg_with_glyphs_dir = "/workspaces/SynthMap/synth_maps/svg_maps_with_glyphs"
+svg_with_glyph_paths_dir = "/workspaces/SynthMap/synth_maps/svg_maps_with_glyph_paths"
+svg_annotated_dir ="/workspaces/SynthMap/annotations/annotation_visualized"
 
 def check_dirs() -> None:
     """
@@ -26,18 +26,22 @@ def glyphs_to_paths(svg_with_glyphs: str) -> str:
     """
     Runs inkscape subprocess to generate paths from text font.
     :param svg_with_glyphs: input file
-    :return: svg_with_glyph_paths: path to svg with glyphs as paths
+    :return: svg_maps_with_glyph_paths: path to svg with glyphs as paths
     """
     svg_with_glyph_paths = os.path.join(svg_with_glyph_paths_dir, os.path.basename(svg_with_glyphs))  # result path location
 
     subprocess.call(
-        f'inkscape {svg_with_glyphs} --actions="export-text-to-path;export-plain-svg;export-filename:{svg_with_glyph_paths};export-do"',
+        f'inkscape {svg_with_glyphs} '
+        f'--actions="export-text-to-path;'
+        f'export-plain-svg;'
+        f'export-filename:{svg_with_glyph_paths};'
+        f'export-do"',
         shell=True
     )
     return svg_with_glyph_paths
 
 
-def match_text_to_path_id(svg_with_glyph_paths: str) -> list:
+def match_text_to_path_id(svg_with_glyph_paths: str, glyph_to_path_reference:dict) -> list:
     """
     Gets the text from a given svg and creates a relation between letter, word and path_id
 
@@ -47,16 +51,34 @@ def match_text_to_path_id(svg_with_glyph_paths: str) -> list:
     tree = ET.parse(svg_with_glyph_paths)
     root = tree.getroot()
 
+    svg_ns = '{http://www.w3.org/2000/svg}'
+
+    path_reference = {}
+    for path_xml in root.iter(f'{svg_ns}path'):
+
+        if not "bezier" in path_xml.get('id'):
+            continue
+
+        path = parse_path(path_xml.get('d'))
+        segment = path[0]   # First (and only) segment
+        bezier_points = [
+            (segment.start.real, segment.start.imag),
+            (segment.control1.real, segment.control1.imag),
+            (segment.control2.real, segment.control2.imag),
+            (segment.end.real, segment.end.imag)
+        ]
+        path_reference[path_xml.get('id')] = bezier_points
+
+
     # Build a mapping: path_id -> aria-label of parent group
     text_relation = []
-    for g in root.iter('{http://www.w3.org/2000/svg}g'):
+    for g in root.iter(f'{svg_ns}g'):
         label = g.get('aria-label', None)
-
         if label is None:
             continue
 
         path_nrs = []
-        for count, path_elem in enumerate(g.iter('{http://www.w3.org/2000/svg}path')):
+        for count, path_elem in enumerate(g.iter(f'{svg_ns}path')):
             path_id = path_elem.get('id', '<no-id>')
             path_nrs.append(path_id)
 
@@ -66,12 +88,48 @@ def match_text_to_path_id(svg_with_glyph_paths: str) -> list:
         count = 0
         for word in label.split(" "):
             for letter in word:
-                text_part.append({"path_name": path_nrs[count], "letter": letter})
+                text_part.append({"path_id": path_nrs[count], "letter": letter, "bezier_ref": glyph_to_path_reference[path_nrs[count]]})
                 count += 1
             text_relation.append(text_part)
             text_part = []
 
     return text_relation
+
+
+def glyph_bezier_reference(svg_with_glyph_paths: str) -> dict:
+    # Parse SVG
+    tree = ET.parse(svg_with_glyph_paths)
+    root = tree.getroot()
+    existing_beziers = {}
+    for elem in root:
+        for group in elem:
+            if "bezier" in group.attrib["id"]:
+                bezier_id = group.attrib["id"]
+                path_string = group.attrib["d"]
+
+                path = parse_path(path_string)
+                segment = path[0]  # First (and only) segment
+                bezier_points = [
+                    (segment.start.real, segment.start.imag),
+                    (segment.control1.real, segment.control1.imag),
+                    (segment.control2.real, segment.control2.imag),
+                    (segment.end.real, segment.end.imag)
+                ]
+                existing_beziers[bezier_id] = bezier_points
+
+    glyph_bezier_reference = {}
+    for elem in root:
+        for group in elem:
+            if not "data-bezier-ref" in group.keys():
+                continue
+            ref_bezier_id = group.attrib["data-bezier-ref"]
+
+            for subgroup in group:
+                for path in subgroup:
+                    glyph_bezier_reference[path.attrib["id"]] = existing_beziers[ref_bezier_id]
+
+    return glyph_bezier_reference
+
 
 
 def get_letter_rotated_bbox(svg_with_glyph_paths: str, text_relation: list) -> list:
@@ -86,9 +144,9 @@ def get_letter_rotated_bbox(svg_with_glyph_paths: str, text_relation: list) -> l
     # Get all glyph paths
     paths, attributes = svg2paths(svg_with_glyph_paths)
 
-
     for path, attr in zip(paths, attributes):
         path_id = attr.get("id", "<no-id>")
+
 
         if "bezier" in path_id:
             # all bezier paths get ignored, these are created synthetically and do not represent a glyph path
@@ -96,87 +154,31 @@ def get_letter_rotated_bbox(svg_with_glyph_paths: str, text_relation: list) -> l
 
         for count, word in enumerate(text_relation):
 
-            path_ids = [letter["path_name"] for letter in word]
+            path_ids = [letter["path_id"] for letter in word]
             if path_id not in path_ids:
                 continue
 
+            xmin, xmax, ymin, ymax = [float(x) for x in path.bbox()]        # dont use numpy
             idx_path_id = path_ids.index(path_id)
 
-            # Sample 50 points along the path
-            num_samples = max(50, int(path.length() / 2))
-            points = []
-            for i in range(num_samples):
-                t = i / (num_samples - 1)
-                pt = path.point(t)
-                points.append((pt.real, pt.imag))
+            text_relation[count][idx_path_id]["bbox"] = [(xmin, ymin), (xmax, ymin), (xmax, ymax), (xmin, ymax)]
+            text_relation[count][idx_path_id]["bbox_center"] = ((xmin + xmax)/2, (ymin + ymax)/2)
 
-            # minimum_rotated_rectangle gives the oriented bounding box
-            mp = MultiPoint(points)
-            rotated_rect = mp.minimum_rotated_rectangle
-            coords = list(rotated_rect.exterior.coords)[:-1]
+            result_dict = oriented_bbox_from_path(
+                input_bezier = text_relation[count][idx_path_id]["bezier_ref"],
+                input_center_point = text_relation[count][idx_path_id]["bbox_center"],
+                path_object = path
+            )
 
-            cx = sum(x for x, y in coords) / len(coords)
-            cy = sum(y for x, y in coords) / len(coords)
-
-            text_relation[count][idx_path_id]["bbox"] = coords
-            text_relation[count][idx_path_id]["center"] = (cx, cy)
+            text_relation[count][idx_path_id]["ul"] = result_dict["ul"]
+            text_relation[count][idx_path_id]["ur"] = result_dict["ur"]
+            text_relation[count][idx_path_id]["lr"] = result_dict["lr"]
+            text_relation[count][idx_path_id]["ll"] = result_dict["ll"]
+            text_relation[count][idx_path_id]["letter_bbox"] = [result_dict["ul"], result_dict["ur"], result_dict["lr"], result_dict["ll"]]
 
     return text_relation
 
 
-def get_oriented_letter_corners(text_relation: list) -> list:
-    """
-    Get the ul,ur,ll,lr corners and write them into the text_relation list for each letter, in reading direction.
-
-    :param text_relation: information about words, letters, path_ids, bboxes for each letter
-    :return: text_relation: information about words, letters, path_ids, bboxes, ul,ur,ll,lr corners of letters
-    """
-
-    # Build oriented ul, ur, ll, lr
-    for word_idx, word in enumerate(text_relation):
-        if len(word) == 1:
-            word[0]["ul"] = word[0]["bbox"][0]
-            word[0]["ll"] = word[0]["bbox"][1]
-            word[0]["lr"] = word[0]["bbox"][2]
-            word[0]["ur"] = word[0]["bbox"][3]
-            continue
-
-        for letter_idx, letter in enumerate(word):
-            if letter_idx == len(word) - 1:
-                start = np.array(text_relation[word_idx][letter_idx - 1]["center"])
-                end = np.array(text_relation[word_idx][letter_idx]["center"])
-            else:
-                start = np.array(text_relation[word_idx][letter_idx]["center"])
-                end = np.array(text_relation[word_idx][letter_idx + 1]["center"])
-
-            x_axis = end - start
-            x_axis = x_axis / np.linalg.norm(x_axis)
-            y_axis = np.array([-x_axis[1], x_axis[0]])
-
-            center = np.array(letter["center"])
-            coords = letter["bbox"]
-
-            # Project each corner onto local x and y axes
-            projected = []
-            for p in coords:
-                delta = np.array(p) - center
-                local_x = np.dot(delta, x_axis)
-                local_y = np.dot(delta, y_axis)
-                projected.append((p, local_x, local_y))
-
-            # Classify: pick corner with best match for each role
-            ul = max(projected, key=lambda c: -c[1] + c[2])   # most left + most up
-            ur = max(projected, key=lambda c:  c[1] + c[2])   # most right + most up
-            lr = max(projected, key=lambda c:  c[1] - c[2])   # most right + most down
-            ll = max(projected, key=lambda c: -c[1] - c[2])   # most left + most down
-
-
-            letter["ul"] = ul[0]
-            letter["ur"] = ur[0]
-            letter["lr"] = lr[0]
-            letter["ll"] = ll[0]
-
-    return text_relation
 
 
 def draw_polygon_outline(paths: list, attributes: list, text_relation_dict: dict):
@@ -216,6 +218,34 @@ def draw_polygon_outline(paths: list, attributes: list, text_relation_dict: dict
         })
 
     return paths, attributes
+
+
+def draw_letter_bbox(paths: list, attributes: list, text_relation_dict: dict):
+    for word_uuid, value in text_relation_dict.items():
+        word = value["letters"]
+        for letter in word:
+
+
+            corners = [letter["ul"], letter["ur"], letter["lr"], letter["ll"], letter["ul"]]
+
+            bbox_path = Path()
+            for i in range(len(corners) - 1):
+                start = corners[i]
+                end = corners[i + 1]
+
+                bbox_path.append(
+                    Line(
+                        start=complex(start[0], start[1]),
+                        end=complex(end[0], end[1])
+                    )
+                )
+            paths.append(bbox_path)
+            attributes.append({
+                "id": f"word_bbox_{word_uuid}",
+                "stroke": "orange",
+                "fill": "none",
+                "stroke-width": "0.2"
+            })
 
 
 def fit_cubic_bezier(text_relation: list) -> dict:
@@ -411,6 +441,8 @@ def save_svg(svg_with_glyph_paths: str, text_relation_dict: dict, draw_and_save_
 
     draw_bbox_rectangles(paths, attributes, text_relation_dict)
 
+    draw_letter_bbox(paths, attributes, text_relation_dict)
+
     # save the annotated file
     svg_annotated_file = os.path.join(svg_annotated_dir, os.path.basename(svg_with_glyph_paths))
     wsvg(paths, attributes=attributes, filename=svg_annotated_file)
@@ -434,11 +466,11 @@ def build_bezier() -> dict:
 
         svg_with_glyph_paths = glyphs_to_paths(os.path.join(svg_with_glyphs_dir, file))
 
-        text_relation = match_text_to_path_id(svg_with_glyph_paths)
+        glyph_to_path_reference = glyph_bezier_reference(svg_with_glyph_paths)
+
+        text_relation = match_text_to_path_id(svg_with_glyph_paths, glyph_to_path_reference)
 
         text_relation = get_letter_rotated_bbox(svg_with_glyph_paths, text_relation)
-
-        text_relation = get_oriented_letter_corners(text_relation)
 
         text_relation_dict = fit_cubic_bezier(text_relation)
 
