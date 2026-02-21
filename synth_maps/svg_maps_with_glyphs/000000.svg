@@ -1,57 +1,84 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
-   version="1.1"
-   id="svg5"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs2" />
-  <g
-     id="layer1">
+    width="210mm"
+    height="297mm"
+    viewBox="0 0 210 297"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <g id="layer1">
+
+    <!-- ================== BEZIERS ================== -->
+
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linejoin:round;stroke-opacity:1"
-       d="m 29.797807,42.949547 c 0,0 74.991163,-18.828174 72.756043,31.439386"
-       id="bezier1" />
+      id="bezier1"
+      d="m 29.797807,42.949547 c 0,0 74.991163,-18.828174 72.756043,31.439386"
+      style="fill:none;stroke:#000;stroke-width:0.3"/>
+
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linejoin:round;stroke-opacity:1"
-       d="m 63.760824,127.71718 c 77.822436,4.75267 49.543666,27.63829 77.822436,4.75267"
-       id="bezier2" />
+      id="bezier2"
+      d="m 63.760824,127.71718 c 77.822436,4.75267 49.543666,27.63829 77.822436,4.75267"
+      style="fill:none;stroke:#000;stroke-width:0.3"/>
+
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linejoin:round;stroke-opacity:1"
-       d="M 146.60358,43.585668 C 134.2047,160.11828 176.34287,29.100275 177.59716,136.91749"
-       id="bezier3" />
-    <text
-       xml:space="preserve"
-       style="font-size:7.7611px;font-family:font6;-inkscape-font-specification:font6;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linejoin:round;stroke-opacity:1"
-       id="text1054"><textPath
-         xlink:href="#bezier1"
-         startOffset="50%"
-         id="textPath1064"><tspan
-           id="tspan1052"
-           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583">test text is da</tspan></textPath></text>
-    <text
-       xml:space="preserve"
-       style="font-size:7.7611px;font-family:font6;-inkscape-font-specification:font6;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linejoin:round;stroke-opacity:1"
-       id="text1058"><textPath
-         xlink:href="#bezier2"
-         startOffset="50%"
-         id="textPath1070"><tspan
-           id="tspan1056"
-           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583">hier is a word</tspan></textPath></text>
-    <text
-       xml:space="preserve"
-       style="font-size:7.7611px;font-family:font6;-inkscape-font-specification:font6;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linejoin:round;stroke-opacity:1"
-       id="text1062"><textPath
-         xlink:href="#bezier3"
-         startOffset="50%"
-         id="textPath1067"><tspan
-           id="tspan1060"
-           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583">vocabulary</tspan></textPath></text>
+      id="bezier3"
+      d="M 146.60358,43.585668 C 134.2047,160.11828 176.34287,29.100275 177.59716,136.91749"
+      style="fill:none;stroke:#000;stroke-width:0.3"/>
+
+    <!-- ================== WORD 1 ================== -->
+
+    <g
+      id="word_1"
+      data-bezier-ref="bezier1"
+      data-text="test text is da">
+
+      <text
+        style="font-size:7.8px;font-family:font6;text-anchor:middle;fill:#000">
+        <textPath
+          xlink:href="#bezier1"
+          startOffset="50%">
+          <tspan>test text is da</tspan>
+        </textPath>
+      </text>
+
+    </g>
+
+    <!-- ================== WORD 2 ================== -->
+
+    <g
+      id="word_2"
+      data-bezier-ref="bezier2"
+      data-text="hier is a word">
+
+      <text
+        style="font-size:7.8px;font-family:font6;text-anchor:middle;fill:#000">
+        <textPath
+          xlink:href="#bezier2"
+          startOffset="50%">
+          <tspan>hier is a word</tspan>
+        </textPath>
+      </text>
+
+    </g>
+
+    <!-- ================== WORD 3 ================== -->
+
+    <g
+      id="word_3"
+      data-bezier-ref="bezier3"
+      data-text="vocabulary">
+
+      <text
+        style="font-size:7.8px;font-family:font6;text-anchor:middle;fill:#000">
+        <textPath
+          xlink:href="#bezier3"
+          startOffset="50%">
+          <tspan>vocabulary</tspan>
+        </textPath>
+      </text>
+
+    </g>
+
   </g>
 </svg>

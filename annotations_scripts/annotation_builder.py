@@ -13,8 +13,8 @@ bezier_dict = build_bezier()
 count = 0
 for image_path, beziers in bezier_dict.items():
     png_path = svg2png(
-        "/home/seisi/Desktop/Privat/Programmierung/SynthMap+/build_annotation/svg_with_glyphs",
-        "/home/seisi/Desktop/Privat/Programmierung/SynthMap+/build_annotation/png_maps",
+        "/workspaces/SynthMap/synth_maps/svg_maps_with_glyphs",
+        "/workspaces/SynthMap/synth_maps/png_maps",
         image_path
     )
     img = Image.open(png_path)
@@ -45,5 +45,6 @@ for image_path, beziers in bezier_dict.items():
         coco_template["annotations"].append(annotation_entry)
         count += 1
 
-#
-json.dump(coco_template, open("annotation.json", "w"))
+
+# write annotation to json
+json.dump(coco_template, open("/workspaces/SynthMap/annotations/annotation.json", "w"))
