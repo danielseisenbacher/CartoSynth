@@ -275,8 +275,3 @@ def run_osm_logic(country_code, osm_save_dir):
         # Save small and full training data in osm_
         create_full_training_file(places, osm_save_dir)
         create_small_training_file(places, osm_save_dir)
-
-
-if __name__ == "__main__":
-    osm_save_dir = "/workspaces/SynthMap/synth_maps/osm_toponyms"
-    run_osm_logic("AT", osm_save_dir)
