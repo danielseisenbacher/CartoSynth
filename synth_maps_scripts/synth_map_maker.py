@@ -5,16 +5,43 @@ import os
 import numpy as np
 import svgpathtools
 from synth_maps_scripts import (bezier_length_test, svg_templates)
+import re
 
 
+def get_random_font(bezier_word, font_config):
+    try:
+        contains_number = bool(re.search(r'\d', bezier_word))
+        contains_letter = bool(re.search('[a-zA-Z]', bezier_word))
+
+        possible_fonts = {x:y for x,y in font_config.items() if y["can_display_numeric"]>=contains_number and y["can_display_letters"]>=contains_letter} 
+        if len(possible_fonts) == 0:
+            raise Exception
+
+        chosen_font = choice(list(font_config.keys()))
+
+        if not possible_fonts[chosen_font]["uppercase_possible"]:
+            bezier_word = bezier_word.lower()
+
+        if not possible_fonts[chosen_font]["lowercase_possible"]:
+            bezier_word = bezier_word.upper()
+        
+        return chosen_font, bezier_word
+
+        
+    except Exception:
+        fallback_font = [x for x,y in font_config.items() if y["fallback"] is True][-1]
+        print(f"Using fallback font [{fallback_font}]for word: {bezier_word}")
+
+        return fallback_font, bezier_word
 
 
-def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezier_on_canvas=40):
+def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezier_on_canvas=40, canvas_size=1000):
     training_data = []
     small_training_data = "/workspaces/SynthMap/osm/osm_data/small_training_data.txt"
     with open(small_training_data, "r") as f:
         for row in f:
-            training_data.append(row.strip())
+            if row != "":
+                training_data.append(row.strip())
 
 
     counter = 0
@@ -25,19 +52,33 @@ def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezie
         random_number = randint(min_bezier_on_canvas,max_bezier_on_canvas)
 
         proposed_paths = svgpathtools.Path()
+        proposed_font_config = []
         proposed_paths_buffers = svgpathtools.Path()
         words = []
 
         for elem in range(random_number):
             bezier_word = training_data[counter]
-            print(f'Bezier {elem+1}/{random_number}: {bezier_word}')
+            random_font, modified_bezier_word = get_random_font(bezier_word, font_config)
+            training_data[counter] = modified_bezier_word
+            bezier_word = training_data[counter]
 
-            random_font = choice(list(font_config.keys()))
+            
             random_font_size = randint(
                 font_config[random_font]['font_size_range'][0],
                 font_config[random_font]['font_size_range'][-1]
             )
-            bezier_len_required = bezier_length_test.test_word_length(bezier_word, random_font, random_font_size)
+
+            print(f'Bezier {elem+1}/{random_number}: {bezier_word} [font: {random_font}, font_size: {random_font_size}]')
+
+            bezier_len_required = bezier_length_test.test_word_length(bezier_word, random_font, random_font_size, canvas_size)
+
+
+            while not bezier_len_required:
+                # sometimes the word is too long for the canva, in this case we need to reduce the word length
+                training_data[counter] = bezier_word[:-1]
+                bezier_word = training_data[counter]
+                bezier_len_required = bezier_length_test.test_word_length(bezier_word, random_font, random_font_size, canvas_size)
+
 
             new_path, proposed_paths_buffers = propose_a_path(
                 bezier_len_required,
@@ -45,6 +86,7 @@ def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezie
             )
 
             proposed_paths.append(new_path)
+            proposed_font_config.append({"font": random_font,"font_size": random_font_size})
             words.append(bezier_word)
 
             counter += 1
@@ -52,9 +94,10 @@ def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezie
 
         save_to_svg(
             beziers=proposed_paths,
-            #buffers=proposed_paths_buffers,
             words=words,
-            file_name=f"{svg_nr}.svg"
+            file_name=f"{svg_nr}.svg",
+            canvas_size=canvas_size,
+            proposed_font_config=proposed_font_config
         )
 
         print()
@@ -62,8 +105,7 @@ def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezie
         print("\n\n")
 
 
-
-def propose_a_path(bezier_len_required, existing_paths_buffers, max_curvature=0.5, canvas_size=500, canvas_buffer=10):
+def propose_a_path(bezier_len_required, existing_paths_buffers, max_curvature=0.5, canvas_size=1000, canvas_buffer=10):
     b = canvas_buffer
     s = canvas_size - canvas_buffer
     border_buffer = svgpathtools.Path(
@@ -73,6 +115,8 @@ def propose_a_path(bezier_len_required, existing_paths_buffers, max_curvature=0.
         svgpathtools.path.Line(complex(b,s), complex(b,b))
     )
 
+    line_outside_count = 0
+    line_touches_other_bezier_count = 0
     while True:
         starting_point = (
             random.randint(canvas_buffer, canvas_size - canvas_buffer),
@@ -81,7 +125,7 @@ def propose_a_path(bezier_len_required, existing_paths_buffers, max_curvature=0.
 
         # skewed towards horizontal text
         x_length = random.betavariate(3, 1) * bezier_len_required
-        y_length = sqrt(bezier_len_required ** 2 - x_length ** 2) * random.choice([1, -1])      # make it go up and down
+        y_length = sqrt(bezier_len_required ** 2 - x_length ** 2) * random.choice([1, -1])
         ending_point = (starting_point[0] + x_length, starting_point[1] + y_length)
         starting_point = complex(starting_point[0], starting_point[1])
         ending_point = complex(ending_point[0], ending_point[1])
@@ -90,11 +134,18 @@ def propose_a_path(bezier_len_required, existing_paths_buffers, max_curvature=0.
 
         if border_buffer.intersect(new_path, justonemode=True):
             print("↺ line outside of canvas - ", end="")
+            line_outside_count += 1
+            if line_outside_count > 100:
+                print(f"No result found after {line_outside_count} iterations")
+                pass
             continue
 
-        # fix: check combined buffer, not list
         if existing_paths_buffers.intersect(new_path, justonemode=True):
             print("↺ line touches other bezier - ", end="")
+            line_touches_other_bezier_count += 1
+            if line_touches_other_bezier_count > 100:
+                print(f"No result found after {line_touches_other_bezier_count} iterations")
+                pass
             continue
 
         # Bezier loop
@@ -105,7 +156,7 @@ def propose_a_path(bezier_len_required, existing_paths_buffers, max_curvature=0.
 
             random_x_offset = random.randint(-canvas_buffer, canvas_buffer)
             random_y_offset = random.randint(-canvas_buffer, canvas_buffer)
-            control_point_2 = complex(ending_point.real + random_x_offset, ending_point.imag  + random_y_offset)
+            control_point_2 = complex(ending_point.real + random_x_offset, ending_point.imag + random_y_offset)
 
             new_bezier = svgpathtools.path.CubicBezier(
                 start=starting_point,
@@ -119,13 +170,19 @@ def propose_a_path(bezier_len_required, existing_paths_buffers, max_curvature=0.
                 continue
 
             ts = np.linspace(0, 1, 1000)
-            curvatures = [abs(new_bezier.curvature(t)) for t in ts]
+
+            def safe_curvature(t):
+                try:
+                    return abs(new_bezier.curvature(t))
+                except (ValueError, ZeroDivisionError):
+                    return 0.0
+
+            curvatures = [safe_curvature(t) for t in ts]
 
             if max(curvatures) > max_curvature:
                 print("↺ curvature of bezier too high - ", end="")
                 continue
 
-            # fix: use combined_buffer, not list
             if existing_paths_buffers.intersect(new_bezier, justonemode=True):
                 print("↺ bezier touches other bezier - ", end="")
                 continue
@@ -160,12 +217,12 @@ def propose_a_path(bezier_len_required, existing_paths_buffers, max_curvature=0.
 
 
 
-def save_to_svg(beziers, words, file_name, buffers=None, border=None, special=None):
-    svg_template = svg_templates.get_svg_template()
+def save_to_svg(beziers, words, file_name, buffers=None, border=None, special=None, canvas_size=1000, proposed_font_config=None):
+    svg_template = svg_templates.get_svg_template(canvas_size)
 
     path_str = ''
     path_beziers = [svgpathtools.Path(bezier) for bezier in beziers]
-    for idx, (path, word) in enumerate(zip(path_beziers, words)):
+    for idx, (path, word, font_config) in enumerate(zip(path_beziers, words, proposed_font_config)):
 
         # Add the bezier path to the svg string
         path_str += svg_templates.get_bezier_template(
@@ -177,8 +234,8 @@ def save_to_svg(beziers, words, file_name, buffers=None, border=None, special=No
         path_str += svg_templates.get_word_template(
             bezier_reference_id=f"bezier{idx}",
             bezier_text=word,
-            font_family="font6",
-            font_size="7"
+            font_family=font_config["font"],
+            font_size=font_config["font_size"]
         )
 
     if buffers:
@@ -197,8 +254,12 @@ def save_to_svg(beziers, words, file_name, buffers=None, border=None, special=No
 
 
 
-def run_synth_map_maker():
-    font_config = {"font6": {"font_size_range": [7]}}
-    create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezier_on_canvas=40)
-
-
+def run_synth_map_maker(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezier_on_canvas=40, canvas_size=1000):
+    # font_config = {"font6": {"font_size_range": [7]}}
+    create_svg(
+        font_config, 
+        how_many_svgs=how_many_svgs, 
+        min_bezier_on_canvas=min_bezier_on_canvas, 
+        max_bezier_on_canvas=max_bezier_on_canvas,
+        canvas_size=canvas_size
+        )

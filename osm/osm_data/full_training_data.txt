@@ -1,5 +1,3 @@
-"Tschwarzner Bach"
-'Unterer' Gamskarlsee
 (Hoch-)torsee
 -1
 -Schiembach
@@ -85,7 +83,6 @@ Ablgraben
 Abrahambach
 Abrandbach
 Abretter
-Abretterkees
 Abretterkopf
 Abriach
 Abrisstal
@@ -198,6 +195,7 @@ Aderklaa
 Adersdorf
 Aderspitze
 Ading
+Adlabühl
 Adlberg
 Adlerbauerbach
 Adlereck
@@ -284,6 +282,7 @@ Agsbachberg
 Agsdorf
 Agsdorf - Gegend
 Agsdorf-Gegend
+Agsdorferbach
 Aham
 Ahausersiedlung
 Ahbach
@@ -428,7 +427,6 @@ Alauntal
 Albeck
 Albeggbach
 Albenedt
-Albengipfel
 Albenödt
 Alberden
 Alberfeldkogel
@@ -605,9 +603,7 @@ Alpegg-Graben
 Alpeilbach
 Alpeilspitzen
 Alpeiner Bach
-Alpeiner Ferner
 Alpeiner Knotenspitze
-Alpeiner Kräulferner
 Alpelbach
 Alpelesbach
 Alpelgraben
@@ -694,7 +690,6 @@ Altarm Thondorf
 Altau
 Altaubach
 Altaussee
-Altausseer See
 Altausseer Traun
 Altbach
 Altbach (Reutbach)
@@ -1059,6 +1054,7 @@ Angelsbach
 Angelsberg
 Angelteich
 Angelteich Pabingersee
+Angelteich Rohr im Kremstal
 Angelteich am Gächtle
 Angenofen
 Anger
@@ -1222,10 +1218,8 @@ Anzing
 Apeding
 Aperer Feuerstein
 Aperer Freiger
-Aperer Freiger Ferner (Rest)
 Aperer Pfaff
 Aperer Turm
-Aperer-Feuerstein-Ferner
 Aperes Schareck
 Aperriesspitze
 Apetig
@@ -1387,6 +1381,7 @@ Arriach
 Arriachbach
 Arsangsbach, Piengbach
 Artenbach
+Arthof
 Arthofberg
 Arthofen
 Arthurhaus
@@ -1443,7 +1438,6 @@ Aschach an der Donau
 Aschach an der Steyr
 Aschacharm
 Aschachbach
-Aschafenferner
 Aschau
 Aschau am Ottersbach
 Aschau im Burgenland
@@ -1564,7 +1558,6 @@ Attendorferbach
 Attenmoosbach
 Attenreith
 Atterbach
-Atterkarferner
 Atterkogel
 Attersee am Attersee
 Attnang-Puchheim
@@ -1656,6 +1649,7 @@ Auersthal
 Auf Sömen
 Auf dem Egg
 Auf dem Hals
+Auf dem Kopf
 Auf dem Saam
 Auf dem Stein
 Auf den Grill und in den Waldäckern
@@ -1990,7 +1984,6 @@ Bacherwandbach
 Bacherwinkl
 Bachfalle
 Bachfallenbach
-Bachfallenferner
 Bachfallenkopf
 Bachfallentobelbach
 Bachfeldgraben
@@ -2264,7 +2257,6 @@ Bangs
 Bangsergraben
 Bankelstal
 Bankham
-Bankkogel
 Bankschmitten
 Bankschmittenbach
 Bannberg
@@ -2413,7 +2405,6 @@ Baureither Bach
 Bayerham
 Bayerlinggraben
 Bayerländerturm
-Bayern
 Bayrhammer Fischzucht
 Bayrisch-Habach
 Baytal
@@ -2467,7 +2458,6 @@ Beim Grenzstein
 Beim Kreuz
 Beim Roten Wasser
 Beim See
-Beim See'le
 Beim Seele
 Beim Steinmandl
 Beinhäuslbach
@@ -2511,7 +2501,6 @@ Benzegg
 Benzlbach
 Berbersdorf
 Berbigen Vorsäß
-Berchtesgaden
 Berdetschlag
 Berdo
 Berensteinerofen
@@ -2545,7 +2534,6 @@ Bergen
 Berger
 Berger Ache
 Berger Bach
-Berger Kees
 Berger Kogel
 Berger Teich
 Bergeralm Runsen
@@ -2692,6 +2680,7 @@ Bertschtobel
 Berwang
 Beschling
 Beschneiungsspeicher
+Beschneiungsspeicher Franzlalm
 Beschneiungsteich
 Beschneiungsteich Hennesteck
 Beschneiungsteich St. Jakob
@@ -2915,12 +2904,13 @@ Biotop St. Marein
 Biotop Teich
 Biotop Unterhart
 Biotop Weiher Koo
-Biotop vulgo Bratl Lack'n
+Biotop vulgo Bratl Lackn
 Biotopbach
 Biotope-City
 Biraist
 Birbergkarbach
 Birbergspitze
+Birchabüel
 Birchach
 Birchbaum
 Birchegglgraben
@@ -3076,6 +3066,7 @@ Blasigraben
 Blasigraberl
 Blasiskagraben, Janisalmbach
 Blasiteich
+Blasiusberg
 Blaskopf
 Blaskögerl
 Blasnikbach
@@ -3132,6 +3123,7 @@ Bleichstattbachl
 Bleigraben
 Bleihütten
 Bleijägerspitze
+Bleikajoch
 Bleikenberg
 Bleikogel
 Bleikolmbach
@@ -3148,7 +3140,6 @@ Blickwegbach
 Bliembach
 Bliesbach
 Bliggbach
-Bliggferner
 Bliggspitze
 Blindbach
 Blindberg
@@ -3165,6 +3156,7 @@ Blindissee
 Blindorf
 Blindsee
 Blintendorf
+Blintendorfer Bach
 Blinzgraben
 Blisadona
 Blisadonakopf
@@ -3277,7 +3269,6 @@ Bockkarsee
 Bockkarspitze
 Bockkogel
 Bockkogelgraben
-Bockkoglferner
 Bockleiteck
 Bockleiten
 Bockleiteneck
@@ -3294,6 +3285,7 @@ Bocksruck
 Bockstein
 Bocksteinbach
 Bocksteinsee
+Bodachöpf
 Boden
 Boden-Niederlög
 Bodenalmbach
@@ -3345,7 +3337,6 @@ Bogenhofen
 Bogenmüllerbach
 Bogenneusiedl
 Boggeneigraben
-Boggeneikees
 Bohnerberg
 Bohnkogel
 Bohnriedel
@@ -3379,13 +3370,11 @@ Bosruck
 Bossbrettkogel
 Botengraben
 Bothatöblebach
-Bothentalbach
 Botschaftsviertel
 Boxbruggerbachl
 Boxhofen
 Bozenauerbach
 Bozener Siedlung
-Bozsok
 Brabitschbach
 Brachegg
 Brachkogel
@@ -3435,7 +3424,6 @@ Brandhof
 Brandhofkogel
 Brandholzgraben
 Brandhorn
-Brandhäuser
 Brandhöhe
 Brandjochkreuz
 Brandkogel
@@ -3472,6 +3460,7 @@ Brandner Mittagspitze
 Brandner-Hubenbach
 Brandnerbach
 Brandnerbachl
+Brandnerberg
 Brandnergraben
 Brandnerkogel
 Brandnertal
@@ -3518,6 +3507,7 @@ Brantweintobelbach
 Braschenberg
 Brast
 Bratschenkopf
+Bratschenwand
 Brau
 Brauching
 Brauchsdorf
@@ -3727,7 +3717,6 @@ Brennhoferkogel
 Brennhüttental
 Brenning
 Brennkogel
-Brennkogelkees
 Brennkopf
 Brennkögel
 Brennköpfl
@@ -4419,7 +4408,6 @@ Bärenkogel
 Bärenkogelbach
 Bärenkogelgraben
 Bärenkopf
-Bärenkopfkees
 Bärenkopftobel
 Bärenkögerl
 Bärenköpfe
@@ -4512,6 +4500,7 @@ Bödagraben
 Bödele
 Bödenalmbach
 Bödenbach
+Bödenkopf
 Bödensee
 Bödenseeabfluß
 Böderköpfe
@@ -4575,6 +4564,7 @@ Bühelalm
 Bühelbach
 Bühele
 Bühelinbach
+Bühl
 Bühlenvorsäß
 Bühlertobelbach
 Bühren
@@ -4688,7 +4678,6 @@ Czerninviertel
 Dabaladabach
 Daberbach
 Daberegg
-Daberkees
 Dabernitzhöhe-Hauptgipfel
 Dabernitzhöhe-Südgipfel
 Dabernitzkogel
@@ -4760,6 +4749,7 @@ Damreith
 Damtschach
 Damtschacher Bach
 Damüls
+Damülser Berge
 Damülser Horn
 Damülser Mittagsspitze
 Dandlbach
@@ -4803,7 +4793,6 @@ Daumbergbach
 Daumbichl
 Daumen
 Daunkogelfernerbach
-Daunkopfferner
 Daunschlössl Weiher
 Davenna
 Davenna Kopf
@@ -5059,6 +5048,7 @@ Dietrichshofen
 Dietrichshorn
 Dietrichstein
 Dietrichsteiner See
+Dietrichsteinerbach
 Dietsam
 Dietschengraben
 Dietweis
@@ -5183,7 +5173,6 @@ Dollinger Lager
 Dollmannsbach
 Dollrath
 Dollrathbach
-Dolní Dvořiště
 Dolomitensiedlung
 Dolz
 Dolzenberg
@@ -5248,6 +5237,7 @@ Doppelngraben
 Doppelreiterkogel
 Doppl
 Dopplhub
+Dora Karle
 Doren
 Dorf
 Dorf Leopoldschlag
@@ -5565,7 +5555,6 @@ Dunkle Spitze
 Dunstbach
 Dunzendorf
 Dunzing
-Dunántúl
 Durach
 Duracher Kogel
 Durachgraben
@@ -5699,6 +5688,7 @@ Dürnleiser Graben
 Dürnrohr
 Dürnstein
 Dürnstein in der Steiermark
+Dürnsteinkogel
 Dürntal
 Dürnvellach
 Dürrach
@@ -5801,7 +5791,6 @@ Ebene
 Ebene Reichenau
 Ebeneck
 Ebenedt
-Ebener Kees
 Ebenfeld
 Ebenforster Bach
 Ebenfurth
@@ -5902,6 +5891,7 @@ Eckbach
 Eckbauer
 Eckbauersattel
 Eckberg
+Eckbühel
 Eckelsberg
 Ecken
 Eckensee
@@ -6116,6 +6106,7 @@ Eggendorf im Thale
 Eggendorf im Traunkreis
 Eggenfeld
 Eggenham
+Eggenhofbach
 Eggenkofel
 Eggenkofel Westgipfel
 Eggenreit
@@ -6346,6 +6337,7 @@ Einersbach
 Einersdorf/Nonča vas
 Einfaltgraben
 Einfanggraben
+Einfangkopf
 Eingarten
 Einhörn
 Einlaßgraben
@@ -6389,6 +6381,7 @@ Eisbach
 Eisbachkogel
 Eisbichl
 Eisbodenlacke
+Eisbrunn
 Eischbach
 Eisdorf
 Eisecking
@@ -6444,7 +6437,6 @@ Eisentörl
 Eisenwerk
 Eisenzicken
 Eiserbach
-Eiserkees
 Eiserner Löffelbach
 Eisernes Bergl
 Eisgarn
@@ -6459,10 +6451,8 @@ Eisgrübel
 Eisguggen
 Eisigspitz
 Eisjoch
-Eiskar
 Eiskarbach
 Eiskarkopf
-Eiskarln
 Eiskarlspitz
 Eiskarlspitze
 Eiskarsee
@@ -6470,7 +6460,6 @@ Eiskarspitz
 Eiskarspitze
 Eiskastenbach
 Eiskastenspitze
-Eiskeller
 Eiskogel
 Eiskögel
 Eiskögele
@@ -6491,7 +6480,6 @@ Eisstockteich
 Eistal
 Eisteich
 Eisteichsiedlung
-Eistobel
 Eisvogelteich
 Eitelgraben
 Eitelgrünbach
@@ -6901,7 +6889,8 @@ Erlet
 Erlfeld
 Erlgraben
 Erlibach
-Erlispitze
+Erlispitzen Ostgipfel
+Erlispitzen Westgipfel
 Erlosengraben
 Erlsbach
 Erlsberg
@@ -6932,6 +6921,7 @@ Erschbaumer-Tal-Bach
 Erslbach
 Erslstand
 Ersperding
+Erste Kreuzspitze
 Erster Gerinnedurchlaß
 Erster Karkopf
 Erster Klingelbach
@@ -7179,7 +7169,6 @@ Falbenstein
 Falbersbach
 Falbeson
 Falbesoner Bach
-Falbesoner Knotenferner
 Falbesoner Knotenspitze
 Falbesoner See
 Falderkopf
@@ -7222,7 +7211,6 @@ Fallenbacher Turm
 Fallenbacherspitze
 Fallenbachsee
 Fallender Bach
-Fallender-Bach-Ferner
 Fallenderbach
 Fallendwasser
 Fallenegg-Graben
@@ -7291,6 +7279,7 @@ Fandl Teich
 Fandlhofberg
 Fanesklakopf
 Fangertbach
+Fanggekar
 Fanggekarspitze
 Fanggraben
 Fanghaus
@@ -7363,6 +7352,7 @@ Fasching
 Faschingalm
 Faschingberg
 Faschingberggraben
+Faschinger Bach
 Faschinghaus
 Faschingsgraben
 Faselbergkopf
@@ -7404,7 +7394,6 @@ Faßlberg
 Fechtebenkogel
 Fedenberg
 Fedenberger Bach
-Federbettkees
 Federeck
 Federnberg
 Federspitze
@@ -7413,6 +7402,7 @@ Feffernitz
 Fegenbergbach
 Fegendorf
 Fegendorfer Kopf
+Fegendorfergraben
 Fegg
 Feglitzbach
 Fehhaube
@@ -7514,6 +7504,7 @@ Feitzing
 Felben
 Felbenbach
 Felber Bach
+Felberach
 Felberau
 Felberbach
 Felberbach Zubringer
@@ -7588,7 +7579,7 @@ Felfernigthal
 Felgenbichl
 Felgitsch
 Felgitschbach
-Felix' See
+Felix See
 Felixbach
 Felixdorf
 Felixhöhe
@@ -7662,14 +7653,12 @@ Fermersbach
 Ferminzkopf
 Fern
 Fernaubach
-Fernauferner
 Fernbach
 Ferndorf
 Ferndorfer Bach
 Fernerbach
 Fernereggspitz
 Fernerspitze
-Fernerstube
 Fernitz
 Fernitz-Mellach
 Fernitzbach
@@ -7694,6 +7683,7 @@ Fesslers Waldbach
 Fessnachbach
 Festenberg
 Festenburg
+Festenkar
 Festenkogel
 Festkogel
 Festkogelturm
@@ -7743,6 +7733,7 @@ Feuerwehrrunse
 Feuerwehrteich
 Feuranz
 Feuring
+Feurstua Schröfle
 Feyregg
 Feßnach
 Feßnachbach
@@ -7887,7 +7878,6 @@ Firlingberg
 Firlinger Bach
 Firmböndl
 Firmisanschneide
-Firmisánferner
 Firsching
 Firschnitzbach
 First
@@ -7895,7 +7885,6 @@ Firstbach
 Firstkogel
 Firstl
 Firstriegel
-Fisch
 Fischa
 Fischa (Nebengang bei Ebergassing) II
 Fischa-Werksbach
@@ -8091,7 +8080,6 @@ Fleetsee
 Fleichhackerbach
 Fleiding
 Fleischbach
-Fleischbachkees
 Fleischbachspitze
 Fleischbank
 Fleischbankspitze
@@ -8115,6 +8103,7 @@ Flenkental
 Fletschberg Graben
 Fletschergraben
 Flexenbach
+Flexenkopf
 Flexensee
 Flexenspitze
 Flexleitenbach
@@ -8128,7 +8117,6 @@ Fließer Berg
 Flinsbach
 Flinsdorf
 Flirsch
-Flirscher Ferner
 Flitzenbach
 Floch (Hauptgipfel)
 Floch-Kreuzgipfel
@@ -8142,7 +8130,6 @@ Floing
 Floisenkogel
 Floitenbach
 Floitengrund
-Floitenkees
 Floitensberg
 Floitenturm
 Flolenzenteich
@@ -8178,6 +8165,7 @@ Flugkopf
 Flugsbach
 Fluh
 Fluhbach
+Fluhkopf
 Fluhlöchlegraben
 Flukhanslbach
 Flungbach
@@ -8224,6 +8212,7 @@ Fontanellabach
 Foppmandl
 Foracheckgraben
 Forchach
+Forchauberg
 Forcheggraben
 Forchet
 Forchkogel
@@ -8276,6 +8265,7 @@ Forstgartensiedlungsweg
 Forstgraben
 Forsthausgraben
 Forsthausteich
+Forsthof
 Forsthofgraben
 Forsthub
 Forsthubsiedlung
@@ -8289,7 +8279,6 @@ Forstviertel
 Forstwald
 Fossing
 Fotscher Bach
-Fotscher Ferner
 Fotschertal
 Fotzenbach
 Fotzenkarstange
@@ -8498,7 +8487,6 @@ Freiungen (W)
 Freiwalddorf
 Freiwaldteich
 Freiwandkasten
-Freiwandkees
 Freiwandkopf
 Freiwandspitz
 Freiwandspitze
@@ -8575,6 +8563,7 @@ Friedberg
 Friedburg
 Friedenau
 Friedensbach
+Friedenssiedlung
 Friedensstadt
 Friedenstein
 Friedental
@@ -8609,7 +8598,6 @@ Friesam
 Friesen
 Friesenbach
 Friesenberg
-Friesenbergkees
 Friesenbergsee
 Frieseneck
 Friesenegg
@@ -8637,7 +8625,6 @@ Frischinghöhe
 Frischlingerbach
 Frischlinghöhe
 Fritschnitzbach
-Fritschnitzkees
 Fritschteich
 Fritzbach
 Fritzberg
@@ -8690,6 +8677,7 @@ Fronwaldtöbele
 Froschau
 Froschaubach
 Froschbach
+Froschbachtal
 Froschberg
 Froschendorf
 Froschendorferbach
@@ -8707,7 +8695,6 @@ Frudiger
 Frudigerkopf
 Frunstberg
 Fruschnitzbach
-Fruschnitzkees
 Frutten
 Frutz
 Frutzkopf
@@ -8861,7 +8848,6 @@ Furtnerhübel
 Furtnerkogel
 Furtnerteich
 Furtschaglbach
-Furtschaglkees
 Furtschaglkopf
 Furtschaglspitze
 Furx
@@ -8879,7 +8865,6 @@ Fuschlsee
 Fuscht
 Fuschtgraben
 Futschölbach
-Futschölferner
 Futterkogel
 Futterstallgraben
 Futzenbach
@@ -9016,9 +9001,6 @@ Fürthbach
 Fürwald
 Fürwallnerhöhe
 Fützentalbach
-G'hacktkogel
-G'hacktstein
-G'spitzte Wand
 Gaaden
 Gaal
 Gaalbach
@@ -9066,7 +9048,6 @@ Gadenweith
 Gadering
 Gadern
 Gadigraben
-Gadnerköpfle
 Gafleinbach
 Gafleinbecken
 Gaflenz
@@ -9091,7 +9072,6 @@ Gahnsgmoagraben
 Gahwinden
 Gai
 Gaiberg
-Gaibling
 Gaicht
 Gaichtspitze
 Gaiglbach
@@ -9121,7 +9101,6 @@ Gaisberg
 Gaisbergau
 Gaisbergbach
 Gaisbergerbach
-Gaisbergferner
 Gaisberggraben
 Gaisbergjoch
 Gaisbergkreuz
@@ -9176,6 +9155,7 @@ Gaizenberg
 Gaißalmbach
 Gaißau
 Gaißbach
+Gaißbachtobelbach
 Gaißeregg
 Gaißing
 Gaißpleiskopf
@@ -9230,7 +9210,6 @@ Gallneukirchen
 Gallraun
 Gallreidebach
 Gallruttbach
-Gallruttferner
 Gallsbach
 Gallspach
 Gallusberg
@@ -9256,7 +9235,6 @@ Galtür
 Galzig
 Galätschabach
 Gameringstein
-Games Kogel Ferner
 Gamesreith
 Gametzbach
 Gamezkogel
@@ -9440,6 +9418,7 @@ Gansleitgraben
 Gansterbach
 Gantakopf
 Gantal
+Gantaschrofen
 Gantschach
 Gantschachergraben
 Gantschenbach
@@ -9460,7 +9439,6 @@ Gappenfeldbach
 Gappenkopf
 Gappenriedel
 Garanas
-Garaneberkees
 Garatz
 Garberbach
 Garberlgraben
@@ -9687,7 +9665,6 @@ Gedeirerbach
 Gedersberg
 Gedersdorf
 Gedrechter
-Gefrorene Wand Kees
 Gefrorene-Wand-Spitzen
 Gefrorener See
 Gegenbach
@@ -9744,12 +9721,12 @@ Geiersdorf
 Geierskopf
 Geierspitz
 Geierstein
+Geierswand
 Geierwand
 Geige
 Geigelberg
 Geigen
 Geigenberg
-Geigenkarleferner
 Geigenkogel
 Geigensee
 Geigentaler Lacke
@@ -9914,7 +9891,6 @@ Georgskogel
 Georgskopf
 Georgssee
 Gepatsch Stausee
-Gepatschferner
 Gepringbach
 Gerachbach
 Gerackerbach
@@ -10043,8 +10019,8 @@ Gespitzter Riegel
 Gessebach
 Gesselesbach
 Gessenschwandt
+Gessewangarbichl
 Gesäuseeingang
-Getschnerferner
 Gettsdorf
 Getzenbach
 Getzenbächle
@@ -10112,6 +10088,8 @@ Gföllnergraben
 Gföllnerwald
 Gföllnock
 Gföllwaldriegel
+Ghacktkogel
+Ghacktstein
 Ghagspitz
 Ghagtal
 Ghartwaldsee
@@ -10121,6 +10099,7 @@ Giblenkopf
 Gidikogel
 Giebele
 Gieberling
+Gieblaköpfle
 Gielingberg
 Gielitz
 Giemerbach
@@ -10227,6 +10206,7 @@ Ginzlberg
 Ginzldorf
 Ginzling
 Gipfel
+Gipfel der Lust
 Gipfelkreuz Haneburger
 Gipfelkreuz Seekarspitze
 Gipfelstein
@@ -10272,6 +10252,7 @@ Glanblick
 Glanderspitze
 Glaneck
 Glanegg
+Glaneggerfeldgraben
 Glanfeldbach
 Glanfurt
 Glanhofen
@@ -10299,7 +10280,6 @@ Glasau
 Glasbach
 Glasberg
 Glasberggraben
-Glaseirferner
 Glasenbach
 Glasenberg
 Glaser
@@ -10379,7 +10359,6 @@ Gleinstätten
 Gleinzbach
 Gleinzberg
 Gleirschbach
-Gleirscher Ferner
 Gleirscher Fernerkogel
 Gleirscher Roßkogel
 Gleirschspitze
@@ -10435,7 +10414,6 @@ Glockenkogel
 Glockerkogel
 Glockhaus
 Glocknerhorn
-Glocknerkees
 Glocknersiedlung
 Glockspitze
 Glockturm
@@ -10453,7 +10431,8 @@ Glorietteberg
 Glorietteberggraben (Einsiedlergraben)
 Glosbach
 Glotzing
-Gloxwald Siedlung
+Gloxwald
+Gloxwald-Siedlung
 Glungezer
 Glutschbach
 Glutserberg
@@ -10576,6 +10555,7 @@ Going
 Going am Wilden Kaiser
 Goinger Bach
 Goinger Turm
+Goinger Törlspitze
 Goingstätt
 Gois
 Goisberg
@@ -10627,7 +10607,6 @@ Goldvater
 Goldwiesen
 Goldwörth
 Goldwörther See
-Goldzechkees
 Goldzechkopf
 Golf Tumpf
 Golica / Kahlkogel
@@ -10653,6 +10632,7 @@ Gollnerausbach
 Gollnergraben
 Gollnerkuppe
 Gollnggraben
+Gollnkopf
 Gollrad
 Gollradbach
 Gollspitze
@@ -10767,6 +10747,7 @@ Gotziberg
 Goßeck
 Goßeckgraben
 Goßkopf
+Goßlittarkopf
 Gr. Bergsteinmauer
 Gr. Lindtal
 Gr. Reitersee
@@ -10775,7 +10756,6 @@ Grabach
 Grabatz Teiche
 Grabatzbach
 Grabawand
-Grabawandferner
 Grabbach
 Grabelbach
 Grabelsdorf/Grabalja vas
@@ -10933,7 +10913,6 @@ Grafenwart
 Grafenweger
 Grafenwegerhöhe
 Grafenwörth
-Grafferner - Vedretta della Grava
 Grafgraben
 Grafing
 Grafische Tristen
@@ -10982,7 +10961,6 @@ Gramling
 Gramul
 Granatenkogel - Monte dei Granati
 Granatspitze
-Granatspitzkees
 Granatzbühel
 Granbach
 Grandgraben
@@ -11051,7 +11029,6 @@ Graslbach
 Graslehn
 Grasleiten
 Grasleitenbach
-Grasleitenkees
 Grasleitenkopf
 Grasleitkopf
 Graslerbach
@@ -11070,6 +11047,7 @@ Grassberg
 Grassbergjöchl
 Grasse
 Grassendorf
+Grassendorfer Bach
 Grasserteich
 Grassgraben
 Grassgrabenbach
@@ -11077,7 +11055,6 @@ Grassgrabenhöhe
 Grassing
 Grasstallbach
 Grasstaller Grieskogel
-Grasstallferner
 Grasstallsee
 Grastal
 Grastalgrabenbach
@@ -11308,7 +11285,6 @@ Griesheimer Bach
 Grieskarbach
 Grieskirchen
 Grieskogel
-Grieskogelferner
 Grieskogelsee
 Grieskopf
 Griesledererbach
@@ -11344,13 +11320,11 @@ Grießenbach
 Grießener Hochbrett
 Grießenkareck
 Grießenspitze
-Grießferner
 Grießgraben
 Grießhoferkogel
 Grießkegerl
 Grießkessel
 Grießkogel
-Grießkogelkees
 Grießkopf
 Grießlbach
 Grießlkopf
@@ -11414,7 +11388,6 @@ Grimsingbach
 Grindkogel
 Grindlkopf
 Grinnberg
-Grinner Ferner
 Grinner Mühlbach
 Grinnerkopf
 Grinnköpfl
@@ -11734,7 +11707,6 @@ Großer Höllkogel
 Großer Hühnerkogel
 Großer Ingent
 Großer Isidor
-Großer Jaidbachkees
 Großer Jauling
 Großer Jovenkogel
 Großer Kainz
@@ -11756,18 +11728,17 @@ Großer Koppenkarstein
 Großer Kraxenberg
 Großer Kreuzberg
 Großer Kropfbach
-Großer Kuchenferner
 Großer Kuhberg
 Großer Kunerbach
 Großer Kölbling
 Großer Königskogel
-Großer Küchlferner
 Großer Kühbach
 Großer Lafatscher
 Großer Lambach
 Großer Landeggkopf
 Großer Landsberg
 Großer Lanschütz
+Großer Lanschützgraben
 Großer Lateinbach
 Großer Leckerkogel
 Großer Lehmteich
@@ -11850,7 +11821,6 @@ Großer Schweinkogel
 Großer Schönberg
 Großer Schüttgraben
 Großer See
-Großer Seeferner
 Großer Seekopf
 Großer Sidelkogel
 Großer Sieglsee
@@ -11952,7 +11922,6 @@ Großfeldsiedlung
 Großfelgitsch
 Großfelgitschberg
 Großfleißbach
-Großfleißkees
 Großfleißtal
 Großflleißbach
 Großfragantbach
@@ -12116,6 +12085,7 @@ Grua
 Grub
 Grub I
 Grub II
+Grub Runsen
 Grub an der March
 Grub bei Aschelberg
 Grub bei Groß Sankt Florian
@@ -12154,7 +12124,6 @@ Grubenbauergraben
 Grubengrabenbach
 Grubenhaus
 Grubenkarbach
-Grubenkarkees
 Grubenkarkopf
 Grubenkarspitze
 Grubenkopf - Monte delle Cave
@@ -12327,7 +12296,6 @@ Grübl
 Grüblalmbach
 Grüble
 Grübler Kaiser
-Grüblferner
 Grübllacke
 Grüblsee
 Grüblspitze
@@ -12376,7 +12344,6 @@ Grüne Gasse
 Grüne Kuppe
 Grüne Lacke
 Grüne Tatzen
-Grüne Tatzen Ferner
 Grüne Wand - Croda Verde
 Grüne Wiese
 Grünecker-See-Spitz
@@ -12442,7 +12409,6 @@ Grünwies
 Grünz
 Gsahbach
 Gsallbach
-Gsallferner
 Gsallkopf
 Gsaritzen
 Gsaritzer Almbach
@@ -12491,12 +12457,12 @@ Gschliefkogel
 Gschlieserbachl
 Gschließbach
 Gschliffner Höhe
-Gschlösskees
 Gschlösslbach
 Gschlösslkogel
 Gschlößbach
 Gschlößl
 Gschlößtal
+Gschmaier
 Gschmaierbach
 Gschnaidbach
 Gschnaidt
@@ -12518,7 +12484,6 @@ Gschritt
 Gschrittsee
 Gschwand
 Gschwandbach
-Gschwandferner
 Gschwandgrabenbach
 Gschwandkogel
 Gschwandt
@@ -12580,6 +12545,7 @@ Gsottergraben
 Gsotthub
 Gspantalwaldrunse
 Gsperrberg
+Gspitzte Wand
 Gsponsbach
 Gspranggupf
 Gspöttgraben
@@ -12644,7 +12610,6 @@ Guflespitze
 Gugel
 Gugelangraben
 Gugelberg
-Gugeliger Ferner
 Gugelzipfgraben
 Gugenedt
 Gugerzipf
@@ -12725,6 +12690,7 @@ Gumprechtsfelden
 Gumriaul
 Gumsenkogel
 Gundalatscherberg
+Gundenkopf
 Gundenspitze
 Gundental
 Gunderding
@@ -12776,7 +12742,6 @@ Gurenstein
 Gurgelbach
 Gurglbach
 Gurgler Ache
-Gurgler Ferner
 Gurgler Tal
 Gurglitzen
 Gurgltal
@@ -12897,6 +12862,7 @@ Gäsganglbach
 Gätterbach
 Gättertobel
 Gävisalpe
+Gäßwasaschpitz
 Göblasbruck
 Göblberg
 Göblitz
@@ -12960,7 +12926,6 @@ Görzbach
 Görzberg
 Görzwinkl
 Göschelsberg
-Göschl
 Göschlgraben
 Göselberg
 Gösing
@@ -12982,7 +12947,6 @@ Gössering
 Gösserturm
 Gössinger Apo
 Gössnitz
-Gössnitzkees
 Gössnitztal
 Gösting
 Göstingbach
@@ -13150,7 +13114,6 @@ Habichen
 Habicher See
 Habicher Seebach
 Habicht
-Habichtferner
 Habichtkogel
 Habichtskauz, Feuersalamander
 Habigen
@@ -13297,6 +13260,7 @@ Hagleitenspitze
 Hagleithen
 Hagler
 Haglertal
+Hagling
 Hagmannriegel
 Hagsdorf
 Hagstein (Hochstein)
@@ -13619,7 +13583,6 @@ Hanftal
 Hanfthal
 Hangbach
 Hangbachl
-Hangender Ferner
 Hangender Kogel
 Hangender Stein
 Hanger
@@ -13683,8 +13646,8 @@ Hanzing
 Hapmesbach
 Happ
 Happelgraben
+Happerkopf
 Happlköfel
-Happmannsberg
 Happylandteich
 Haraberg
 Haraseck
@@ -13881,7 +13844,6 @@ Hasenegg
 Hasengraben
 Hasenhöhe
 Hasenkarbach
-Hasenkarkees
 Hasenkarkopf
 Hasenkarspitze (Spielbühel)
 Hasenkogel
@@ -13920,6 +13882,7 @@ Haslerbach
 Haslerberg
 Haslergraben
 Haslergupf
+Haslhof
 Haslichbach
 Hasling
 Haslinger Bach
@@ -13973,7 +13936,6 @@ Hauenstein
 Hauenstielbach
 Hauer
 Hauerberg
-Hauerferner
 Hauergraben
 Hauerkogel
 Hauersdorf
@@ -14362,7 +14324,6 @@ Henndorf
 Henndorf am Wallersee
 Henne
 Henne Spitze
-Hennebergferner
 Hennebergkopf
 Hennekopf
 Hennenboden
@@ -14556,7 +14517,6 @@ Heuweidgraben
 Heuäxgerinne
 Hexenberg
 Hexenbühelbach
-Hexenkees
 Hexenkopf
 Hexenlackl
 Hexensee
@@ -14664,6 +14624,7 @@ Himmelskopf
 Himmelspitze
 Himmelsstiege
 Himmelsteich
+Himmelsteingraben
 Himmelsteinkogel
 Himmeltalbach
 Himmeltaugraben
@@ -14676,7 +14637,7 @@ Himmlitzer Bach
 Hindberg
 Hindenburghöhe
 Hinding
-Hindlberg;Hermann's Rast
+Hindlberg;Hermanns Rast
 Hindlerberg
 Hingsham
 Hinkareck
@@ -14749,8 +14710,8 @@ Hintere Pöllau
 Hintere Rendlspitze
 Hintere Schlichtenkarspitze
 Hintere Schmalzgrubenspitze
-Hintere Schnapfenkuchl
 Hintere Schwenzerspitze
+Hintere Schwärze
 Hintere Seekarwand
 Hintere Sonnenwand
 Hintere Sonntagsköpfe
@@ -14780,7 +14741,6 @@ Hintereggerbach
 Hintereggerbach Quellbach
 Hintereggkogel
 Hintereggtöbele
-Hintereisferner
 Hinterellenbogen
 Hinterennsbach
 Hinterer Bodensee
@@ -14903,7 +14863,6 @@ Hinterer Wildkarstein
 Hinterer Wintergraben Bach
 Hinterer Wurmkogel
 Hinterer Wöglerberg
-Hinterer Ölgrubenferner
 Hinteres Alpjoch
 Hinteres Brunneck
 Hinteres Edltal
@@ -15194,7 +15153,6 @@ Hirtstein
 Hirtzenbach
 Hirzbach
 Hirzbachbeileitung
-Hirzbachkees
 Hirzbachtal
 Hirzberg
 Hirzeck
@@ -15303,7 +15261,6 @@ Hochcsater
 Hochcsaterberg
 Hochdreizipf
 Hochdurchkopf
-Hochebenferner
 Hochebenkamm
 Hochebenkogel
 Hocheck
@@ -15342,7 +15299,6 @@ Hochfilz
 Hochfilzen
 Hochfinitz
 Hochfinstermünz
-Hochfirstferner
 Hochfluder
 Hochfohra
 Hochfora
@@ -15361,7 +15317,6 @@ Hochgimpling
 Hochgitzen
 Hochglaserer
 Hochglegt
-Hochgletscher
 Hochgletscherwanne
 Hochglocker
 Hochglück
@@ -15379,7 +15334,6 @@ Hochgreutel
 Hochgrieß
 Hochgrintl
 Hochgrubenkopf
-Hochgruberkees
 Hochgräntensee
 Hochgrößen
 Hochgründberg
@@ -15415,8 +15369,6 @@ Hochhörndlerspitze
 Hochimst
 Hochiss
 Hochjoch
-Hochjochferner
-Hochjochferner - Ghiacciaio Giogo Alto
 Hochkammerlinghorn
 Hochkamp
 Hochkampl
@@ -15482,7 +15434,6 @@ Hochmauer
 Hochmoos
 Hochmoos I
 Hochmoos II
-Hochmoosferner
 Hochmölbing
 Hochmühleck
 Hochnase
@@ -15494,6 +15445,7 @@ Hochnörderer
 Hochobir / Ojstrc
 Hochosterwitz
 Hochpalfennock
+Hochpfadgraben
 Hochpfann
 Hochpfeiler
 Hochpillberg
@@ -15556,7 +15508,6 @@ Hochschlachtbach
 Hochschlag
 Hochschlagbach
 Hochschneid
-Hochschneid-Eishöhle
 Hochschnäbelkogel
 Hochschober
 Hochschottwies
@@ -15801,7 +15752,6 @@ Hofmaning
 Hofmanning
 Hofmanningbach
 Hofmannsberg
-Hofmannskees
 Hofmannspitze
 Hofmark
 Hofmühlbach (Schloßbach)
@@ -15925,7 +15875,6 @@ Hohenauer Teich
 Hohenauerbach
 Hohenaugraben
 Hohenaugupf
-Hohenaukees
 Hohenbaumgarten
 Hohenberg
 Hohenbichl
@@ -15974,7 +15923,6 @@ Hohenwarth
 Hohenwarth-Mühlbach am Manhartsberg
 Hohenwarthberg
 Hohenwartherbach
-Hohenwartkees
 Hohenwartkopf
 Hohenweiler
 Hohenweilerbach
@@ -16013,6 +15961,7 @@ Hoher Herd
 Hoher Ifen
 Hoher Kalmberg
 Hoher Kamm
+Hoher Kanzen
 Hoher Karkopf
 Hoher Kasten
 Hoher Klapf
@@ -16117,6 +16066,7 @@ Hohlkogel
 Hohltannengraben
 Hohlwegen
 Hohlzenzbach
+Hohnakepfle
 Hoisenbach
 Hoisenhöhe
 Hoislsee
@@ -16344,7 +16294,6 @@ Horninger Zinken
 Hornischgraben
 Hornissentöbelebach
 Hornisskogel
-Hornkees
 Hornkeesbach
 Hornkogel
 Hornköpfl
@@ -16445,6 +16394,7 @@ Huilahner Kogel
 Hum
 Humbachalm
 Humbachkarkopf
+Humec
 Humeltobelbach
 Humenberg
 Humer Teiche
@@ -16638,6 +16588,7 @@ Häusling
 Häuslkogel
 Häuslspitz
 Häuslteich
+Höanle
 Höbach
 Höbelekopf
 Höbenbach
@@ -16801,7 +16752,6 @@ Höllriesgraben
 Höllseichgraben
 Hölltal
 Hölltalbach
-Hölltalferner
 Hölltalkogel
 Hölltalkopf
 Hölltalspitze
@@ -16989,11 +16939,11 @@ Hütelberg
 Hütgrabenbach
 Hütt
 Hüttabach
+Hüttakopf
 Hüttatobelbach
 Hüttau
 Hüttbach
 Hütte
-Hüttekarferner
 Hüttekarsee
 Hüttelbach
 Hüttelberg
@@ -17031,6 +16981,7 @@ Hüttfasserbach
 Hüttgraben
 Hüttlingberg
 Hüttnertobel
+Hüttobühl
 Hüttschlag
 Hüttstatt
 Hüttstein
@@ -17113,6 +17064,8 @@ Ilzbach
 Ilzbach Au
 Ilzberg
 Ilztal
+Ilčev vrh
+Im Anger
 Im Bichl
 Im Brand
 Im Eck
@@ -17256,7 +17209,6 @@ Innerer Maienbach
 Innerer Melangbach
 Innerer Mutterbergbach
 Innerer Passürtobelbach
-Innerer Pirchlkarferner
 Innerer Radingerbach
 Innerer Raggergraben
 Innerer Rainerbach
@@ -17467,7 +17419,7 @@ Jageregg
 Jagereggbach
 Jagergraben
 Jagerhanslbach
-Jagerhöh'
+Jagerhöh
 Jagerkogel
 Jagerkogl
 Jagerköpfl
@@ -17601,7 +17553,6 @@ Jedenspeigen
 Jedersdorf
 Jeding
 Jedl
-Jedlasgrüblferner
 Jedlesee
 Jedlesgiesse
 Jedlham
@@ -17616,6 +17567,7 @@ Jeineggraben
 Jeinitz
 Jeitendorf
 Jelen
+Jelenova peč / Hirschfelsen
 Jelení potok
 Jelenčka / Edelweißspitze
 Jellenkogel
@@ -17645,12 +17597,12 @@ Jetzbach
 Jetzelsdorf
 Jetzing
 Jetzingerdorf
+Jetzingerdorfer Bach
 Jetzles
 Jetzleser Teich
 Jezevčí potok
 Jeßnitz
 Jeßnitzbach
-Jihočeský kraj
 Jindřichovský potok
 Joachimsberg
 Joachimstal
@@ -17911,6 +17863,7 @@ Kaibling
 Kaiblingbach
 Kaiblinger Kogel
 Kaidern
+Kaiderngraben
 Kaidling
 Kaifenau
 Kainach
@@ -17947,7 +17900,6 @@ Kaintal
 Kaintalbach
 Kainzenalplgraben
 Kainzenkarbach
-Kainzenkarkees
 Kainzenkogel
 Kainzing
 Kainznbach
@@ -18129,7 +18081,6 @@ Kaltenberg (Nord)
 Kaltenbergbach
 Kaltenberger Höhe
 Kaltenbergerbach
-Kaltenberggletscher
 Kaltenbergsee
 Kaltenbrunn
 Kaltenbrunn Graben
@@ -18207,7 +18158,6 @@ Kammereggerbachl
 Kammererberg
 Kammergraben
 Kammerhof
-Kammerkees
 Kammerkirchkopf
 Kammerl
 Kammerleiten
@@ -18401,8 +18351,6 @@ Karle
 Karleck
 Karleitenbach
 Karlekopf
-Karlesferner
-Karleskees
 Karleskogel
 Karleskopf
 Karlespitze
@@ -18418,7 +18366,6 @@ Karlhof
 Karlhöhe
 Karling
 Karlingberg
-Karlingerkees
 Karlkamp
 Karlkopf
 Karlkögele
@@ -18451,6 +18398,7 @@ Karnabrunn
 Karnabrunner Graben
 Karnase
 Karnburg
+Karnburger Bach
 Karndorf
 Karneitschenhöhe
 Karneralm
@@ -18496,7 +18444,6 @@ Karteis
 Karteiskopf
 Kartellbach
 Kartellerjöchl
-Kartellferner
 Kartellsee
 Kartellspeicher
 Kartitsch
@@ -18865,6 +18812,7 @@ Kerscheck
 Kerschenach
 Kerschenberg
 Kerschergraben
+Kerschhackel
 Kerschham
 Kerschhoferbachl
 Kerschkern
@@ -18903,7 +18851,6 @@ Kesselspitz
 Kesselspitze
 Kesseltalgraben
 Kesselwand
-Kesselwandferner
 Kesselwandspitze
 Kessenspitz
 Kesserlalm
@@ -19231,7 +19178,6 @@ Kitzsteingraben
 Kitzsteinhorn
 Kitzsteinhörndl
 Kl. Finagl
-Kl. Jaidbachkees
 Kl. Lindtal
 Kl. Reitersee
 Kl. Schöberl
@@ -19272,6 +19218,7 @@ Klammberg
 Klammbichl
 Klammeck
 Klammeck-Kogel
+Klammen Spitze
 Klammer Mühle
 Klammerbach
 Klammergraben
@@ -19416,6 +19363,7 @@ Klein-Harras
 Klein-Harras-Bach
 Klein-Heinrichschlag
 Klein-Jetzelsdorf
+Klein-Krottenbach
 Klein-Litschau
 Klein-Mariazell
 Klein-Meiseldorf
@@ -19476,6 +19424,7 @@ Kleine Aifnerspitze
 Kleine Barbaraspitze
 Kleine Berglisee
 Kleine Binn
+Kleine Blachenspitz
 Kleine Breitleiten
 Kleine Burgwand
 Kleine Drau
@@ -19640,7 +19589,6 @@ Kleiner Gerstbreinstein
 Kleiner Gilfert
 Kleiner Gjaidstein
 Kleiner Gnasen
-Kleiner Gosaugletscher
 Kleiner Grabnergraben
 Kleiner Grakofel
 Kleiner Greiner
@@ -19661,6 +19609,7 @@ Kleiner Göll
 Kleiner Göller (Rosskopf)
 Kleiner Göllerbach
 Kleiner Göllersbach
+Kleiner Göschlgraben
 Kleiner Gößbach
 Kleiner Hafner
 Kleiner Happ
@@ -19724,7 +19673,7 @@ Kleiner Kritkogel
 Kleiner Kronesbach
 Kleiner Krotenbach
 Kleiner Krottenbach
-Kleiner Kuchenferner
+Kleiner Krottenkopf
 Kleiner Kuhberg
 Kleiner Kunerbach
 Kleiner Königskogel
@@ -19736,6 +19685,7 @@ Kleiner Lambach
 Kleiner Landeggkopf
 Kleiner Landsberg
 Kleiner Lanschütz
+Kleiner Lanschützgraben
 Kleiner Lasörling
 Kleiner Lateinbach
 Kleiner Leppleskofel
@@ -19900,6 +19850,7 @@ Kleiner Woising
 Kleiner Zeißberg
 Kleiner Zinken
 Kleiner Zunig
+Kleiner Zwischenberg
 Kleiner Zöbel
 Kleiner falscher Totengraben
 Kleiner Ödsee
@@ -19938,7 +19889,6 @@ Kleines Pfuitjöchle
 Kleines Radl
 Kleines Reifhorn
 Kleines Reißeck
-Kleines Riepenkees
 Kleines Rosskar
 Kleines Rothorn
 Kleines Schareck
@@ -19977,7 +19927,6 @@ Kleingerstdoppl
 Kleingerungs
 Kleingfallkopf
 Kleinglockner
-Kleinglocknerkees
 Kleingloms
 Kleinglödnitz
 Kleingmainberg
@@ -20032,7 +19981,6 @@ Kleinkrottendorf
 Kleinkögeln
 Kleinköstendorf
 Kleinlandscha
-Kleinleitenferner
 Kleinleitenspitze
 Kleinlieschen
 Kleinlieschenbach
@@ -20203,7 +20151,8 @@ Klenitzen
 Klenitzenkopf
 Klenkerbach
 Klesenzabach
-Klesenzahörner
+Klesenzahörner Mittelturm
+Klesenzakopf
 Klessdorf
 Kletschach
 Kletschachbach
@@ -20235,6 +20184,7 @@ Klingelbach
 Klingenbach
 Klingenbach/Klimpuh
 Klingenberg
+Klingenbrunn
 Klingenburg
 Klingergraben
 Klingersberg
@@ -20267,7 +20217,6 @@ Klockaualm
 Klockelebach
 Klockerin
 Klockerinriedel
-Klockerkarkees
 Klockgraben
 Klockkogel
 Kloibentalbach
@@ -20438,9 +20387,7 @@ Knoppigsee
 Knopplig
 Knorre
 Knorren
-Knorrkees
 Knoten
-Knotenspitzferner
 Knottenbach
 Knotzberg
 Knotzenbach
@@ -20625,6 +20572,7 @@ Kohlhofenbach
 Kohlhuberbach
 Kohlhölzlegraben
 Kohlkendlgraben
+Kohlkogel
 Kohllahnerkopf
 Kohlleitenbach
 Kohlmais
@@ -20842,6 +20790,7 @@ Koritzwand
 Kornat
 Kornbach
 Kornberg
+Kornberg bei Riegersburg
 Kornbergerbach
 Korndobl
 Korneredt
@@ -20953,7 +20902,9 @@ Kozjak
 Kozji vrh
 Koštěnický potok
 Košutica / Loibler Baba
+Košutna peč / Tierfelsen
 Košutnikov turn / Koschutnikturm
+Kožilov vrh
 Kraa
 Kraabach
 Krabach
@@ -20988,6 +20939,7 @@ Kragelschinken
 Kragelsdorf
 Kragenjoch
 Kraglau
+Kraglgraben
 Kraguljše
 Krahberg
 Krahbergerbach
@@ -21123,7 +21075,6 @@ Kraschischze
 Kraschitz
 Kraskopf
 Kraspesbach r.
-Kraspesferner
 Kraspessee
 Kraspesspitz
 Kraspestal
@@ -21145,7 +21096,6 @@ Kratersee
 Kratochwillteich
 Kratschach
 Kratzenberg
-Kratzenberggletscher
 Kratzenbergsee
 Kratzer
 Kratzerbach
@@ -21271,6 +21221,7 @@ Krenwald
 Kresbach
 Krespelbach
 Kresperspitze
+Kressawanne
 Kressbach
 Kressbachhöhe
 Kressbachl
@@ -21329,7 +21280,6 @@ Kreuzerlehen
 Kreuzerschneide
 Kreuzfeld
 Kreuzfeldgraben
-Kreuzferner
 Kreuzgraben
 Kreuzgrabenbach
 Kreuzgrabenhöhe
@@ -21443,7 +21393,6 @@ Krimmler Tauernhaus
 Krimmler Törlkopf
 Krimmler Wasserfall Stufe II
 Krimmler Wasserfall Stufe III
-Krimmlertörlkees
 Krimpelstätten
 Krimpenbach
 Krimplingbach
@@ -21467,6 +21416,7 @@ Krispelstätt
 Krispl
 Krispl-Winkl
 Kristabauerbach
+Kristagraben
 Kristakopf
 Kristallkopf
 Kristallner
@@ -21474,7 +21424,6 @@ Kristallsee
 Kristallspitz
 Kristallspitzl
 Kristallwand
-Kristallwandkees
 Kristawaldtobel
 Kristawaldtöbele
 Kristein
@@ -21501,6 +21450,9 @@ Kroatisch Minihof/Mjenovo
 Kroatisch Tschantschendorf
 Krobatenbach
 Krobathen
+Krobathergraben
+Krobathergraben Ost
+Krobathergraben West
 Krobotek
 Kroisbach
 Kroisbach an der Feistritz
@@ -21516,7 +21468,6 @@ Kroißbach
 Kroißenbach
 Kroißenberg
 Kromberg
-Kromer Gletscher
 Kromerbach
 Kromsee
 Kronaberg
@@ -21634,7 +21585,6 @@ Krumlbach
 Krumlholzrunse I
 Krumlholzrunse II
 Krumling
-Krumlkees
 Krumlkeeskopf
 Krumltal
 Krummbach
@@ -21758,6 +21708,7 @@ Kugelwand
 Kugelwandbach
 Kugelzipf
 Kuglaspitze
+Kuglaspitze Westgipfel
 Kuglater Hauer
 Kuglater Schrofen
 Kuglberg
@@ -21795,7 +21746,6 @@ Kuhmesser
 Kuhriegel
 Kuhriegelgraben
 Kuhscheibe
-Kuhscheibenferner
 Kuhschellen-Berg
 Kuhsee
 Kuhspitze
@@ -21922,7 +21872,6 @@ Käferberg
 Käferböckgraben
 Käfereck
 Käferfeldeck
-Käferfeldkees
 Käferfeldspitze
 Käfergrabenbach
 Käfergries
@@ -21949,7 +21898,7 @@ Kälberpoint
 Kälbersberg
 Kälbersee
 Kälberspitzen
-Kälberspitzkees
+Kälblesberg
 Kämmerlischrofen
 Kämpen
 Kämpenköpfln
@@ -21983,7 +21932,6 @@ Köderhöhe
 Köderkopf
 Ködnitz
 Ködnitzbach
-Ködnitzkees
 Ködnitztal
 Ködringgraben
 Köfele
@@ -22098,6 +22046,7 @@ Köppelreithsiedlung
 Köppensteegen
 Köppling
 Körausbach
+Körausgraben
 Körbel
 Körbelbach
 Körbelleitenbach
@@ -22311,6 +22260,7 @@ Labuchbach
 Labuttendorf
 Lach
 Lacha
+Lachakar
 Lachalpe
 Lachalpenbach
 Lachalpengraben
@@ -22374,6 +22324,7 @@ Lacknersiedlung
 Lacknerwinkel
 Ladau
 Ladein
+Ladeinbach
 Ladenbach
 Ladenberg
 Ladenbergalm
@@ -22601,7 +22552,6 @@ Landeckalm
 Landeckbach
 Landegg
 Landeggbach
-Landeggkees
 Landersberg
 Landersdorf
 Landersdorfer Arm - Grafenlacke
@@ -22616,7 +22566,6 @@ Landfriedstetten
 Landgraben
 Landhaus
 Landhausen
-Landkreis Berchtesgadener Land
 Landl
 Landle
 Landlerstal
@@ -22644,6 +22593,7 @@ Landsee
 Landsgraben
 Landshut
 Landshuter Bach
+Landsiedl
 Landsknechtgraben
 Landskron
 Landstal
@@ -22794,7 +22744,6 @@ Langtalerbach
 Langtalerjochspitze
 Langtalkogel
 Langtauferer Spitze - Punta Vallelunga
-Langtauferer-Joch-Ferner
 Langteichenbach
 Langwand
 Langwandkogel
@@ -22808,6 +22757,7 @@ Langwiesenlahn
 Langwiesergraben
 Langzaun
 Langzeil
+Langzugköpfle
 Langzwettl
 Langäckergraben
 Lanisch
@@ -22824,7 +22774,6 @@ Lans
 Lansach
 Lanschfeldkopf
 Lanschfeldspitze
-Lanschuetzbach
 Lanschütz
 Lanschützbach
 Lanschützeben
@@ -22863,7 +22812,6 @@ Lapenkarbach
 Lapenköpfe
 Lapernig Spitze
 Laperwitzbach
-Laperwitzkees
 Lapincs
 Lappach
 Lappachalm
@@ -22871,7 +22819,6 @@ Lappachbach
 Lappbach
 Lappenbach
 Lappenkarbach
-Lappenkees
 Lappenkopf
 Lappenspitze
 Lappin
@@ -22889,7 +22836,6 @@ Laritzenbach
 Laritzgraben
 Larmer Bach
 Larmkogel
-Larnhaus
 Larsennbach
 Larstigbach
 Larstiger Fernerkopf
@@ -22923,7 +22869,6 @@ Lassach Schattseite
 Lassach Sonnseite
 Lassachbach
 Lassacher Höhe
-Lassacher Kees
 Lassee
 Lassee Bahnhof
 Lassein
@@ -22960,7 +22905,6 @@ Latisberg
 Latorabächle
 Latoratobel
 Latreinbach
-Latsch-Ferner
 Latschach
 Latschbach
 Latschberg
@@ -23072,7 +23016,6 @@ Lavanttal
 Lavantteich
 Lavierenbach
 Lawenskopf
-Lawesen
 Lawinenstein
 Lawinenstrich / Weitgraben
 Lawogge
@@ -23130,6 +23073,7 @@ Lechen
 Lechenbach
 Lechenberg
 Lecherkogel
+Lechermännliskopf
 Lechleiten
 Lechlödt
 Lechnerbach
@@ -23232,7 +23176,6 @@ Lehner Au
 Lehnerbach
 Lehnerberg
 Lehnerberg Runsen
-Lehnerferner
 Lehnersiedlung
 Lehnfeldbach
 Lehngrabe
@@ -23670,6 +23613,7 @@ Lichtengrabenbach
 Lichtenhag
 Lichtenhof
 Lichtenstein
+Lichtenstern
 Lichtental
 Lichtenwald
 Lichtenwiesen
@@ -23723,6 +23667,7 @@ Liederlichsberg
 Liedersberg
 Lieding
 Liedl
+Liedlbach
 Liedlberg
 Liedlkoppen
 Liedlschwandt
@@ -23739,6 +23684,7 @@ Liegstein
 Lielach
 Lielonberg
 Liemberg
+Liembergbach
 Lienbach
 Lienbachersee
 Liendlmais
@@ -23796,7 +23742,6 @@ Liliensee
 Lilienteich
 Limbach
 Limbach Bach
-Limbach im Burgenland
 Limbachgraben
 Limberg
 Limbergbach
@@ -24205,9 +24150,9 @@ Luckenbauerbach
 Luckenbauerbachl
 Luckenberg
 Luckengraben
-Luckenkees
 Luckenkogel
 Luckerbauerriegel
+Luckeretkogel
 Luckergraben
 Luckermair
 Luckerte Wand
@@ -24409,7 +24354,6 @@ Längenfeld
 Längental
 Längentalbach
 Längentaler Bach
-Längentaler Ferner
 Längentaler Weißer Kogel
 Längergraben
 Längsee
@@ -24473,13 +24417,13 @@ Löcking
 Löckpuit
 Löder
 Lödersdorf
+Lödersdorf II
 Löffelau
 Löffelbach
 Löffelberg
 Löffelmacherbach
 Löffelspitz
 Löffelspitze
-Löfflerkees
 Löfflmühl
 Löhnersbach
 Löhnersbachgraben
@@ -24563,7 +24507,6 @@ Mackgraben
 Macking
 Madatschbach
 Madatschen
-Madatschferner
 Madatschkopf
 Madau
 Madaunspitze
@@ -24588,13 +24531,14 @@ Madleinbach
 Madleinkopf
 Madleinsee
 Madleinseebach
-Madlenerferner
 Madlenerspitze
 Madlenstobel
 Madlgraben
 Madling
 Madlochspitze
 Madner Bach
+Madonakopf Nordgipfel
+Madonakopf Südgipfel
 Madonna
 Madratsch
 Madreit
@@ -24639,6 +24583,7 @@ Mahdgraben
 Mahdlalm
 Mahdlandbach
 Mahdleitenkopf
+Mahdlgraben
 Mahdlgupf
 Mahdlsöldengraben
 Mahdschneidergraben
@@ -24664,6 +24609,7 @@ Maiensee
 Maiensäßtobel
 Maier
 Maieranger Kogel
+Maieraubach
 Maierbach
 Maierbacherl
 Maierdorf
@@ -24712,6 +24658,7 @@ Mairhofen
 Mairhoferbach
 Mairing
 Mairist
+Mairistgraben
 Mairlambach
 Mairspindt
 Mairspitze
@@ -24770,7 +24717,6 @@ Malfontal
 Malfrag
 Malfragbach
 Malfrosnitzbach
-Malfrosnitzkees
 Malgrubenspitze
 Malgrübler
 Malgrübleralmbach
@@ -24841,7 +24787,6 @@ Manhartstal
 Manichbach-Krennach
 Manichgattern
 Manigenbach
-Manigenbach-Ferner
 Manigenbachkogel
 Maning
 Maningkogel
@@ -24970,6 +24915,7 @@ Maria Elend/Podgorje
 Maria Ellend
 Maria Enzersdorf
 Maria Feicht
+Maria Feichter Bach
 Maria Fieberbründl
 Maria Gail
 Maria Grün
@@ -25072,7 +25018,6 @@ Marktlbach
 Marktlköpfl
 Marktobel
 Marktobelbach
-Marktschellenberg
 Marktteich
 Marktwasser
 Marktöbelebach
@@ -25105,6 +25050,7 @@ Martairbach
 Martal
 Martelberger Höhe
 Marten
+Martenkarle
 Martennock
 Marterlkopf
 Martersberg
@@ -25180,7 +25126,6 @@ Matschacher Gupf / Mačenski vrh
 Matschelser Bergle
 Matschelserbach
 Matschenbloch
-Matscher Ferner - Ghiacciaio di Mazia
 Matschiedl
 Mattelsberg
 Matterhörndl
@@ -25262,10 +25207,8 @@ Maurer Röte
 Maurer Spitze
 Maurerbach
 Maureregg
-Maurergletscher
 Maurergraben
 Maurergrabenbach
-Maurerkees
 Maurerkogel
 Maurerköpfl
 Maurersee
@@ -25467,6 +25410,7 @@ Melspitze
 Meluschnigbach
 Melzen
 Melzenbach
+Melšek
 Menauerriedel
 Mendling
 Mendlingbach
@@ -25702,7 +25646,6 @@ Mirthoferbach
 Mirzbach
 Mirzlzinken
 Mischbach
-Mischbachferner
 Mischen
 Mischendorf
 Mischlingbach
@@ -25876,7 +25819,6 @@ Mitterkaiser Nordgipfel
 Mitterkamm
 Mitterkar
 Mitterkarbach
-Mitterkarferner
 Mitterkarkopf
 Mitterkarlspitze
 Mitterkarsee
@@ -26016,6 +25958,7 @@ Mittlerer Edelspitz
 Mittlerer Eichberg
 Mittlerer Eiskastenkopf
 Mittlerer Findelkarkopf
+Mittlerer Gadnerkopf
 Mittlerer Gartnerkofelturm
 Mittlerer Graben
 Mittlerer Granaswaldbach
@@ -26406,7 +26349,6 @@ Moslarinne
 Mosletzberg
 Mosreinerbach
 Mossbachl
-Mostalm
 Mostbach
 Mostbacher Berg
 Mostelgraben
@@ -26496,6 +26438,7 @@ Munzalspitze
 Munzenplan
 Mur
 Mur (Altarm)
+Mur / Mura
 Mur Altarm Kalsdorf
 Muralterbach
 Murau
@@ -26514,7 +26457,6 @@ Murggengartengraben
 Muritzbach, Saumitzbach
 Muritzen
 Muritzenbach
-Muritzenkees
 Muritzental
 Murkarbach
 Murkarspitze
@@ -26529,7 +26471,6 @@ Murtalgraben
 Murvorstadt
 Musau
 Musauer Berg
-Muschenferner
 Muschenigbach
 Muschenik / Mušenik
 Muschenkarschneid
@@ -26585,6 +26526,7 @@ Muttlergraben
 Muttlerkopf
 Mutzeiger
 Mutzenfeld
+Muxelsberg
 Mußbach
 Myhrnbach
 Myrabach
@@ -26615,6 +26557,7 @@ Märzing
 Mäuerlbach
 Mäuerlberg
 Mäuerle
+Mäuerltal
 Mäusburg
 Mäuserlstillgraben
 Mäuskarkopf
@@ -26627,6 +26570,7 @@ Mödenham
 Möderbrugg
 Möderingbach
 Möderndorf
+Möderndorfer Bach
 Mödersdorf
 Mödershöf
 Mödlbach
@@ -26650,12 +26594,12 @@ Mökriach/Mokrije
 Mölbegg
 Mölbling
 Mölkham
+Mölklekopf
 Möll
 Möllbrücke
 Möllersdorf
 Möllkopf
 Mölltal
-Mölltaler Gletscher
 Möllüberleitungsstollen
 Mölsbach
 Mölsberg
@@ -26684,7 +26628,6 @@ Mörasing
 Mörbetzbach
 Mörbisch am See
 Mörchenklammbach
-Mörchnerkees
 Mörenz
 Mörenzer Kleine Runse
 Möriach
@@ -26752,7 +26695,6 @@ Mößngraben
 Mößstein
 Mühel
 Mühl
-Mühlabach
 Mühlabch
 Mühlach
 Mühlanger
@@ -26767,6 +26709,7 @@ Mühlbach (Dreiergraben
 Mühlbach (Dreiergraben)
 Mühlbach (Eibelsau)
 Mühlbach (Haunoldstein)
+Mühlbach (Kamp)
 Mühlbach (Wimpassing/Pielach)
 Mühlbach - Bichl
 Mühlbach - Straßen
@@ -26913,6 +26856,7 @@ Müllerbach
 Müllerbauerbach
 Müllerberg
 Müllergraben
+Müllerskopf
 Müllerteich
 Mülleter Bichl
 Mülln
@@ -26979,6 +26923,7 @@ Nabernigbach
 Nabernigkogel
 Nach der Enns
 Nachbauersee
+Nachberg
 Nachklärbecken
 Nachklärbecken I
 Nachklärbecken II
@@ -27033,7 +26978,6 @@ Naichet
 Naintsch
 Naintschbach
 Najbrževa peč
-Namenloser
 Namlach
 Namlos
 Namlosbach
@@ -27190,7 +27134,6 @@ Nedertal
 Nedertalbachl
 Nederwiesenbach
 Neederbach
-Neederseiten-Ferner
 Neff
 Neffenedt
 Negers
@@ -27506,7 +27449,6 @@ Neurißhof
 Neurohrgraben
 Neuruppersdorf
 Neurur
-Neururer Ferner
 Neusach
 Neusaming
 Neusaß/Vesava
@@ -27544,7 +27486,6 @@ Neustift
 Neustift am Alpenwalde
 Neustift am Hartberg
 Neustift am Walde
-Neustift an der Donau
 Neustift an der Lafnitz
 Neustift bei Güssing
 Neustift bei Schlaining
@@ -27622,6 +27563,7 @@ Niederbrunnsulzenkopf
 Niederbuch
 Niederbumberg
 Niederdorf
+Niederdorferbach
 Niederdörfl
 Niederdörfl/Spodnja vesca
 Niedere Böden
@@ -27712,7 +27654,6 @@ Niederhollabrunn
 Niederhollabrunner Bach
 Niederholzham
 Niederjoch
-Niederjochferner - Vedretta del Giogo Basso
 Niederjochkogel
 Niederjöchl
 Niederkappel
@@ -27915,7 +27856,6 @@ Noppenspitze
 Nopping
 Norbertinumbach
 Nord
-Nordbahnhof Freie Mitte „Stadtwildnis”
 Nordbahnviertel
 Nordkette
 Nordtiroler Kalkalpen
@@ -28055,16 +27995,17 @@ Nördlicher Pfaffenkogelgraben II
 Nördlicher Polleskogel
 Nördlicher Polvenbach
 Nördlicher Prankerhüttenbach
-Nördlicher Puitkogelferner
 Nördlicher Quellbach
 Nördlicher Ramolkogel
 Nördlicher Rosslauf - Il Cavallo
 Nördlicher Roßkopf
 Nördlicher Ruhribach
+Nördlicher Schmalzgrubenkopf
 Nördlicher Schnellbach
 Nördlicher Schrapfbergbach
 Nördlicher Schwarzkopf
 Nördlicher Schwarzlechnerbach
+Nördlicher Schweizergartenteich
 Nördlicher Schönpleiskopf
 Nördlicher Seekarkopf
 Nördlicher Silbersee
@@ -28073,13 +28014,11 @@ Nördlicher Steindlbach
 Nördlicher Stierberggraben
 Nördlicher Stuhlkopf
 Nördlicher Söllerkopf
-Nördlicher Torsteingletscher
 Nördlicher Trittkopf
 Nördlicher Unnutzgraben
 Nördlicher Wieselstein
 Nördlicher Zurybach
 Nördliches Arnhorn
-Nördliches Bockkarkees
 Nördliches Gleierschtaler Brandjoch
 Nördliches Höllhorn
 Nördliches Kreuzjoch
@@ -28318,7 +28257,6 @@ Oberepfenhofen
 Oberer Adlitzgraben
 Oberer Alpguessee
 Oberer Aschenwaldbach
-Oberer Augstenferner
 Oberer Bach
 Oberer Bleiberg
 Oberer Bluntausee
@@ -28344,7 +28282,6 @@ Oberer Gernkogel
 Oberer Giglachsee
 Oberer Glatzsee
 Oberer Glockhausersee
-Oberer Goldbergkees
 Oberer Granaswaldbach
 Oberer Grünausee
 Oberer Hainzlbach
@@ -28403,6 +28340,7 @@ Oberer Seekarsee
 Oberer Seewisee
 Oberer Sickerkopf
 Oberer Sießekopf
+Oberer Sommerwandsee
 Oberer Sonntagskarsee
 Oberer Speichersee
 Oberer Spielleithenbach
@@ -28416,7 +28354,6 @@ Oberer Teich
 Oberer Tollingbach
 Oberer Tollinggraben
 Oberer Verlorener See
-Oberer Verpeilferner
 Oberer Weiss-Teich
 Oberer Weissenbach
 Oberer Weizberg
@@ -28443,12 +28380,10 @@ Oberes Falkendorf
 Oberes Gailtal
 Oberes Gamskarköpfl
 Oberes Gericht
-Oberes Goldbergkees
 Oberes Gründeck
 Oberes Gurktal
 Oberes Gämple
 Oberes Hahnpfalzköpfl
-Oberes Hocheiserkees
 Oberes Murtal
 Oberes Mühlwasser
 Oberes Mürztal
@@ -28897,11 +28832,11 @@ Oberschildbach
 Oberschindeltal
 Oberschirka
 Oberschlierbach
+Oberschmaier
 Oberschmidbach
 Oberschnadt
 Oberschoderlee
 Oberschrammachbäche
-Oberschrammachkees
 Oberschrammbach
 Oberschwaig
 Oberschwandt
@@ -28946,7 +28881,6 @@ Obersteinerkogel
 Obersteinköpfl
 Obersteinparz
 Obersteinwand
-Oberster Pasterzenboden
 Oberstern
 Oberstes Murtal
 Oberstiftung
@@ -29059,7 +28993,6 @@ Oberwindhaag
 Oberwindhag
 Oberwinkelbach
 Oberwinkl
-Oberwinkl Kees
 Oberwinklern
 Oberwolfern
 Oberwollanig
@@ -29216,6 +29149,7 @@ Ofengraben
 Ofenhöhe
 Ofenlochgraben
 Ofenlochkogel
+Ofenlucka
 Ofenspitz
 Ofensteinwand
 Ofental
@@ -29279,7 +29213,6 @@ Ollersbach
 Ollersdorf
 Ollersdorf im Burgenland
 Olperer
-Olpererferner
 Olsa
 Olsabach
 Olsach
@@ -29481,6 +29414,7 @@ Ounitzabach
 Outschena
 Overbach
 Owabach
+Oxakopf
 Ozean
 P.
 P. 2349
@@ -29529,7 +29463,6 @@ Padauner Bach
 Padauner Berg
 Padauner Kogel
 Pading
-Padreilferner
 Pafnitzberg
 Pagelberg
 Pagler Felsen
@@ -29576,7 +29509,6 @@ Pallspitze
 Pallweis
 Pallweißbach
 Palm
-Palmbühel
 Palmebach
 Palmersbach
 Palmsdorf
@@ -29681,7 +29613,6 @@ Parschenbrunner Bach
 Parschlug
 Parschlugerbach
 Parseierbach
-Parseierferner
 Parseierspitze
 Parseiertal
 Parsteiner Bach
@@ -29728,7 +29659,6 @@ Passothengraben
 Pastaukopf
 Pasteinalm
 Pasterkgraben
-Pasterze
 Pastner Teich
 Patendorf
 Patennerkopf
@@ -29744,7 +29674,6 @@ Patschaberg
 Patschenbach
 Patscher Bach
 Patscherbach
-Patscherkees
 Patscherkofel
 Patschgsiedlung
 Pattendorf
@@ -29790,6 +29719,7 @@ Pausendorf
 Pausendorfer Bach
 Pausing
 Pauzenberg
+Pavicgraben
 Pavor
 Paxbach
 Paxnerkogel
@@ -29798,10 +29728,14 @@ Payerbachgraben
 Payerhöhe
 Payerlbach
 Payerstetten
-Pazielferner
+Pazielfernerspitzen Mittelgipfel
+Pazielfernerspitzen Ostgipfel
+Pazielkar
 Paznaun
 Pazüelbach
 Pazüelfernerspitze
+Pazüelspitze
+Pazüeltal
 Paßberg
 Paßgraben
 Paßhammer
@@ -29831,6 +29765,7 @@ Peesen
 Peesenbach
 Pegasusbrunnen
 Peggau
+Pegrinova peč
 Pegömlspitze
 Pehendorf
 Pehendorfer Graben
@@ -29928,7 +29863,7 @@ Penzing
 Penzingbach
 Penzinger Bach
 Penzingerdorf
-Pepi's Märchenteich
+Pepis Märchenteich
 Pepiteich
 Per-Albin-Hansson-Siedlung Nord
 Per-Albin-Hansson-Siedlung Ost
@@ -30134,7 +30069,6 @@ Pettighofen
 Pettnau
 Pettnauer Gießen
 Pettneu am Arlberg
-Pettneuer Ferner
 Petzeck
 Petzelsdorf
 Petzelsdorf bei Fehring
@@ -30170,7 +30104,6 @@ Pfaffenbühel
 Pfaffendorf
 Pfaffeneck
 Pfaffeneckgraben
-Pfaffenferner
 Pfaffengraben
 Pfaffengraben Süd
 Pfaffengrabenhöhe
@@ -30326,6 +30259,7 @@ Pfierselbach
 Pfierselgraben
 Pfingstbühel
 Pfingstnerbach
+Pfirsichteich
 Pfisterbach
 Pfitscher Grat
 Pfitscherbach
@@ -30500,7 +30434,6 @@ Pihapper
 Pikeroi
 Pikmüllergraben
 Piladettabach
-Pilatuskees
 Pilatussee
 Pilderlingbach
 Pilgersdorf
@@ -30551,7 +30484,6 @@ Pinnenhöfen
 Pinnersdorf
 Pinnersdorfer Bach
 Pinnisbach
-Pinnisferner
 Pinnistal
 Pinsbach
 Pinsdorf
@@ -30700,7 +30632,6 @@ Piz Val Gronda
 Pize
 Pizleshorn
 Piösmes
-Piösmesferne
 Plabutsch
 Plabutschviertel
 Plachwitz
@@ -30740,9 +30671,7 @@ Planergraben Bach
 Planetenviertel
 Plangeross
 Plangerosskopf
-Plangeroßferner
 Plangeroßspitze
-Planggeroßferner
 Plangraben
 Planitz
 Planitzen
@@ -30790,6 +30719,7 @@ Plaschlhof
 Plasniggraben
 Plassen
 Platschbach
+Platschgraben
 Platt
 Plattabach
 Plattabacvh
@@ -30811,7 +30741,6 @@ Platten
 Plattenbach
 Plattenberg
 Platteneck
-Plattengletscher
 Plattengräben
 Plattenkogel
 Plattenkopf
@@ -30845,7 +30774,6 @@ Platzenbach
 Platzer Bach
 Platzerbach
 Platzerberg
-Platzerferner
 Platzerspitze
 Platzertal
 Platzgrabenbach
@@ -30933,7 +30861,6 @@ Plitzgraben
 Plochwald
 Ploderbach
 Plodererwand
-Ploderferner
 Plodersee
 Plofergraben
 Ploiertal, Bichlertal
@@ -30955,6 +30882,7 @@ Plotschgraben
 Plotschgraben Bach
 Plotschibach
 Pluderling
+Plumesköpfl
 Plumsbach
 Plumsjoch
 Pläschnitzbach
@@ -30985,6 +30913,7 @@ Plötzigtal
 Plötzsiedlung
 Plöven
 Plöß
+Plürschgraben
 Poart
 Pobersach
 Pochendorf
@@ -31071,7 +31000,6 @@ Pollerbach
 Pollergraben
 Polleroswand
 Pollesbach
-Pollesferner
 Pollesfernerkopf
 Pollestal
 Pollham
@@ -31085,7 +31013,6 @@ Pollinger Kreuz
 Pollmannsdorf
 Polln
 Pollniger Berg
-Polltalferner
 Pollwischkogel
 Polsenz
 Polsing
@@ -31405,7 +31332,6 @@ Pretallerkogel
 Pretrobruck
 Pretschbach
 Prettachberg
-Prettaukees - Vedretta di Predoi
 Prettentalerbach
 Pretteranger
 Pretterhofergraben
@@ -31478,7 +31404,6 @@ Prinzwies
 Pripflkogel
 Pristovnikbach
 Prititschbach
-Prititschkees
 Pritschitz
 Pritzhäuser
 Priusberg
@@ -31487,7 +31412,6 @@ Privater Badesee
 Privater Teich
 Privatries
 Privatschwimmbecken
-Privatteich
 Priwallerbach
 Probenzing
 Proboj
@@ -31505,6 +31429,7 @@ Progrätscherbach
 Prohartgraben
 Proigraben
 Projern
+Projernerbach
 Proleb
 Prolebbach
 Prolesbach
@@ -31719,7 +31644,6 @@ Putzenberg
 Putzengraben
 Putzengrabenbach
 Putzenhofbach
-Putzenkar
 Putzenkarschneid
 Putzenmauer
 Putzentalbach
@@ -31898,7 +31822,7 @@ Püllgraben
 Pürach
 Pürahöfen
 Pürbach
-Pürbacherteich
+Pürbacher Teich
 Püret
 Pürgg
 Pürgschachen
@@ -32133,6 +32057,7 @@ Radurschalpe
 Radurschltal
 Radvanovský potok
 Radweg
+Radwegbach
 Rafelgraben
 Raffausiedlung
 Raffelbach
@@ -32299,7 +32224,6 @@ Rammersdorf
 Rammerstorf
 Rammesböckbach
 Rammlerbach
-Ramolferner
 Ramoos
 Rampererbach
 Rampersdorf
@@ -32415,6 +32339,8 @@ Ranzenberg
 Ranzenbergkögerl
 Ranzengraben
 Ranzenkarbach
+Ranzenkopf
+Ranzensee
 Ranzental
 Ranzerberg
 Ranzing
@@ -32638,6 +32564,7 @@ Rauher Boschensee
 Rauher Knöll
 Rauher Kogel
 Rauher Kopf
+Rauher Kopf Ostgipfel
 Rauher Koppen
 Rauher Oppen
 Rauher Stein
@@ -32647,7 +32574,6 @@ Rauhes Tal
 Rauhhorn
 Rauhirschbach
 Rauhkarlspitze
-Rauhkofelkees
 Rauhkopf
 Rauhköpfe
 Rauhköpfli
@@ -32758,6 +32684,7 @@ Redlbach
 Redleiten
 Redlham
 Redlschlag
+Redlsee
 Redtenbach
 Redtenberg
 Reedbach
@@ -32772,6 +32699,7 @@ Regelsbrunn
 Regenbecken
 Regenerationsteich
 Regenfeld
+Regenfelderbach
 Regengraben
 Regenkar
 Regenkarspitz
@@ -32849,7 +32777,6 @@ Reichenfels
 Reichenhag
 Reichenhaus
 Reichenhöfe
-Reichenkarferner
 Reichenkarspitze
 Reichenlahnerbach
 Reichenschallgraben
@@ -32880,6 +32807,7 @@ Reichhalmsbach
 Reichhalter Teich
 Reichharts
 Reichholz
+Reichhub
 Reichkendlgraben
 Reichkendlkopf
 Reichobach
@@ -32898,6 +32826,7 @@ Reidenau
 Reidenbachl
 Reidl
 Reidlbauergraben
+Reidlergraben
 Reidling
 Reidlingbach
 Reidlingberg
@@ -33080,6 +33009,7 @@ Reiterbach Saalbach
 Reiterbach-Leogang
 Reiterbachl
 Reiterberg
+Reiterdorf
 Reiterdörfl
 Reitereck
 Reiteregg
@@ -33103,6 +33033,7 @@ Reiternbach
 Reiterndorf
 Reiterriegel
 Reitersberg
+Reiterskopf
 Reitgehrenbach
 Reitgraben
 Reitgrabenbach
@@ -33360,7 +33291,6 @@ Ribicabach
 Ribischgraben
 Ribitschbach
 Ribitzabach
-Riblerkees
 Ribnica
 Richersdorf
 Richtberg
@@ -33496,7 +33426,6 @@ Riegler
 Riegler Ramitsch
 Rieglerbach
 Rieglergraben
-Rieglerhütte
 Rieglerhüttensee
 Rieglerkogel
 Rieglerswartberg
@@ -33577,14 +33506,13 @@ Rifflbach
 Rifflberg
 Rifflerkogel
 Rifflersee
-Rifflferner
 Riffljochturm
 Rifflkar
-Rifflkarkees
 Rifflkarkopf
 Rifflkarspitze
 Rigaus
 Rigausbach
+Rigeles Joch
 Rigelski vrh
 Riggelesbach
 Rigi
@@ -33704,7 +33632,6 @@ Rittis
 Rittisbach
 Rittisberg
 Rittmansberg
-Rittolach
 Rittschein
 Rittscheinberg
 Rittscheinergraben
@@ -33772,6 +33699,7 @@ Rodlauer Graben
 Rodlerbach
 Rodlerin
 Rodlingbach
+Rodniggraben
 Rodundbecken I
 Rodundbecken III
 Rofan
@@ -33854,6 +33782,7 @@ Rohrbächlein
 Rohreckbach
 Rohregg
 Rohreggbach
+Rohrendorf
 Rohrendorf an der Pulkau
 Rohrendorf bei Krems
 Rohrenreith
@@ -34081,6 +34010,7 @@ Rotach
 Rotache
 Rotachtal
 Rotanger
+Rotapfel
 Rotbach
 Rotbach / Pestřice
 Rotbachlspitze - Croda Rossa
@@ -34098,7 +34028,6 @@ Rote Spitze
 Rote Säule
 Rote Tenne
 Rote Wand
-Rote Wand Gletscher
 Roteck
 Rotedelbach
 Rotegg
@@ -34114,6 +34043,7 @@ Rotenlochgraben
 Rotenmannkopf
 Rotenmannspitze
 Rotenstein
+Rotental
 Rotenturm an der Pinka
 Roteplattebach
 Roter Bach
@@ -34143,7 +34073,6 @@ Rotgabele
 Rotgangkogel
 Rotgraben
 Rotgrabenbach
-Rotgratferner
 Rotgratspitze
 Rotgrubenspitze
 Rotgschirr
@@ -34151,12 +34080,11 @@ Rotgschirr (Südgipfel)
 Rotgsol
 Rotgülden
 Rotgüldenbach
-Rotgüldenkees
-Rotgüldenkees Ost
 Rothaller Bach
 Rothauptberg
 Rothausbach
 Rothbach
+Rothberg
 Rotheau
 Rotheis
 Rothenbach
@@ -34253,6 +34181,7 @@ Rotten
 Rottenbach
 Rottenberg
 Rottendorf
+Rottendorferbach
 Rottenegg
 Rottengraben
 Rottenhof
@@ -34312,7 +34241,6 @@ Roßgrubenbach
 Roßgrubenkofel
 Roßhaltgraben
 Roßkarbach
-Roßkarferner
 Roßkarsee
 Roßkarturm
 Roßkirpl
@@ -34373,7 +34301,6 @@ Rudelsdorf
 Ruden
 Rudenauer Berge
 Ruderhofbach
-Ruderhofferner
 Ruderhofspitze
 Ruders
 Rudersbach
@@ -34497,6 +34424,7 @@ Runse Gurk West
 Runse Heft Nord
 Runse Heft Süd
 Runse Heller
+Runse Herrschafter
 Runse Hinterkoflach
 Runse Hochreiterbach
 Runse Jaunwirt
@@ -34713,8 +34641,6 @@ Röthis
 Röthlestal
 Röthner Dorfbach
 Röthspitze
-Rötkarlferner
-Rötkees
 Rötkogel
 Rötkopf
 Rötlbach
@@ -34765,10 +34691,10 @@ Rückstegenbach
 Rüdlebach
 Rüfetöbele
 Rüffibach
-Rüffitobel
 Rüfigraben
 Rüfikopf
-Rüfispitze
+Rüfispitze Hauptgipfel
+Rüfispitze Westgipfel
 Rüggele
 Rüggen
 Rüggenbach
@@ -34776,6 +34702,7 @@ Rührbach
 Rührerberg
 Rühring
 Rührkübel
+Rührkübeltobelbach
 Rührndorf
 Rührsdorf
 Rührsdorfer Graben
@@ -34789,7 +34716,6 @@ Rütnatobel
 Rütteholzgraben
 Rüttischrofen
 Různice
-SO ORP Kaplice
 Saag
 Saager
 Saak
@@ -35064,7 +34990,6 @@ Sandbauergraben
 Sandbauerngraben
 Sandberg
 Sandbichl
-Sandbodenkees
 Sandbodenkopf
 Sandbühel
 Sanddünen
@@ -35665,7 +35590,6 @@ Schafjoch
 Schafjöchl
 Schafkampspitze - Cima delle Pecore
 Schafkarbach
-Schafkarkees
 Schafkarkogel
 Schafkarkopf
 Schafkarlen
@@ -35687,7 +35611,7 @@ Schaflochbachl
 Schaflos
 Schafluckenrinne
 Schafluckenturm
-Schaflzack'n
+Schaflzackn
 Schafmarebenkogel
 Schafnock
 Schafpleiskopf
@@ -35810,7 +35734,6 @@ Scharberggrabenbach
 Schardenberg
 Schardorf
 Schareck
-Schareckkees
 Scharegg
 Scharerkogel
 Scharfberg
@@ -35947,6 +35870,7 @@ Schaumberg ob der Leithen
 Schaumberg unter der Leithen
 Schaumberggraben
 Schaumboden
+Schaumbodenbach
 Schaumburgergrund
 Schauner
 Schaunitzsee
@@ -36352,7 +36276,6 @@ Schlachtertauern
 Schladeinbach
 Schlader
 Schladming
-Schladminger Gletscher
 Schladnitzbach
 Schladnitzdorf
 Schladnitzgraben
@@ -36406,7 +36329,6 @@ Schlapferweggraben
 Schlapfgrabenbach
 Schlapftorbach
 Schlapperebenbach
-Schlapperebenkees
 Schlapperebenspitzen
 Schlappigbachl
 Schlappiner Spitze
@@ -36442,7 +36364,6 @@ Schledergraben
 Schleedorf
 Schlegeisbach
 Schlegeisgrund
-Schlegeiskees
 Schlegeisspeicher
 Schlegelberg
 Schleglbach
@@ -36715,7 +36636,6 @@ Schmiedhofbachl
 Schmiedhorn
 Schmiedhornbach
 Schmieding
-Schmiedingerkees
 Schmiedkeller
 Schmiedkogel
 Schmiedlahnbach
@@ -36825,11 +36745,9 @@ Schneegrubenbach
 Schneegrubenhöhe
 Schneegrubenkopf
 Schneegrubenspitze
-Schneegupf
 Schneehitzer
 Schneehorn
 Schneekarkopf
-Schneekarl
 Schneekarspitze
 Schneekarturm
 Schneeklamm
@@ -36838,7 +36756,6 @@ Schneekogel
 Schneekopf
 Schneelahnerbach
 Schneelochbach
-Schneelochgletscher
 Schneelochturm
 Schneeluckengraben
 Schneemoosgraben
@@ -36878,6 +36795,7 @@ Schneidergrabensee I
 Schneidergrabensee II
 Schneiderhäuslgraben
 Schneiderhöhe
+Schneiderkare
 Schneiderkogel
 Schneiderkopf
 Schneidermauer
@@ -36943,7 +36861,6 @@ Schobererbach
 Schobergraben
 Schobergupf
 Schoberhof
-Schoberkees
 Schoberknopf
 Schoberkogel
 Schoberkogl
@@ -36994,7 +36911,6 @@ Schossboden
 Schottenau
 Schottenauerbach
 Schottenfeld
-Schottenhof
 Schottenkogel
 Schottensee
 Schottenviertel
@@ -37351,6 +37267,8 @@ Schwallerbach
 Schwalsödter Bach
 Schwambach
 Schwaming
+Schwammbach
+Schwammköpfle
 Schwammtobelbach
 Schwanbach
 Schwanbachfeld
@@ -37404,7 +37322,6 @@ Schwarzberghöhe
 Schwarzbodenegg
 Schwarzbrunnbach
 Schwarzbrunnerbach
-Schwarzbrunnerkees
 Schwarzbuchbach
 Schwarzbächli
 Schwarze Aist
@@ -37464,7 +37381,6 @@ Schwarzenreithgraben
 Schwarzensee
 Schwarzenseebach
 Schwarzenstein
-Schwarzensteinkees
 Schwarzenthal
 Schwarzer Bach
 Schwarzer Balken
@@ -37497,7 +37413,6 @@ Schwarzhottergraben
 Schwarzindien
 Schwarzkagelgraben
 Schwarzkarkogel
-Schwarzkarlkees
 Schwarzkarlsee
 Schwarzkarspitz
 Schwarzkofel
@@ -37509,7 +37424,6 @@ Schwarzkopf
 Schwarzkoppen
 Schwarzkögele
 Schwarzköpfl
-Schwarzköpflkees
 Schwarzlachatöbili
 Schwarzlacke
 Schwarzlacken
@@ -37523,7 +37437,6 @@ Schwarzlkogel
 Schwarzlochkopf
 Schwarzluckenkogel
 Schwarzmannshofen
-Schwarzmilzferner
 Schwarzmilzsee
 Schwarzmoos
 Schwarzmoosbach
@@ -37603,7 +37516,6 @@ Schweighoferteich
 Schweighofgraben
 Schweigthal
 Schweikert
-Schweikertferner
 Schweikertfernersee
 Schweinaubach
 Schweinbach
@@ -37631,7 +37543,6 @@ Schweinzbach
 Schweinzberg
 Schweinzerberg
 Schweizberg
-Schweizer Gletscher
 Schweizer Gletscherbach
 Schweizerbach
 Schweizerhof
@@ -37643,6 +37554,7 @@ Schwellenkar
 Schwellenspitze
 Schwellental
 Schwellgraben
+Schwemberg
 Schwemm
 Schwemmbach
 Schwemme
@@ -37672,7 +37584,6 @@ Schwersberg
 Schwertbach
 Schwertberg
 Schwerteck
-Schwerteckkees
 Schwertfegen
 Schwertfern
 Schwerting
@@ -37710,7 +37621,7 @@ Schwöllern
 Schwöllteich Reiserbauern Mühle
 Schädlbach
 Schäfer
-Schäferköpfe
+Schäferkopf
 Schäffern
 Schäffernbach
 Schäffernbach-Seitenarm
@@ -37786,7 +37697,6 @@ Schömgraben Bach
 Schön
 Schönabrunn
 Schönach
-Schönachkees
 Schönaich
 Schönalmbach
 Schönalmgraben
@@ -38095,7 +38005,6 @@ Seebach-Wasenboden
 Seebachbad
 Seebacher Teich
 Seebacher-Siedlung
-Seebachferner
 Seebachgraben
 Seebachhöhe
 Seebachkatzenkopf
@@ -38132,6 +38041,7 @@ Seeboden
 Seeboden am Millstätter See
 Seebodenberg
 Seebodenkogel
+Seebrigbach
 Seebs
 Seebsbach
 Seebächle
@@ -38147,6 +38057,7 @@ Seefelder Bach
 Seefelder Spitze
 Seefeldmühle
 Seefeldner
+Seefluhschrofen
 Seegraben
 Seegrubenspitze
 Seegupf
@@ -38195,6 +38106,7 @@ Seelengehrbach
 Seeleralmbach
 Seeles Seen
 Seeleschrofen
+Seelewanne
 Seeli
 Seeloch
 Seemannkopf
@@ -38224,7 +38136,6 @@ Seeschlachtgraben
 Seesiedlung
 Seespitz
 Seespitze
-Seespitzferner
 Seestadt
 Seestein
 Seetal
@@ -38347,7 +38258,6 @@ Seitenrunse
 Seitenspeicher Bozenau
 Seitenstallgrabenbach
 Seitenstetten
-Seiter Ferner
 Seiter Nitl
 Seiterbachl
 Seiterndorf
@@ -38426,6 +38336,7 @@ Senkstein
 Sennauerbach
 Sennberg
 Sennereibach
+Sennerkopf
 Sennhof
 Senning
 Senningbach
@@ -38485,6 +38396,7 @@ Sexling
 Seydegg
 Seyfriedberg
 Seyfrieds
+Seyfritz Brandhäuser
 Seyring
 Seyringer Graben
 Seyringer Rodelhügel
@@ -38619,6 +38531,7 @@ Sieglgraben
 Sieglitzbach
 Sieglißbach
 Sieglißgraben
+Sieglkarhöhe
 Siegmundbach
 Siegreith
 Siehdichfür
@@ -38702,7 +38615,6 @@ Silbertalbach, Leitenbach
 Silbertaler Lobspitze
 Silberteich
 Silbertobel
-Silbhorn
 Silhengstbach
 Sill
 Sill Altarm
@@ -38749,7 +38661,6 @@ Simmerstatt
 Simmetsberg
 Simmibauerlahn
 Simmingbach
-Simmingferner
 Simmingsee
 Simms-Wasserfall
 Simonakopf
@@ -38761,7 +38672,6 @@ Simonsberg
 Simonsfeld
 Simonskopf
 Simonybach
-Simonykees
 Simonysee
 Simpeler
 Simperlbach
@@ -38935,7 +38845,6 @@ Sommersbergsee
 Sommersgut
 Sommerstein
 Sommertobelbachl
-Sommerwandferner
 Somspitze
 Sonderberg
 Sonderdach
@@ -38943,6 +38852,7 @@ Soneggerbach
 Sonfixlbach
 Sonklarspitze - Cima di Malavalle
 Sonnalm
+Sonnaspitz
 Sonnberg
 Sonnberg Gipfelkreuz
 Sonnberg Runsen Mitte
@@ -38954,7 +38864,6 @@ Sonnberger Jöchl
 Sonnberspitz
 Sonnbichl
 Sonnblick
-Sonnblickkees
 Sonndorf
 Sonndörfl
 Sonndörflgraben
@@ -38976,6 +38885,7 @@ Sonnenheim
 Sonnenjoch
 Sonnenkogel
 Sonnenkopf
+Sonnenkögerl
 Sonnenköpfle
 Sonnenpleis
 Sonnensee
@@ -39063,6 +38973,7 @@ Sonnwendviertel
 Sonnwies
 Sonnwiesen
 Sonnwiesgraben
+Sonnwinkel
 Sonnwärtskogel
 Soomsee
 Soosberg
@@ -39071,7 +38982,6 @@ Sooßer Graben
 Sooßer Graben I
 Sooßer Graben II
 Sooßer Lindkogel
-Sophienalpe
 Soppakopf
 Soppatöbele
 Soppen
@@ -39203,7 +39113,6 @@ Speichersee Seidlalm
 Speichersee Skiarena Wildkogel
 Speichersee Strohsack
 Speicherteich
-Speicherteich "Hohes Licht"
 Speicherteich - Skigebiet HOCHOETZ
 Speicherteich 1
 Speicherteich 2
@@ -39235,6 +39144,7 @@ Speicherteich Giggijoch
 Speicherteich Gschwandtkopf
 Speicherteich Gschössberg
 Speicherteich Haunen
+Speicherteich Hohes Licht
 Speicherteich Holzalm
 Speicherteich Hornköpfl
 Speicherteich I
@@ -39359,7 +39269,6 @@ Spielleithen
 Spielleithenbach
 Spielmann
 Spielmanngraben
-Spielmannkees
 Spielmannkogel
 Spielmannsberg
 Spielmäuer
@@ -39435,6 +39344,7 @@ Spitzesed
 Spitzetkogel
 Spitzfeldbach
 Spitzggertobelbach
+Spitzgrätle
 Spitzguf
 Spitzhof
 Spitzhörndl
@@ -39544,15 +39454,15 @@ St. Christophen
 St. Corona am Schöpfl
 St. Corona am Wechsel
 St. Dionysen
+St. Donaterbach
 St. Egyden
 St. Egyden am Steinfeld
 St. Florian
 St. Florian am Inn
-St. Frein
 St. Gallener Spitze
 St. Gallenkirch
+St. Gandolfer Bach
 St. Georgen
-St. Georgen Törl
 St. Georgen am Fillmannsbach
 St. Georgen am Leithagebirge
 St. Georgen am Reith
@@ -39561,6 +39471,7 @@ St. Georgen am Walde
 St. Georgen am Ybbsfelde
 St. Georgen an der Gusen
 St. Georgen an der Leys
+St. Georgen an der Leys Drei Tör
 St. Georgen an der Mattig
 St. Georgen bei Grieskirchen
 St. Georgen bei Obernberg am Inn
@@ -39604,6 +39515,7 @@ St. Leonhard am Hornerwald
 St. Leonhard am Wald
 St. Leonhard bei Freistadt
 St. Leonharder Alm
+St. Leonharderbach
 St. Lorenz
 St. Lorenzen
 St. Lorenzenbach
@@ -39637,6 +39549,7 @@ St. Marxen
 St. Michael
 St. Michael im Lungau
 St. Michaeler Bach
+St. Michaelerbach
 St. Nikola
 St. Nikola an der Donau
 St. Nikolai
@@ -39679,6 +39592,7 @@ St. Ulrich bei Steyr
 St. Ulrich im Mühlkreis
 St. Ulrichbach
 St. Ulrichs-Graben
+St. Urbanerbach
 St. Valentin
 St. Veit am Vogau
 St. Veit an der Glan
@@ -39892,7 +39806,6 @@ Stampfle
 Stampflesbach
 Stampfleskopf
 Stampfleskopf-Ostgipfel
-Stampflkees
 Stampftal
 Stampftobelbach
 Stams
@@ -39936,7 +39849,6 @@ Staning
 Staningersdorf
 Staniska
 Staniskabach
-Staniskakees
 Stanitzkopf
 Stans
 Stanser Joch
@@ -40075,6 +39987,7 @@ Stegendorf
 Stegerbach
 Stegerberg
 Stegereck
+Stegergraben
 Stegerkarsee
 Stegerkarspitze
 Stegersbach
@@ -40114,6 +40027,7 @@ Steiglkogel
 Steigtalbach
 Steigtalgrabenbach
 Steigwiesen Moos
+Steigäcker
 Steilbach
 Steileck
 Steilgraben
@@ -40317,7 +40231,6 @@ Steinhübl
 Steiniger Graben
 Steinigerbach
 Steiniglehnbach
-Steiniglehnferner
 Steining
 Steiningerberg
 Steininggraben Bach
@@ -40331,7 +40244,6 @@ Steinkarbach
 Steinkareck
 Steinkargraben
 Steinkarhöhe
-Steinkarkees
 Steinkarkopf
 Steinkarl
 Steinkarle
@@ -40461,7 +40373,7 @@ Steirer Kögerl
 Steirerbach
 Steirerbachl
 Steirergraben
-Steirerhöh'
+Steirerhöh
 Steirerkogel
 Steirisch Laßnitz
 Steirisch-Tauchen
@@ -40479,6 +40391,7 @@ Stellenwiese
 Stellerhöhe
 Stellgrabenbach
 Stellhöhe
+Stellikopf
 Stellkogel
 Stellkopf
 Stelltal
@@ -40684,6 +40597,7 @@ Stinkenbrunner Berg
 Stinker
 Stinkteich
 Stinnbach
+Stinnlekopf
 Stipennock
 Stipplmühl
 Stitzengraben
@@ -40693,6 +40607,7 @@ Stixeck
 Stixendorf
 Stixenhofbach
 Stixenkogel
+Stixenlehen
 Stixenstein
 Stixneusiedl
 Stoana Teich
@@ -40733,7 +40648,6 @@ Stockernbach
 Stockerteich
 Stocket
 Stocketsberg
-Stockferner
 Stockgraben
 Stockgrund
 Stockham
@@ -41055,7 +40969,6 @@ Strändl
 Sträusslbach
 Sträußl
 Strém
-Ströbitz
 Ströblberg
 Ströblitz
 Ströden
@@ -41271,6 +41184,7 @@ Sulzbacheck
 Sulzbachtal
 Sulzberg
 Sulzberggraben
+Sulzbergrücken
 Sulzbichl
 Sulzbühel
 Sulzeck
@@ -41295,7 +41209,6 @@ Sulzerbach
 Sulzerberg
 Sulzergraben
 Sulzerkogel
-Sulzferner
 Sulzgraben
 Sulzgrabenbach
 Sulzhof
@@ -41384,10 +41297,8 @@ Sägerbach
 Sägetobel
 Sägewerksiedlung
 Sägezähne
-Säuischbachferner
 Säule
 Säuleck
-Säulfrosnitzkees
 Säuling
 Säulkopf
 Säullahnspitze
@@ -41507,15 +41418,14 @@ Südlicher Mühlanderlbach
 Südlicher Münichbergbach
 Südlicher Polleskogel
 Südlicher Prankerhüttenbach
-Südlicher Puitkogelferner
 Südlicher Quellbach
 Südlicher Rofenbergkopf
 Südlicher Roßkopf
 Südlicher Schabesbergbach
 Südlicher Schafalpenkopf
 Südlicher Schloßkopf
+Südlicher Schmalzgrubenkopf
 Südlicher Schnellbach
-Südlicher Schrankarferner
 Südlicher Schrapfbergbach
 Südlicher Schwarzer Kopf
 Südlicher Schwarzkopf
@@ -41528,12 +41438,10 @@ Südlicher Stinkersee
 Südlicher Stuhlkopf
 Südlicher Söllerkopf
 Südlicher Thalheimbach
-Südlicher Torsteingletscher
 Südlicher Unnutzgraben
 Südlicher Wieselstein
 Südlicher Zurybach
 Südliches Adlerkuppenbachl
-Südliches Bockkarkees
 Südliches Gleierschtaler Brandjoch
 Südliches Schwarzhorn
 Südliches Teufelshorn
@@ -41604,7 +41512,6 @@ Taggenbrunn
 Taghaube
 Tagkarkopf
 Tagkopf
-Taglesbach
 Taglesberg
 Tagwart
 Tagweide
@@ -41668,6 +41575,7 @@ Tamgraben
 Tamingbach
 Tamischbach
 Tamischbachturm
+Tamlspitz
 Tamsweg
 Tanafreidamaisäß
 Tanauerbach
@@ -41696,6 +41604,7 @@ Tannenberg
 Tannenbichlbach
 Tannenbühl
 Tannengraben
+Tannenköpfle
 Tannenmoosbach
 Tannenriegel
 Tannental
@@ -41819,6 +41728,7 @@ Tauglboden
 Tauka
 Taulingbach
 Taulingteich
+Taumberger Bach
 Taunleiten
 Taupental
 Tauplitz
@@ -41939,7 +41849,6 @@ Teipl Bach
 Teiplberg
 Teiritzberg
 Teischnitzbach
-Teischnitzkees
 Teischnitztal
 Teiseneck
 Teitzbach
@@ -42147,6 +42056,7 @@ Thengraben
 Thening
 Theninger Bach
 Thenneberg
+Theobaldsklippe
 Theras
 Therasbach
 Therenberg
@@ -42154,7 +42064,6 @@ Theresienberg
 Theresienberggraben
 Theresienfeld
 Theresienhügel
-Thermalwasserpool
 Thern
 Thernbach
 Thernberg
@@ -42282,7 +42191,6 @@ Tiefen
 Tiefenbach
 Tiefenbach Fusch
 Tiefenbacher
-Tiefenbachferner
 Tiefenbachgraben
 Tiefenbachkogel
 Tiefenbachl
@@ -42387,7 +42295,6 @@ Tischkogel
 Tischlerbach
 Tischlerberg
 Tischlergraben
-Tischlerkarkees
 Tischlerkarkopf
 Tischlerkarsee
 Tischlerspitze
@@ -42540,7 +42447,6 @@ Totenfeldkopf
 Totengraben
 Totengrabengupf
 Totenkammerlbach
-Totenkarferner
 Totenkarköpfl
 Totenkarspitz
 Totenkarspitze
@@ -42805,7 +42711,6 @@ Treubach
 Treßdorf
 Tribachl
 Tribalbach
-Tribbachkees - Vedretta Rio Torbo
 Tribbachkopf
 Tribbachspitze - Punta di Rio Torbo
 Tribein
@@ -42820,7 +42725,6 @@ Triebendorferbach
 Triebenfeldkogel
 Triebengraben
 Triebenkarkopf
-Triebenkarlasferner
 Triebenkarsee
 Triebenkogel
 Triebenstein
@@ -42861,7 +42765,6 @@ Trinkwasser-Hochbehälter
 Trins
 Triplonbach
 Tripoldgraben
-Trippkees
 Trisanna
 Trisselkopf
 Trisselwand
@@ -42885,7 +42788,6 @@ Tristkopf
 Tristner
 Tristnereck
 Tritachkogel
-Trittferner
 Tritthalm
 Trittings
 Trittkopf
@@ -43133,7 +43035,6 @@ Turm
 Turmalpe
 Turmberg
 Turmfalk
-Turmferner
 Turmferner See
 Turmkogel
 Turmmauer
@@ -43170,7 +43071,6 @@ Tux
 Tuxbach
 Tuxeck
 Tuxeggbach
-Tuxer Ferner
 Tuxerbachlaue
 Tuxertal
 Tuzakbach
@@ -43290,6 +43190,7 @@ Ugendorf
 Uggl
 Uggowitz
 Uggowitzerbach
+Ugnerblanken
 Uhlsee
 Uhramacherstöbili
 Uhramachertobelbach
@@ -43336,7 +43237,6 @@ Ulve
 Ulzkogel
 Umbach
 Umbachkogel
-Umbalkees
 Umbalköpfl
 Umbaltal
 Umberg
@@ -43595,6 +43495,7 @@ Unterer Eissee
 Unterer Eisstein
 Unterer Fochezkopf
 Unterer Gamprätzer Mühlbach
+Unterer Gamskarlsee
 Unterer Ganitzsee
 Unterer Geißlehnkogel
 Unterer Gerlos See
@@ -43666,7 +43567,6 @@ Unterer Tollingbach
 Unterer Tollinggraben
 Unterer Vallülabach
 Unterer Verlorener See
-Unterer Verpeilferner
 Unterer Wegesbühel
 Unterer Weiss-Teich
 Unterer Weizberg
@@ -43692,7 +43592,6 @@ Unterernsthofen
 Unterersackbodenbach
 Unteres Gailtal
 Unteres Gamskarköpfl
-Unteres Goldbergkees
 Unteres Gurktal
 Unteres Hahnpfalzköpfl
 Unteres Halltal
@@ -43700,7 +43599,6 @@ Unteres Heustadelwasser
 Unteres Kar
 Unteres Mühlwasser
 Unteres Pfarrertal
-Unteres Rifflkees
 Unteres Saalachtal
 Unteres Wasserreith Teich 1
 Unteres Wasserreith Teich 2
@@ -43773,6 +43671,7 @@ Untergrub
 Untergrünau
 Untergrünbach
 Untergrünburg
+Untergschmaier
 Untergschwend
 Untergschwendt
 Untergufer
@@ -44050,7 +43949,6 @@ Unterschmidbach
 Unterschnadt
 Unterschoderlee
 Unterschrammachbach
-Unterschrammachkees
 Unterschwand
 Unterschwandt
 Unterschwarza
@@ -44082,7 +43980,6 @@ Unterstockstall
 Unterstorcha
 Unterstossau
 Untersulzbach
-Untersulzbachkees
 Untersulzbachtal
 Untersunzing
 Untertal
@@ -44335,8 +44232,8 @@ Valzifenzer Turm
 Valzur
 Valüraalptöbele
 Valüratobelbach
+Valürner
 Vandans
-Vas vármegye
 Vasoldsberg
 Vassacher See
 Vastojatobel
@@ -44401,7 +44298,6 @@ Verbdg.Hellbrunnerbach Eschenbach
 Verbellabach
 Verbellakopf
 Verbellner Kopf
-Verborgen-Berg-Ferner
 Verborgene See
 Verborgener Pleiskopf
 Verborgenes Kar
@@ -44419,12 +44315,10 @@ Vergrößbach
 Vergrößsee
 Vergötschen
 Verhach
-Verhupfgletscher
 Verhupfspitze
 Verill
 Verjunsbach
 Verlorener Turm
-Verlorener-Weg-Schacht
 Verlosnitz
 Vermalentobelbach
 Vermalesbach
@@ -44541,9 +44435,9 @@ Vilseggbach
 Vilser Kegel
 Vilstal
 Viltragenbach
-Viltragenkees
 Vilzbach
 Vinaders
+Vinceljski vrh
 Virgen
 Virgental
 Virgloriatobel
@@ -44702,13 +44596,11 @@ Vordere Leier
 Vordere Lobspitze
 Vordere Mandling
 Vordere Michlbachspitze
-Vordere Mittertalkopf
 Vordere Platteinspitze
 Vordere Plattenkogelgräben
 Vordere Plattenspitze
 Vordere Rendlspitze
 Vordere Schmalzgrubenspitze
-Vordere Schnapfenkuchl
 Vordere Schwenzerspitze
 Vordere Sommerwand
 Vordere Sonnenwand
@@ -44788,6 +44680,7 @@ Vorderer Margreitergraben
 Vorderer Margreitergraben, Magreiderbach
 Vorderer Maurerkeeskopf
 Vorderer Miasigraben
+Vorderer Mittertalkopf
 Vorderer Murauerkopf
 Vorderer Mörsbach
 Vorderer Ofenkogel
@@ -44852,7 +44745,6 @@ Vorderes Brunneck
 Vorderes Edltal
 Vorderes Freieck
 Vorderes Hinterbergl
-Vorderes Kastenkees
 Vorderes Kreuzeck
 Vorderes Kreuzjoch
 Vorderes Köpfle
@@ -44930,7 +44822,6 @@ Vordersdorf
 Vordersdorfbach
 Vordersee
 Vorderseebach
-Vorderseeferner
 Vorderseegraben
 Vorderseekamp
 Vorderseespitze
@@ -44990,6 +44881,7 @@ Vorstanddorf
 Vorstattgraben
 Vorsterbach
 Vorsterbachtal
+Vorsässköpfle
 Vorsäß Berg
 Vorsäß Hammeratsberg
 Vorsäß Klausberg
@@ -45027,6 +44919,7 @@ Völser Au
 Völser Giessen
 Völser Gießen
 Völser Teich
+Völsersee-Siedlung
 Völsesgasse
 Völtendorf
 Vösendorf
@@ -45075,6 +44968,7 @@ Wachterbachl
 Wachterberg
 Wachthüttelgraben
 Wachthüttelturm
+Wachtkopf
 Wachtriegel
 Wachtstein
 Wackelstein
@@ -45154,7 +45048,6 @@ Waidmannsdorf
 Waidmannsfeld
 Waidrachbach
 Waidring
-Waidsfeldkees
 Waidtalbach
 Waier
 Waiern
@@ -45183,7 +45076,6 @@ Walchen
 Walchenbach
 Walchentaler Bach
 Walcher
-Walcher Kees
 Walcherbach
 Walcherbauer
 Walchererhöhe
@@ -45213,7 +45105,6 @@ Waldbachl
 Waldbad
 Waldbauernriegel
 Waldberg
-Waldbergkaarkees
 Waldbergkarkopf
 Waldboden
 Waldburg
@@ -45266,6 +45157,7 @@ Waldhäusl
 Waldhäusln
 Waldhüterbach
 Walding
+Waldinsel Burg
 Waldkapellengraben
 Waldkirchen am Wesen
 Waldkirchen an der Thaya
@@ -45447,8 +45339,8 @@ Wandelitzen
 Wandelitznerbach
 Wandeln
 Wanderlteich
+Wandfluh
 Wandgrabenbach
-Wandl
 Wandlkogel
 Wandritsch
 Wandschaml
@@ -45503,8 +45395,6 @@ Wappoltenreith
 Warant / Kačjak
 Warbach
 Warenbach
-Warenkarferner (Mitte)
-Warenkarferner (Ost)
 Warenkarseitenspitze
 Warleiten
 Warmanstadl
@@ -45595,7 +45485,6 @@ Wasseralmbach
 Wasserbachgrabl
 Wasserbauerkogel
 Wasserbecken
-Wasserbehälter Schmelz
 Wasserberg
 Wasserburg
 Wasserdobl
@@ -45606,14 +45495,12 @@ Wasserfallbach
 Wasserfallboden
 Wasserfallbächle
 Wasserfallenbach
-Wasserfallferner
 Wasserfallgraben
 Wasserfallgrabenbach
 Wasserfallhöhe
 Wasserfallkar
 Wasserfallkarspitze
 Wasserfallkarspitze Ostgipfel
-Wasserfallkees
 Wasserfallkogel
 Wasserfallrinne
 Wasserfallspitze
@@ -45680,7 +45567,6 @@ Wastl am Eck-Bach
 Wastlbachl
 Wastlbauergraben
 Wastlhöhe
-Wastlkarkees
 Watschenbach
 Watscherkogel
 Watschig
@@ -45693,7 +45579,6 @@ Wattens
 Wattenspitze
 Wattental
 Watzebach
-Watzeferner
 Watzek-Teichaqädukt
 Watzelsdorf
 Watzelsdorfer See
@@ -45711,7 +45596,6 @@ Waxenberg
 Waxeneck
 Waxenegg
 Waxriegel
-Wazebachferner
 Wazekopf
 Wazkogel
 Weberbach
@@ -45877,7 +45761,6 @@ Weigert
 Weigerthbach
 Weigetschlag
 Weigljebing
-Weiglkarkees
 Weiglkarkopf
 Weiglteich
 Weignersdorf
@@ -46088,7 +45971,6 @@ Weizeben
 Weizelsdorf
 Weizenau
 Weizmühlbach
-Weiß'n am Sattl
 Weißach
 Weißache
 Weißalmbach
@@ -46191,8 +46073,6 @@ Weißjackel
 Weißjacklberg
 Weißkarbach
 Weißkareggl
-Weißkarferner - Vedretta della Quaira Bianca
-Weißkarkees
 Weißkarklammbach
 Weißkarkogel
 Weißkarkopf
@@ -46214,6 +46094,7 @@ Weißmannbacherl-Nord
 Weißmauer
 Weißmaurachkogel
 Weißmühle
+Weißn am Sattl
 Weißnehnbach
 Weißofen
 Weißpriach
@@ -46236,7 +46117,6 @@ Weißwasser
 Weißwassergraben
 Weißwände
 Welgersdorf
-Welitzkees
 Wellachköpfe Nordgipfel 1
 Wellachköpfe Nordgipfel 2
 Wellachköpfe Südgipfel
@@ -46368,6 +46248,7 @@ Werschling
 Wertach
 Wertatscha / Vrtača
 Wertenau
+Werth
 Wertheim
 Wertschach
 Wesen
@@ -46385,13 +46266,11 @@ Westerachkopf
 Westerfrölkekogel
 Westl. Bankerjoch Spitz
 Westl. Liebener Spitze
-Westl. Sonntagskees
 Westliche Alpeilspitze
 Westliche Arbesthaulacke
 Westliche Dipplbauerbach
 Westliche Dobrowaspitze / Zahodni Oblič
 Westliche Eisentalerspitze
-Westliche Erlispitze
 Westliche Faulewandspitze
 Westliche Floitenspitze - Cima di Floite Ovest
 Westliche Fluhspitze
@@ -46436,10 +46315,10 @@ Westlicher Dinsendorferbach
 Westlicher Edelspitz
 Westlicher Eggartsbergbach
 Westlicher Eggenbuchergraben
-Westlicher Ferwallferner
 Westlicher Feuerstein - Montarso Occidentale
 Westlicher Fineilkopf - Punta dei Corvi occidentale
 Westlicher Finsterbachkopf
+Westlicher Gadnerkopf
 Westlicher Gartnerkofelturm
 Westlicher Gatterlkopf
 Westlicher Generalkogelbach
@@ -46452,7 +46331,6 @@ Westlicher Hochplattenkogel
 Westlicher Hofalmkogelbach
 Westlicher Hofgrabenbach
 Westlicher Häschlwaldbach
-Westlicher Jaidbachkees
 Westlicher Johanneskopf
 Westlicher Kannesbergbach
 Westlicher Kneißlbach
@@ -46480,21 +46358,19 @@ Westlicher Ruperlbach
 Westlicher Salzachgeier
 Westlicher Sauerleitenbach
 Westlicher Schafhimmelkopf
-Westlicher Scheiblehnferner
 Westlicher Schelterbach
 Westlicher Schrottergrabenbach
 Westlicher Seeblaskogel
 Westlicher Sonnenkogel
-Westlicher Sonntagskees
 Westlicher Valschavielerberg
 Westlicher Wildenbach
 Westlicher Wolfsgleidgraben
-Westliches Bärenkopfkees
 Westliches Dirndl
 Westliches Gamshorn
 Westliches Geiselhorn
+Westliches Klesenzahorn
 Westliches Reifhorn
-Westliches Stillupkees
+Westliches Törleck
 Westturm
 Wetschenbach
 Wetschenkopf
@@ -46626,7 +46502,6 @@ Wielandsberg
 Wielandsthal
 Wielen
 Wielingerbach
-Wielingerkees
 Wielingerkogel
 Wielings
 Wielingsbach
@@ -46702,7 +46577,6 @@ Wiesenauerbach
 Wiesenbach
 Wiesenbach (Thauabach)
 Wiesenbachl
-Wiesenbauer
 Wiesenbauerkogel
 Wiesenberg
 Wiesenegg
@@ -46788,7 +46662,6 @@ Wietrauner Bach
 Wietzen
 Wießgraben
 Wigasnitz
-Wiggis
 Wigretsberg
 Wildalmbach
 Wildalmkirchl
@@ -46874,7 +46747,6 @@ Wildgerlostal
 Wildgraben
 Wildgrabenbach
 Wildgrat
-Wildgratferner
 Wildgrube
 Wildgößl
 Wildhag
@@ -46883,7 +46755,6 @@ Wilding
 Wildinger Höhe
 Wildkarbach
 Wildkarhöhe
-Wildkarkees
 Wildkarkopf
 Wildkarlebach
 Wildkarsee
@@ -46892,7 +46763,6 @@ Wildkogel
 Wildkopf
 Wildlahner
 Wildlahnerbach
-Wildlahnerferner
 Wildlahnertal
 Wildlochhöhe
 Wildlochsee
@@ -46909,6 +46779,7 @@ Wildofen
 Wildon
 Wildoner Schloßberg
 Wildonerbach
+Wildpeischel
 Wildpfad
 Wildsauköpfel
 Wildschrofen
@@ -47115,7 +46986,6 @@ Winkelgraben
 Winkelgrabenbach
 Winkelheim
 Winkelkarbach
-Winkelkees
 Winkelkopf
 Winkelmahd
 Winkelmoosgraben
@@ -47478,11 +47348,12 @@ Woltenbach
 Woltenbach, Ramesgraben
 Woltschegraben
 Wonitschbach
-Woody's
+Woodys
 Wopfing
 Wopfinger Graben
 Wopfneralm
 Woppendorf
+Wordalebach
 Worfbach
 Wormakopf
 Worms
@@ -47496,6 +47367,7 @@ Wreschniggraben
 Wriesniggraben
 Wriesnigmühlbach
 Wrießnitz
+Wrießnitzbach
 Writzengraben
 Wschegraben
 Wuchern
@@ -47544,7 +47416,7 @@ Wurdach/Vrdi
 Wurfbach
 Wurfbachtal
 Wurfenthalgraben
-Wurfkees
+Wurfgraben
 Wurgerbach
 Wurlabach
 Wurmassing
@@ -47618,7 +47490,7 @@ Wälegraben
 Wände
 Wändkopf
 Wängle
-Wäsch'
+Wäsch
 Wäschaubach
 Wäschbach
 Wäschbachl
@@ -47710,7 +47582,7 @@ Wörzing
 Wöscher
 Wöschergarten
 Wösendorf
-Wösterkopf
+Wösterhorn
 Wötzing
 Wötzling
 Wüestetobel
@@ -47745,7 +47617,6 @@ Wüstebach
 Wüstetobelbach
 Wüstnagelkogel
 Wütenbach
-Wütenkarferner
 Xaveriberg
 Yachthafen Bregenz
 Yachthafen Kuchelau
@@ -47884,6 +47755,7 @@ Zauchen
 Zauchen/Suha
 Zauchenbach
 Zauchensee
+Zauchhof
 Zauching
 Zauchner Bach
 Zauchtal
@@ -48225,7 +48097,6 @@ Zillerbach
 Zillergrund
 Zillergründl
 Zillerkarbach
-Zillerkees
 Zillerkopf
 Zillerplattenspitze
 Zillerspitze
@@ -48454,6 +48325,7 @@ Zubringer
 Zubringer Auf der Preggam
 Zubringer Bettlergraben
 Zubringer Feuerbachl Feffernitz
+Zubringer Jetzingerdorfer Bach
 Zubringer Josefbach
 Zubringer Kleinfresachbach
 Zubringer Möstlbach
@@ -48498,6 +48370,7 @@ Zulissen
 Zulüssberg
 Zum Ziegelofen
 Zunagl
+Zundernakopf
 Zunftmühlbach
 Zungatobelbach
 Zunigalm
@@ -48541,6 +48414,7 @@ Zweinitzbach
 Zweintscherbach
 Zweitausender
 Zweite Grebenzenhöhe
+Zweite Kreuzspitz
 Zweiter Klingelbach
 Zweiter Weiher
 Zweizeiger
@@ -48717,8 +48591,9 @@ alter Schwarzaubach
 auf der Ebm
 auf der Luch
 bach
+c
 der Gupferte
-die G'spitzte
+die Gspitzte
 ehem. Altabach
 ehem. Steinbruch Gloxwald
 ehem. Werksbad
@@ -48736,11 +48611,10 @@ kleiner Strudel
 kleiner Zlanbach / Schindergrabenbach
 lacke
 marktbrunnen
-oberer Sommerwandsee
 runde Lacke
-s' Türele
-s'Gspitzerat
-s'Kuppal
+s Türele
+sGspitzerat
+sKuppal
 schwarze Lackn
 schwimmteich
 schöne Aussicht
@@ -48754,12 +48628,13 @@ water_hazard
 waterslide
 westl. Häschlwaldbach
 wörgetalbach
-Äckerlekopf
 Äfintobel
 Ägydibach
 Ährengraben
+Älbalas Köpfla
 Älpelebach
 Älpelegraben
+Älpelekopf
 Älpelesbach
 Älpelesspitze
 Älpeletal
@@ -48985,12 +48860,11 @@ wörgetalbach
 Östlicher Daunkogel
 Östlicher Dipplbauerbach
 Östlicher Edelspitz
-Östlicher Eisentaler Gletscher
 Östlicher Elferturm
-Östlicher Ferwallferner
 Östlicher Feuerstein - Montarso Orientale
 Östlicher Fineilkopf
 Östlicher Finsterbachkopf
+Östlicher Gadnerkopf
 Östlicher Gamskogel
 Östlicher Gartnerkofelturm
 Östlicher Gatterlkopf
@@ -49032,17 +48906,16 @@ wörgetalbach
 Östlicher Schrottergrabenbach
 Östlicher Semmelweisgraben
 Östlicher Sonnenkogel
-Östlicher Sonntagskees
 Östlicher Tannkogelgraben
 Östlicher Valschavielberg
 ÖstlicherQuellbach
-Östliches Bärenkopfkees
 Östliches Dirndl
 Östliches Gamshorn
+Östliches Klesenzahorn
 Östliches Kreuzjoch
 Östliches Reifhorn
 Östliches Rothorn
-Östliches Stillupkees
+Östliches Törleck
 Ötschenriegel
 Ötscher
 Ötscheranger
@@ -49082,7 +48955,6 @@ wörgetalbach
 Überfuhr
 Übergangrotte
 Übergangshöhe
-Übergossene Alm
 Übering
 Überlandteich
 Überlauf Kraftwerk Opponitz

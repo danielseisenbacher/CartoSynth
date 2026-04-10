@@ -1,10 +1,10 @@
 import os
 import uuid
 from svgpathtools import svg2paths, wsvg, Path, Line, CubicBezier, parse_path
-from shapely.geometry import MultiPoint
 import subprocess
 import xml.etree.ElementTree as ET
 import numpy as np
+import sys
 from scipy.special import comb as n_over_k
 from scipy.optimize import minimize_scalar
 
@@ -38,6 +38,7 @@ def glyphs_to_paths(svg_with_glyphs: str) -> str:
         f'export-do"',
         shell=True
     )
+
     return svg_with_glyph_paths
 
 
@@ -49,6 +50,7 @@ def match_text_to_path_id(svg_with_glyph_paths: str, glyph_to_path_reference:dic
     """
     # Parse SVG
     tree = ET.parse(svg_with_glyph_paths)
+    #print(svg_with_glyph_paths)
     root = tree.getroot()
 
     svg_ns = '{http://www.w3.org/2000/svg}'
@@ -70,22 +72,28 @@ def match_text_to_path_id(svg_with_glyph_paths: str, glyph_to_path_reference:dic
         path_reference[path_xml.get('id')] = bezier_points
 
 
-    # Build a mapping: path_id -> aria-label of parent group
+    # Build a mapping: path_id -> data-text-label of parent group
     text_relation = []
     for g in root.iter(f'{svg_ns}g'):
-        label = g.get('aria-label', None)
+        label = g.get('data-text', None)
+        
         if label is None:
             continue
+
+        #print(label)
 
         path_nrs = []
         for count, path_elem in enumerate(g.iter(f'{svg_ns}path')):
             path_id = path_elem.get('id', '<no-id>')
             path_nrs.append(path_id)
 
+        #print(path_nrs)
 
         # treat each word separately, to be able to create fitting bbox later
         text_part = []
         count = 0
+
+        #print(path_reference)
         for word in label.split(" "):
             for letter in word:
                 text_part.append({"path_id": path_nrs[count], "letter": letter, "bezier_ref": glyph_to_path_reference[path_nrs[count]]})
@@ -342,6 +350,8 @@ def draw_letter_bbox(paths: list, attributes: list, text_relation_dict: dict):
                 "stroke-width": "0.2"
             })
 
+    return paths, attributes
+
 
 def fit_cubic_bezier(text_relation: list) -> dict:
     """
@@ -526,17 +536,18 @@ def draw_bbox_rectangles(paths: list, attributes: list, text_relation_dict: dict
     return paths, attributes
 
 
-def save_svg(svg_with_glyph_paths: str, text_relation_dict: dict, draw_and_save_result=True):
+def save_annotation_svg(svg_with_glyph_paths: str, text_relation_dict: dict, draw_and_save_result=True):
     # Draw bounding box outlines per word
     paths, attributes = svg2paths(svg_with_glyph_paths)
 
-    draw_polygon_outline(paths, attributes, text_relation_dict)
 
-    draw_upper_and_lower_bezier(paths, attributes, text_relation_dict)
+    paths, attributes = draw_polygon_outline(paths, attributes, text_relation_dict)
 
-    draw_bbox_rectangles(paths, attributes, text_relation_dict)
+    paths, attributes = draw_upper_and_lower_bezier(paths, attributes, text_relation_dict)
 
-    draw_letter_bbox(paths, attributes, text_relation_dict)
+    paths, attributes = draw_bbox_rectangles(paths, attributes, text_relation_dict)
+
+    paths, attributes = draw_letter_bbox(paths, attributes, text_relation_dict)
 
     # save the annotated file
     svg_annotated_file = os.path.join(svg_annotated_dir, os.path.basename(svg_with_glyph_paths))
@@ -556,10 +567,12 @@ def build_bezier() -> dict:
 
     # annotate each file in svg with glyphs dir
     for file in os.listdir(svg_with_glyphs_dir):
+        print(f"Processing file {file}...")
         if not file.endswith(".svg"):
             print(f"Ignoring {file}")
 
         svg_with_glyph_paths = glyphs_to_paths(os.path.join(svg_with_glyphs_dir, file))
+        print("svg to path done")
 
         glyph_to_path_reference = glyph_bezier_reference(svg_with_glyph_paths)
 
@@ -569,7 +582,7 @@ def build_bezier() -> dict:
 
         text_relation_dict = fit_cubic_bezier(text_relation)
 
-        save_svg(svg_with_glyph_paths, text_relation_dict, draw_and_save_result=True)
+        save_annotation_svg(svg_with_glyph_paths, text_relation_dict, draw_and_save_result=True)
 
         bezier_dict[file] = text_relation_dict
 
