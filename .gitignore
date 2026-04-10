@@ -9,6 +9,7 @@ __pycache__/
 fonts/png_fonts/
 fonts/svg_fonts/
 fonts/tiff_fonts/
+map_templates/
 
 # Generated Synth Maps & annotation visualization
 synth_maps/
