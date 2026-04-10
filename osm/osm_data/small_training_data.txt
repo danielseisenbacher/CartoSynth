@@ -1,845 +1,3207 @@
-Almatontobelbach
-Wengergraben
-Doserbach
-Buttergupf
-Pontniger Bach
-Speicher Plettsauberg
-Fotscher Ferner
-Zelli
-Schmallüsse
-Kimleinsdorf
-Wald Schlosspark Mattighofen
-Heldenberg
-St. Georgen an der Gusen
-Steiniger Graben
-Roßbach
-Hintere Jamspitze
-Hornköpfl
-Engeltal
-Neustift im Stubaital
-Hagenbachklamm
-Pleschutz
-Halsband-Wehrvogel
-Trastalbach
-Jägergraben
-Atterkarferner
-Geburtstagsinsel
-Tuscherberg
-Oberer Alpguessee
-Gobelsburger Lößgraben
-Pernitz
-Feldbach
-Wienerwald
-Aurach bei Kitzbühel
-Nachklärbecken 4
-Loretto
-Fuscher Lacke
-Pillertal
-Flattnitzer See
-Kreut
-Gallruttferner
-Lenau Insel
-Stübingtal
-Wasserfallferner
-Kleines Höllental
-Rast
-marktbrunnen
-Vordere Gubachspitze
-Knotenspitzferner
-Eiskeller
-Furmente Kogel
-Libonbach
-Adam und Eva
-Grünsbacher Dorfbrunnen
-Großer Warschenberg
-Beileitung Göß Nord
-Lingheim
-Rohrwiesteich
-Hasenkarkees
-Zammer Dorfbach
-Blutsgraben
-Kurteich
-Steinstraß
-Mutterbergtal
-Rohrenreithbach
-Futschölferner
-Dorotheer Wald
-Hangler Graben
-Penken
-Grantenkogel
-Eisnerkogel
-Weißkirchen an der Traun
-Lassacher Kees
-Windbachtalkogel
-Anraser See
-Traboch
-Brandstadl
-Alte Schanze IX
-Hochglegt
-Oberdavidgraben
-Kraiger See
-Kleinzlaimkögerlgraben
-Steinbruchteich
-Gerstkopf
-Grieskogelferner
-Krapfenkarwald
-Biotop St. Marein
-Gemsteltal
-Hupfau
-Federbettkees
-Bärendumpfbach
-Torkofel
-Turmferner
-Schönlarch
-Kandlgraben
-"Tschwarzner Bach"
-Neuberg im Burgenland/Nova Gora
-Äußere Ragnitz
-Schönteich
-Hochjochferner
-Tischlerkarkees
-Klettergarten Spiegelstein
-Dachsteinblick
-Grüne Wand - Croda Verde
-Bruchen
-Paradeisinsel
-Zinkatobelbach
-Abenteuerspielplatz Rum
-Grabenhofenteich
-Jagereck
-Großer Küchlferner
-Rotgüldenkees
-Roßkarferner
-Weingartgraben
-Weichsberg
-Rifflferner
-Grubtalgraben
-Kristallspitzl
-Taxköpfl
-Rumplerseelein
-Filzsee
-Martinskreuz
-Kälberspitzkees
-Steiniglehnferner
-Liebesinsel
-Lackenberg
-Großfleißkees
-Wölbling
-Getzenbächle
-Falbesoner Knotenferner
-Bodenfilter Alte Donau
-Fischteich Lech
-Kuhscheibenferner
-Pfunds
-Lanzingbach
-Rötenkogel
-Scheffau am Tennengebirge
-Pfaffenferner
-Schindergraben
-Madatschferner
-Schwarzachtal
-Bannwald
-Brunedt
-Linden-Ensemble bei der Dorfkirche St. Ulrich
-Mühlreith
-Bregenz
-ehemaliger Mühlgraben
-Gurgler Ferner
-Kramerkogel
-Radendorf
-Altau
-Glanfurt
-Winkelteich
-Glöcknerin
-Hausleitenbach
-Höllwand
-Aukopf
-Ferrenberg
-Kleiner Nörderberg
-Lussensee
-Untere Kibitzteich
-Timmeltal
-Hinterer Ölgrubenferner
-Irgerstetten
-Reißeck
-Hohe Lacke
-Wildensteiner Bach
-Großer Weiher
-Rheinholz
-Seckau
-Wiesmaiern
-Langer Berg
-Jihočeský kraj
-Eiskar
-Rauchmäuergraben
-Gliegerkar
-Schwarzföhren
-Oberwiesalm
-Nördliches Bockkarkees
-Böser Graben
-Neururer Ferner
-Ebenbach
-Merzeder
-Vorderriffl
-Erlauf
-Fermersbach
-Offenhausen
-Waldzell
-Kurzenkirchen
-Stallental
-Bezirk Murau
-Wald
-Trippkees
-Grambach
-Schlögener Schlinge
-Timok´s water games
-Hundsschlucht
-Kelderer
-Oberndorf in Tirol
-Fletschberg Graben
-Wütenkarferner
-Abfaltersbach
-Blaßkogel
-Wurzköpfe
-Flachau
-Vogelschutzallee
-Reinersdorf Bergen
-St. Georgen Törl
-Biotop Breitenweg
-Prottes
-Hainzenberg
-Ebenau
-Teschengraben
-Bezirk Tamsweg
-Simonykees
-Mannlestal
-Bach von Wieserhöhe
-Lenzenkogel
-Schwarzköpflkees
-Dreihöf
-Rohr bei Hartberg
-Drei Könige
-Alpeiner Kräulferner
-Michelirlingsee
-Leibmerbach
-Auenfeldwanne
-Wielingerkees
-Sankt Martin am Tennengebirge
-Mittlerer Murauerkopf
-Zillkogel
-Taferlklaussee
-Welten
-Landauersee
-Eichergraben
-Brandstrattgraben
-Strimitzenbach
-Kraftplatz Liebinger Kastanienbäume
-Grafenbach-St. Valentin
-Schoberkees
-Arbesbach
-Loferer Hochtal
-Völser Au
-Dietersdorf bei Fürstenfeld
-Kapuzinerinsel
-Habring
-Thurnbichlbach
-Garaneberkees
-Senheitelbach
-Rötgraben
-Westliches Bärenkopfkees
-Vordere Schnapfenkuchl
-Eckberg
-Östlicher Hackenkopf
-Platte
-Westlicher Ferwallferner
-Weißkarferner - Vedretta della Quaira Bianca
-St. Marienkirchen am Hausruck
-Edt bei Lambach
-Utzeneck
-Prügelgraben
-Reinprechtbach
-Seiter Ferner
-Hüttenbichl
-Natschbach-Loipersbach
-Südlicher Puitkogelferner
-Unternberg
-Aperer Feuerstein
-Brandnerbach
-Siedelfeld
-Hochalptal
-Schallautzer Graben
-Schatzinsel
-Edelteich
-Pollestal
-Zwölfergrat
-Prititschkees
-Oberhofteich
-Söll
-Götzendorf an der Leitha
-Naturwaldreservat Johannser Kogel
-Schottergrube
-Hinterkarsee
-Rustbach
-Sandbodenkees
-Schlufgrabenbach
-Haarhausgraben
-Hirm
-Brunnenschutzgebiet
-Lüsener Villerspitze
-Liebmannsee
-Großes Wolfstal
-Dornparz
-Riedersdorf
-Hansjörglgraben
-Laperwitzkees
-Maderneratälibach
-Raingraben
-Unterer Rupaninsee
-Hengstberg
-Hartriegel
-Moargraben
-Mautern in Steiermark
-Traxlerwald
-Innervillgraten
-Stierlahnzug
-Winkelkees
-Hohenau an der March
-Verlorener-Weg-Schacht
-Straß in Steiermark
-Gunersdorf
-Pregartenteich
-Schareckkees
-Westliche Arbesthaulacke
-Landeggkees
-Ramolferner
-Bad Kreuzen
-Gebhardsberg
-Unterer Tollinggraben
-Jantschergraben
-Römerzeitliches Gräberfeld
-Thalgau
-Geigentaler Lacke
-Anlauftal
-Windschutzgürtel
-Schöttnerspitze
-Assingergraben
-Weikersdorf am Steinfelde
-Salzbach
-Roßgraben
-Hollensteingraben
-Kleinwalsertal
-Fallerbach
-Längentaler Ferner
-Friesenbach
-Schaftersbach
-Grünkar
-Reichenkarferner
-Altenmarkt im Pongau
-Sonnblickkees
-Gamlitzberg
-Fadental
-Wintergraben
-Mörchnerkees
-Brunnentobel
-Schmiedingerkees
-Sepplberg
-Ilzbach Au
-Stans
-Taulingbach
-Mieseltal
-Seebensee
-Dombachgraben
-Tribbachkees - Vedretta Rio Torbo
-Freßnitzgraben
-Knappenkarsee
-Hochmoosferner
-Oberrabnitz
-Mörbisch am See
-Mistelkogel
-Zell an der Pram
-Podersdorf am See
-Umbalkees
-Urgsee
-Wildental
-Pichlingkogel
-Seiwald Teich
-Östlicher Eisentaler Gletscher
-Kleinglocknerkees
-Prinz-Schönburg-Felsen
-Malfrosnitzkees
-Schwabened
-Rether Kopf
-Erl
-Baggersee Liefering 6
-Badeteich Bad Zell
-Weiden am alten Graben
-Schlapperebenkees
-Hennebergferner
-Wald der Ewigkeit
-Bezirk Bludenz
-Peischelkar
-Sauerbichl
-Nußbach
-Schoßbach
-Hochebenferner
-Schötalwald
-Grillenberggraben
-Krimmlertörlkees
-Grippkopf
-Brennkogelkees
-Unterdürnbach
-Dürrgraben
-Flirscher Ferner
-Hausmanning
-Maria Aich
-Brunnen am Kornsteinplatz
-Ploderferner
-Großstadt-Dschungel
-Hölltalferner
-Kupferleiten
-Yachthafen Kuchelau
-Nußdorf ob der Traisen
-Mitterarnsdorf
-Kroisbach
-Rosskar
-Kaiserteich
-Lahnstein
-Gamskar
-Rederinsel
-Grafferner - Vedretta della Grava
-Ötztal
-Holetzgraben
-Waldpoint
-Prattsdorf
-Mitterberger Latschenfeld
-Karlstein an der Thaya
-Tulbing
-Hahnköpfl
-Falkertköpfl
-Schwarzenberg am Böhmerwald
-Uferrückbau Witzelsdorf
-Hippler Kogel
-Kohlental
-Lämmerhof
-Frauenkirchen
-Pfons
-Hochgletscher
-Hungerbichlbach
-Ferndorf
-Meilbrunnen
-Drasinger Teich
-Sooß
-Fruschnitzkees
-Gamsbeil
-Amphibienteich
-Wolfsberg
-Enzersdorferbach
-Liebenau
-Rosenberg
-Weiglteich
-Speicherteich Viderböden
-Rinnwald
-Marienbründl
-Wasserkargraben
-Wastlkarkees
-Hirschgrabenbach
-Fisch
-Gleinstätten
-Vorderseeferner
-Griminitzenbach
-Schlosserbergsee
-Hafnersee
-Neuzeltweg
-Muarlwald
-Moarigraben
-Furstenwald
-Koglerberg
-Hochmahd
-Hüttenmühle
-Moosbach
-1. Lauskopf
-Vorderschneeberg
-Hierzegg
-Gleißnerhof
-Pukartbach
-Berger Kees
-Aupark
-Unterer Muttler
-Ködnitztal
-Niederbach
-Rauris
-Hohe Drage
-Kletzlberg
-Rote Wand Gletscher
-Großer Kesselgraben
-Tschurkenbach
-Deutsche Thaya
-Rötkarlferner
-Stückl
-'Unterer' Gamskarlsee
-Kukmirn
-Jaglgraben
-Penggen
-Muhskopf
-Trockenbachtal
-Vermuntbach
-Schutzwald
-Hundsheimer Insel
-Purgstall bei Eggersdorf
-Wandelitznerbach
-Bergsee Angerer Alm
-Grosssee
-Hermannskarsee
-Lessachtal
-Kapfenberg
-Pfaffenbergteich
-Hohe Heide
-Überleitungsstollen Turrachbach
-Sterrisbach
-Hoher Nachtzödl
-Fuchshofen
-Säuischbachferner
-Floitengrund
-Westlicher Scheiblehnferner
-Mitterkarferner
-Soibniggbach
-Gabersbach
-Scheiterboden
-Kleinarl
-Scheibenbauerteich
-Napfe
-Rebischkogel
-Grießkogelkees
-Kahlkopf
-Schwarzbachl
-Vorwitzbach
-Schwerteckkees
-Schmeißerkogel
-Berlgraben
-Östlicher Sonntagskees
-Kleindorf
-Altweidling
-Schärftal
-Bötzledt
-Östliches Stillupkees
-Lechnermauernkar
-Zireiner See
-Hochschrutte
-Oberer Rosenhofer Teich
-Pischeldorfer Teich
-Auf der Wiese
-Welitzkees
-Hinterer Schneegraben
-Karwendelbach
-Abretterkees
-Steiberhöhe
-Kitzkogel
-Kleinbodengraben
-Fernerstube
-Haslach an der Mühl
-Heidberg
-Bartholomäberg
-Zillergründl
-Padreilferner
-Hankham
-Unterschrammachkees
-Niederjöchl
-Kristeinertal
-Radelsbach
-Badesee Burg
-Schallenberg
-Gurglitzen
-Kreuzteich
-Radischer Becken
-Märchenwald
-Grüblferner
-Im Satz
-Radstadt
-Speicherteich Gschwandtkopf
-St. Stefan-Afiesl
-Sieggraben
-Itlsee
-Hintere Schnapfenkuchl
-Bumsenkar
-Stampfen
-Sprungbach
-Orkopf
-Alberndorf in der Riedmark
-Pinnisferner
-Grieskirchen
-Neuhofen an der Krems
-Nedersee
-Paschbach
-Klaustalgraben
-Grafenschachen
-Schweikertferner
-Heuschupfenwaldl
-Kraithgraben
-Auwald
-Kappelberg
-Mieming
-Großer Hafner
-Pasterze
-Hohenwartkees
-Bodendorfer Wald
-Simongraben
-Thallham
-Schlossbühel
-Kohlaicherbach
-Übersaxen
-Gschwandt
-Mayerhöfen
-Millenniumswald am Schafpferch
-Weißhorn
-Bergliskopf
-Talergraben
-Bödensee
-Gemeindewald Neuseiersberg
-Hochwasserbecken
-Kuratkogel / Tomažičev vrh
-Kiental
-Lassein
-Plangeroßferner
-Habichtferner
-Forchet
-Eigelsberg
-Schönetalbach
-Kratzenberggletscher
-Stockferner
-Röhrmoosmühle
-Roter Turm
-Naasbach
-Leoben
-Eislaufteich
-Stuppacher Au
-Hirschstetten
-Aalfang
-Ober-Rauhekopf
-Kraftwerkskanal Schreier KG Seehof
-Feistritzer Stausee
-Schmalzhofen
-Südliche Zwickspitze
-Stroppitzberg
-Almhofgraben
-Fürstenplan
-Freibad St. Ulrich am Waasen
-Almeskogel
-Plattengletscher
-Goldzechkees
-Rastalbach
-Birkfeld
-Aldrian See
-Koppersau
+Kluppeggbach
+Plainfeld
+Kneippanlage
+Hoferbergbach
+Hohe Mais
+Mondsee
+Prailing
+Altmannsberg
+Schrottisgraben
+Loipersdorf-Kitzladen
+Reith bei Kitzbühel
+Lainkarlacke
+Zigöllerkogel
+Wangenitzbach
+Eichhornruhe
+Rossbergbach
+Teichalmsee
+Bad Hall
+Langgraben
+L8
+Silbersee
+Reinbach
+Beim Roten Wasser
+Hüttabach
+Löberteich
+Türnitz
+Steinkastal
+Bühren
+Eibelesee
+Altenberg bei Linz
+Thaurer Zunterkopf
+Speichersee Kaiserburg
+Melchartboden
+Kleines Übeltal
+Höhenstein
+Komitatskanal
+Rittscheinberg
+Sonntagskarspitz
 Arktischer Wolf
-Schwarzriegel
-Sankt Ilgen
-Oberwinkl Kees
-Wazebachferner
-Sandinggraben
-Quellschutzgebiet
-Schreilberg
-Großer Jaidbachkees
-Innerer Pirchlkarferner
-Reitbauergraben
-Holzwiese
-Sankt Ulrich am Pillersee
-Angern an der March
-Heidwald
-Sandfangteich
-Ritzenspitzen
-Matscher Ferner - Ghiacciaio di Mazia
-Walcher Kees
-Blachfelder Gießen
-Schollach
-Wasenspitze
-Kleiner Neuteich
-Hasloberteich
-Ursch Bichl
-Zuppatgraben
-Nibelungengau
-Wölzing - Fischering
-Neueßlinger Wald
-Kleiner Kuchenferner
-Verborgen-Berg-Ferner
-Rießtal
-Wagna
-Kromer Gletscher
-Kl. Jaidbachkees
-Mannersdorf an der Rabnitz
-Farfel
-Helmkasuar
-Speichersee Strohsack
-Gauninger Holz
-Hohengaß
-Grüngürtel
-Schernerskopf
-Seppenröth
-Muschenferner
-Kathelgraben
-Höfer See
-Boxhofen
-Venser Tobel
-Wirl
-Steinhaus
-Pölla
-Gurgler Tal
-Löhnersbachgraben
-Abfaltersbachgraben
-Oichtenbach
-Eckhäuser
-Vorderer Bodensee
-Riederhofbach
-Wolfsbrunnbach
-Steergraben
-Getschnerferner
-Groß Sierning
-Kalcherbach
-Kleines Schareck
-Gsallferner
-Karbühel
-Fimbatal
-Starkenberger See
-Ebener Kees
-Ringwall
-Syhrnbach
-Kaibing
-Gschwandferner
-Tschaneck
-Insel
-Wernerbach
-Trinkwasser-Hochbehälter
-Unterkiesling
-Teischnitzkees
-Ofental
-Buch in Tirol
-Sonnenpleis
-Gattendorf
-Wannesee
-Klockerkarkees
-Moalandlsee
-Eisgarn
-Gufeltalbach
-Spitz Christi
-Meurersteig Graben
-Sonnensee
-Straßmühle
-Windhaag bei Perg
-Daberkees
-Unterrothenbuch
-Eschenbrunngraben
-Pisesbach
-Schwarzensteinkees
-Schochenalptal
-Wörgltal
-Hiefelrinne
-Ottilienkogel
-Hermannskar
-Saugraben
-Gerasdorf am Steinfeld
-Seebachferner
-Kainzenkarkees
-Sankt Jakob in Defereggen
-Igelbach
-Schneekarl
-Pfaffenschlagbach
-Schwarzmilzsee
-Oberes Murtal
-Wechselriegel
-Ostbecken
-Hundsheim
-Grasleitenkees
-Gleirscher Ferner
+Penzenbach
+Großriedenthal
+Pians
+Fischerhütten Teich
+Zieglerteich
+Schützenberg
+Großstadt-Dschungel
+Hallwang
+Riedfeldbach
+Dorfbeuern
+Kleinerberg
+Vorteilberg
+Maria Saal
+Obertrattbach
+Wiener Pforte
+Jenseits
+Oberbergtal
+Gretscher See
+Scheffau am Tennengebirge
+Gemeindewald Neuseiersberg
 Viehhofen
-Weilbach
-Larchkopf
-Regenüberlaufbecken Kundl
-Loisinggraben
-Stellenkopf
-Südlicher Torsteingletscher
-Nandlgraben
-Lehnerferner
-Unterer Granaswaldbach
-Rückhaltebecken Urscha
-Bockkoglferner
-Oberer Goldbergkees
-Polltalferner
-Märchensee
-Oberes Goldbergkees
+Neueßlinger Wald
+Schattauerberg
+Ragginger See
+Tillmitsch
+Kälbersee
+Orthofgraben
+Kotzgraben
+Kirchplatzl
+Krottenhofteich
+Kreuzleitenberg
+Wallmühlebach
+Sauangerkogel
+Floing
+Lenzgraben
+Planklacke
+Brandlgraben
+Haselsteinwand
+Schlumtal
+Wullersdorf
+Egelseebach
+Hinterer Signalkogel
+Seebligasee
+Hohe Sieg
+Waldinsel Burg
+Lienzer Talboden
+Schweineck
+Kaltwassergraben
+Sünser See
+Gratzerbach
+Nebenhorn
+Großer Hiefler
+Kierlingtal
+Pfaffenstegteich
+Ramgraben
+Atzbach
+Neidthäuser
+Rottal
+Scheibleck
+Schaumburgergrund
+Brendlsee
+Öllschützen Stausee
+Lieser
+Hirtenberg
+Derrental
+Zwillingskogel
 Aschach an der Steyr
-Rajoken
-Brunnenkar
-Friesenbergkees
+Somspitze
+Wiel
+Anif
+Mairhof
+Heukareck
+Mentenkarspitze
+Weidenlacke
+Lerchkogel
+Preliebl
+Burgbichl
+Hinterhornbach
+Untertalbach
+Gamitzberg
+Hollermaißhorn
+Untervisnitz
+Hinterglemmtal
+Stubachtal
+Nördlicher Moränenbach
+Wang
+Langenlois
+Siebenaich
+Ernsdorfer Teich
+Neukirchen bei Lambach
+Steinklamm
+Krahstein
+Klafferkogelsee
+Oberhaggengraben
+Gschleirsbach
+Überackern
+Bengental
+Webersberg
+Lackenkarzipf
+Gewässerschutzanlage (GSA)
+Brunner See
+Zellerkogel
+Kräuterbach
+Weppersdorf
+Oberer Rötschgraben
+See 6
+Parschalling
+Pyringer Höhe
+Siedlung Südost
+Andreasteich
+Schauerbach
+Steiniger Graben
+Wiesengraben
+Prameter Badesee
+Stackelberg
+Feichtenbach
+Sandleiten
+Oberes Murtal
+Gänshof
+Hof bei Salzburg
+Forstboden
+Ebeneck
+Badeteich Raxendorf
+Vella
+Freiger See
+Merangraben
+Schandorf/Čemba
+Gossenköllesee
+Mittleres Streicheck
+Mühlparz
+Klopfteich
+Görtschitztal
+Oberetnisch
+Rierersee
+Großer Wildenkogel
+Herrmannsgraben
+water_hazard
+Kleine Rotspitze
+Meislgraben
+Wiesenschneidergraben
+Wintergraben
+Weitenberg
+Mitterstockstall
+Kögerlegg
+Ginegg
+Marktwasser
+Kuchling
+Schacherdorf
+Kölldorfer Bach
+Zeigelberggraben
+Kristeinertal
+Vordertullnberg
+St. Jakob im Walde
+Gamsgraben
+Polln
+Hölzlkogel
+Rohrenreithbach
+Größteich
+Schwaigergrabenbach
+Kuhriegel
+Wagersfeld
+Adlitzgraben
+Lange Lacke
+Dietrichsbach
+Hochgletscherwanne
+Scheibenlacke
+Steubach
+Innerer Rendlbach
+Schusterkogel
+Hexenbühelbach
+Wädelebach
+Kupferleiten
+Schmittental
+Hessendorf
+Seeleiten
+Hainburger Pforte
+Schlehaiderbach
+Pamžev špic
+Parkteich
+Köstendorf
+Vinceljski vrh
+Kaltenbachteich
+Petersdorfer Bach
+Siedelfeld
+Runse Semlach
+Hart ob Hacking
+Elsenau
+Wirfling
+Nordöstlicher Peternschartenkopf Südwest-Gipfel
+Horitschon
+Priessnitzteich
+Fuscher Lacke
+Eckerstorf
+Fließ
+Münichwaldbach
+Röthelstein
+Gäßwasaschpitz
+Veitschbach
+Fischteich Bad Laterns
+Spielkogel
+Wernersdorf
+Bruck an der Mur
+Aggsbach
+Gaisbergteich
+Pischingbach
+Ludweis-Aigen
+Karres
+Miragraben
+Wurfbachtal
+Bruchtal
+Wildental
+Schmollbauerbach
+Kesselkeessee
+Wienerleiten
+Fissladkopf
+Stierlahnzug
+Scharnstein
+Langermanngraben
+Aurach am Hongar
+Rauschelesee
+Lužný potok
+Schleuse Persenbeug
+St. Georgen am Reith
+Kirningstein
+Kroisgrabenbach
+Bierbaum an der Safen
+Eckskopf
+Oberschlierbach
+Roßkopf
+Millenniumswald am Schafpferch
+Kampelgraben
+Hochspeicher Häuselberg
+Platzl
+Sistrans
+Wilder Gehren
+Rahof
+Saupanzen
+Hirschbergergraben
+Zone B - Fischen
+Egellacke
+Großaubach
+Runse
+Lanerberg
+Sulzergraben
+Pós-patak
+Dornparz
+Rückhaltebecken Klingerkreuz
+Ötzgraben
+Blöttenbach
+Teinberg
+Draxlergraben
+Taler Bach
+Eisenstadt
+Feldkirchen in Kärnten
+Gmezuggraben
+Salzach Seitenarm
+Schwerbach
+Egger
+Weiden am alten Graben
+Werninggraben
+Fontanella
+Laab im Walde
+Zeiler Teich
+Vösendorf
+Großer Paarsee
+Lobendorfer
+Hohe Aifnerspitze
+Hochfeistritzbach
+Mullwegbach
+Dorfer Tal
+Resch Jörgl Graben
+Altenmarkt an der Triesting
+Kranzlhofen
+Speicherteich Sulzstich
+Gurgltal
+Mur Altarm Kalsdorf
+Schotterteich Neuschloß
+Heidwald
+Wendkopf
+Werndorf
+Kleinfelgitschbach
+Leutaschklamm
+Dornbirn
+Pinnersdorfer Bach
+Großer Eisnerbach
+Irblinggraben
+Kanal Kraftwerk Holzrichter
+Reith bei Seefeld
+Neubing
+Bach von Fels
+Wildbach Auffangbecken
+Eggern
+Lunzen
+Umundumkogel
+Jasen
+Klein-Schollach
+Flachauwinkl
+Ehrichspitze
+Puittal
+Kühwiesgraben
+Mehlsack
+Krottenthal
+Toifler
+Blumau-Neurißhof
+Dürrwaldbach
+Abspann
+Langen bei Bregenz
+Haderberg
+Geschriebenstein / Írott-kő
+Hinterwinkel
+Türmle
+Unterer Tollinggraben
+Christinenhöhe
+Ölberg
+Oberdoppl
+Grüner Graben
+Klam
+Kleine Gamswiesenspitze
+Schwarzbrunnbach
+Lingenau
+Polenig
+Völkermarkter Stausee
+Pottaschhofbach
+Fimbatal
+Aherbach
+Haarhausgraben
+Annerltal
+Hummelberg
+Speicherteich für Beschneiung
+Liebhard-Teich
+Nachklärbecken 2
+Kugelbeerbach
+Steindorf
+Häfelberg
+Hartkirchen
+Rappenwaldbach
+Froscherbach
+Virgen
+Grassgraben
+Latschur
+Grillenparz
+Hollbrucker Tal
+Kleinarltal
+Wurmwand
+Ruessteich
+Vorderer Murauerkopf
+Fischkaltergraben
+Nannerbach
+Trausdorfberg
+Grenzgraben
+Reischenbach
+Posching
+RauherKopf
+Dachenstein
+Schwemm
+Almhüttendorf Moselebauer
+Laubtobelbach
+Klausgraben
+Hinterhausen
+Südlicher Polleskogel
+Blindenmarkt
+Sportplatzbach
+Ötztal
+Kirchengrabenbach
+Pumpwerk Selkach
+Alterlaa
+Gussendorf
+Weißenkirchen im Attergau
+Untereggen
+Tschriet
+Oblasser Stausee
+Hannelteich
+Unterteufenbach
+Langsteiner Berg
+Falkensattel
+Wildnörderer
+Reitbach Nebenarm
+Feichtner Karlspitze
+Schwechat
+Matzingtal
+Scheidebach
+Speicher Brandstatt
+Hinterer Forchtenbach
+Reiftal
+Bockkarspitze
+Lilienberg
+Oberer Seekarlsee
+Grünausee
+Hohenlehen
+Montafon
+Oberer Verlorener See
+Kugelwand
+Stuppacher Au
+Radlgraben
+Ostergutental
+Speicherteich Ochsenlacke
+Riegersburg
+Ranna
+Edthiasl Höhe
+Dürnstein
+Salmesmüllerbach
+Krammettal
+Bergheim
+Nibelungengau
+Murstetten
+Kraspestal
+Mühlenteich
+St. Georgen bei Grieskirchen
+Radochenberg
+Unterer Landawirsee
+Hintereckgraben
+Kastanienalleeteich 3
+Zeillern
+Belebungsbecken
+Gamskögel (Westgipfel)
+Reischauspitze
+Zöbingbach
+Durrenbach
+Oberer Spinnsee
+Dösen
+Schwellgraben
+Holzgau
+Weingartgraben
+Saggraben
+Zirbenlacke
+Eisenau
+Schötalwald
+Kleinholz
+Speicherteich Bruckmoos
+Grasleitenkopf
+Moalandlsee
+Kobritzkopf
+Fandl Teich
+Schutzwald
+Zwischentoren
+Stauweiher Stierwaschboden
+Rückhaltebecken  Regenwasser
+Berg
+Kreuth ob Mellweg
+Kogelgraben
+Hoher Gallin
+Lofer
+Ebreichsdorf
+Aalfang
+Unterer-Wildenkarsee
+Gauertal
+Kleinbodenbach
+Dabertal
+Kegelstattkogel
 Filzmoos
-Gasse Runsen
-Langes Tal
-Wetzlstein
-Amtmanntalgraben
-Kammerkees
-Desselbrunn
-Zobelhof Christbaumhof
-Lambach
-Habichtskauz, Feuersalamander
-Sandl
-Nordbahnhof Freie Mitte „Stadtwildnis”
-Moschendorf
-Südstadt
-Deiminger Bach
-Baumgartl
-Kartellferner
-Muttersbergtobel
-Kematen an der Ybbs
-Oberegging
-Kartellsee
-Pazielferner
-Voistal
-Lafasbach
-Stampflkees
-Warenkarferner (Mitte)
-Wildkarkees
-Retentionsbecken 2
-Seidlwinkltal
-Hofmannskees
-Aperer-Feuerstein-Ferner
-Loreakopf
-Geigenkarleferner
-Lahmergraben
-Nördlicher Puitkogelferner
-Löschwasserteich
-Lasberg
-Tramun
-Frankenberg
-Stoffensee
-Oberschrammachkees
-Kirchdorf in Tirol
-Enns
-Sattelspitze
-Maroldbach
-Mariazell
-Grub im Thale
-Bezirk Hollabrunn
-Lengau
-Maurerkees
-Wagnertal
-Kirchenteich
-Aisthofen
-Kickinger Bach
-Palterndorf-Dobermannsdorf
-Großkrut
-Solbach
-Teich Rupertirast 1
-Granitzl
-Frankenberg
-Gaal
-Auschneidersee
-Fensterlooh
-Unteres Goldbergkees
+Judenburg
+Nößlbach
+Deutsch Schützen-Eisenberg
+Gnesau
+Wald Schlosspark Mattighofen
+Tannbachgraben
+Simms-Wasserfall
+Aichbergergraben
+Leirerbach
+Fraxern
+Almhofgraben
+Ferlacher Horn / Grlovec
+Großarl
+Mittlerer Brandhöhebach
+Agsdorf
+Maunglberg
+Pernegg
+Stanskogel
+Moor
+Simmering
+Gindelstein
+Tiergartenarm
+Seabn-Lack
+Zell am Moos
+Paltental
+Birgertal
+Kratzerbachl
+Brettsee
+Madersberg
+Thujasee
+Fischamend
+Chatzatobel
+Damberger Bach
+Streifgraben
+Sankt Veit in der Südsteiermark
+Tannerkogelbach
+St. Stefan-Afiesl
+Bezirk Krems
+Gleirschspitze
+Kastraungraben
+Kirchschlag in der Buckligen Welt
+Thomatal
+Horamaiensäß
+Treimischer Teich
+Umbaltal
+Großer Mörchner
+Salbrechtkopf
+Saalfelden am Steinernen Meer
+Brandenauer Graben
+Möselhorn
+Hausertalbach
+Zinnoberwandrinne
+Sandkuchl
+Aubach
+Gralatisee
+Sengenebenberg
+Hanglhöhe
+Rotenbergstollen
+Alte Taja
+Kleiner Seekopf
+Tallaberg
+Bleispitze
+Pfahlbach
+Breitofnerbach
+Pöneggergrabenbach
+Karlkögele
+Wienerwaldsee
+Tullbach
+Kaintal
+Gehart
+Ahornberggraben
+Wanna-Gumpa
+Stubenberg
+Dirnreith
+Badhaussiedlung
+Hillebrandgraben
+Hahnenkopf
+Westliches Dirndl
+Steinakirchen am Forst
+Trockenbachtal
+Bielerspitze
+Lueggraben
+Weissengeaben
+Sulzltal
+Stams
+Steinleonhardbach
+Fontanellabach
+Plattenteich
+Maroldengraben B
+Matzendorf-Hölles
+Filzmoosberg
+Wöllersdorf
+Wolfsgraben
+Kleiner Weikerlsee
+Tiefentaler Bach
+Griesmauerkogel
+Biotop Breitenweg
+Edersgraben
+Almerhorn
+Gänseteich
 Dorf an der Pram
-Karleskees
-Berndorf
-Kleiner Brettkogel
-Kälberalmbach
-Bad Schönau
-Krakau
-Schierlgurkenbach
+Zainzinger Teich
+Söll
+Polling im Innkreis
+Zederhaus
+Kordon
+Trogalmsee
+Durach
+Graben vom Rittsteig
+Künnegg
+Moorsee
+Rastenfeld
+Herzerlsee
+Schledererkopf
+Pattigham
+Schwarzschachen
+Holzhüttenboden
+Franzental
+Kleinerdwegen
+Hochwechsel
+Podolerteich
+Heidberg
+Altau
+Urchbichl
+Gatschberg
+Černý potok
+Kronabittedt
+Lehner Au
+Stoberdorf
+1. Lauskopf
+Grein
+Völkermarkt
+Frosnitztal
+Schrölzberg
+Speicherteich Fernau
+Kleines Kiental
+Mörschwang
+Edt bei Lambach
+Hochrieß
+Druckstollen Rotgüldensee
+Stoob
+Niklaskogel
+Kühkogel
+Knechtlröhrenbach
+Finstergraben
+Großvenediger
+Fehllippenbach
+Sonntagberg
+Pernegg
+Ill
+Ardning
+Platzertal
+See
+Sankt Gandolf
+Rosskogel
+Tauerntal
+Abfaltersbach
+NAWI Teich
+Kaltbrunnenbach
+Authaler Teich
+Willersdorfer Schlucht
+Guntenkopf
+Waidischer See
+Adam und Eva
+Wasenhof
+Rechte Höllschlucht
+Josefs Teich
+Hofermarkt
+Augstwiessee
+Schauerwand
+Knöpflehenbach
+Talergraben
+Baggerloch Wilhelm & Mayer
+Glorietteberggraben (Einsiedlergraben)
+Badesee Traismauer
+Zgartensee
+Urschabach
+Kirchbach
+Marschalling
+Gahwinden
+Samersee
+Welzenegg
+Unterstinkenbrunn
+s Türele
+Molterkogel
+Steinerkirchner Bach
+Hoheneich
+Kirlalmbach
+Tirschenberg
+Gamsfreiheit
+Kogl
+Eberschwang
+Östliche Schwarzenbergspitze
+Breitenau am Hochlantsch
+Stangles
+Hauzendorf
+Gastrumerbach
+Kleines Niltal
+Ferwalltal
+Gschlößtal
+Felgitschbach
+Arriachbach
+Lazarusbachl
+Freßnitzgraben
+Engelhartstetten
+Bruggenbach
+St. Johann am Wimberg
+Griffner See
+Gaschbach
+Rißtal
+Gaisbach
+Huberkogel
+Schwarzleotal
+Pfaffing
+Arbiskopf
+Obersteinwand
+Kirchberg bei Mattighofen
+Badeteich Jessernig
+Ottenberg
+Unterer Parzinnsee
+Grießbach
+Furstenwald
+Peygarten-Ottenstein
+Kelletal
+Reiflingeckbach
+Jonesgraben
+Großer Reitpfadkogel
+Großer Weikerlsee
+Tuffgraben
+Glasgraben
+Schwalbleck
+Langlehngraben
+Schulterbach
+Falbengraben
+Alplesspitze
+Manndschartenrinne
+Kasgraben
+Gerasdorf bei Wien
+Pfannock
+Leutschgraben
+Rote Lacke
+Winden am See
+Marchegg
+Lecknertal
+Mittelwasser
+Bösenfeldbach
+Schoberbach
+Nasses Tal
+Bernroid
+Mitterbrand, Ullach
+Moritzgraben
+Petzenkirchen
+Kohlgraben
+Zwickelgraben
+Käferfeldeck
+Hangbach
+Mair Teich
+Moidramsbach
+Speichersee Seidlalm
+Heiligenblut am Großglockner
+Hörmsdorfbach
+Klausbach
+Kaisberg
+Gleinkersee
+Tschanischa
+Albrechtser Teich
+Reuthe
+Naturwaldreservat Johannser Kogel
+Waldreicher Graben
+Rietzingerhöhe
+Franzendorf/Branča vas
+Gemeindebadeteich
+Nußdorf-Debant
+Nördlicher Daunkogel
+Kraspessee
+Grünstiger Graben
+Landlteich
+Großberggraben
+Riedlingsdorf
+Gaistal
+Genteteich
+Kambegg
+Sundergrund
+Wolfsthal
+Straßenteich
+Sandl
+Langauer Bach
+Frastanz
+Portlakopf
+Thondorf
+Ödelbach
+Karrettal
+Peilstein im Mühlviertel
+Satzergraben
+Stinatz/Stinjaki
+Höllgraben
+Schick Teich
+Schmidtbauerbach
+Balschtekar
+Drosendorf-Zissersdorf
+Katzbachgraben
+Myrtengraben
+Schonergraben
+Wildon
+Oberafiesl
+Laubboden
+Speicher Hochalm 2
+Habicher See
+Rotjoch
+Schafblassenbach
+Ansfelden
+Wrchni See
+Miesleitengraben
+Gutenberg
+Sallach
+Medraz
+Funkhausteich
+Schlosserbergsee
+Innerertensee
+Zwettl an der Rodl
+Fötschachbach
+Obernbergtal
+Rainerberggraben
+Gaisbachtal
+Großkristental
+Hörbich
+Klockerinriedel
+Sperbertal
+Kleine Notländ
+Margaritzenstausee
+Oberkappel
+Hundskirch
+Timmeltal
+Diemlachkogel
+Stadelkehrgraben
+Rohrberg
+Gaißau
+Bodenmühlbach
+Seestadt
+Glemmbach
+Simongraben
+Ramgraben
+Lichtspitze
+Watzelsdorfer See
+Steintal
+Salzkogel
+Kneippbecken
+Ratzengraben
+Weichselbachtal
+Vomp
+Helenenschacht
+Badesee Kreuzenstein
+Irschen
+Ostermiething
+Blasriegel
+Unterer Eissee
+Senftenberg
+Häselgehr
+Grestenbach
+Bezirk Wolfsberg
+Sankt Gallen
+Nördliches Gleierschtaler Brandjoch
+Pöllagraben
+Eisenlehnbach
+Krenglbach
+Schrattental
+Waldäckergraben
+Ehrwald
+Seele
+Hornissentöbelebach
+Müllendorf
+Hafnerbach
+Brunnwasser
+Hutgraben
+Weißkirchl
+Zwölfernock
+Tulpspitze
+Nandlgraben
+Vorderer Reitbach
+Neuhofsee II
+Nördliche Ferwallspitze
+Sömen
+Gritzenbach
+Schönberg am Kamp
+Herrensee
+Feldbauern
+Stuckkogel
+Gletschach
+Teichpeterbach
+Navis
+Lenkerkogel
+Spiegelsberg
+Südliche Warterrunse
+Eschauerkogel
+Schwarzlacke
+Traxlerwald
+Leitner Tal
+Teich Burgrecht
+Yachthafen Kuchelau
+Pöllau
+Zöbern
+Freying
+Haimingerberg
+Großmurham
+Frauenwieser Teich
+Hirschluckengraben
+Krensdorf
+Amprettlbach
+Hochstallrinne
+Schneiteich Finkenberg
+Zimmertal
+Plineggerbach
+Gläserkogel
+Ägydibach
+Haldenkar
+Strannerhöhe
+Eberschüttwasser
+Teufelshorn
+Groß-Enzersdorfer Arm
+Schwarzföhren
+Ursch Bichl
+Rudmannsbach
+Kosasmojacher Bach
+Stoißispitz
+Tödterbach
+Schlägler Teich
+Meisenbach
+Schnifis
+Schwertberg
+Kleinsee
+Kraftplatz Liebinger Kastanienbäume
+Brückelgraben
+Ausgleichsbecken Rifa
+Löckenkogel
+Mittleres Murtal
+Badeteich Bad Zell
+Schweingraben
+Tobisteich
+Obernberg am Inn
+Schaffelbad
+Weißer See
+Inzersdorf-Getzersdorf
+Aschergraben
+Rossatz-Arnsdorf
+Kiengraben
+Delps See
+Schloapfgraben
+Reitergassl
+Steinacker
+Schwarzkagelgraben
+Maltatal
+Schwarze Lache
+Ratzenbühel
+Mugkogel
+Ried.a. Horn
+Jodlgraben
+Stutzbach
+Rutzenmoos
+Tragöß-Sankt Katharein
+Wolfleiten
+Andelsbuch
+Palfenbach
+Schruns
+Nagelegraben
+Strippentobelbach
+Bibersee
+Siedlungsgraben
+Vocheraberg
+Kerner
+Bärenkar
+Kajakstrecke Stadtbootshaus
+Schöntal
+Stadtweiher
+Dornerbach
+Baumgartl
+Willinghofergraben
+Schöchlewanne
+Geigensee
+Hinterer Lahngangsee
+Gamswandspitze (Ampmooser Rosskopf)
+Trumau
+Jochartgraben
+Jannersee
+Spatzenwälder Graben
+Radstadt
+St. Margarethen an der Raab
+Wechselriegel
+Überlandteich
+Windischhuber Bach
+Wallern im Burgenland
+Kletzlbergbach
+Fädnerspitze
+Bambichl
+Fraß
+Bezirk Kirchdorf
+Torfmoos
+Madschurkgraben
+Hagleiten Bach
+Speicherteich Wetterkreuz
+Sackwiesensee
+Bezirk Dornbirn
+Ruchwanne
+Felbertal
+Leitgermoos
+Sankt Margarethen im Burgenland
+Windschutzgürtel
+Gratkorn
+Rechter Fernerkogel
+Pillwaxrinne
+Aignerriedel
+Rohrbach am Rosenberg
 Leberbergteich
-Oberkling
+Sonnhofgraben
+Alpenrheintal
+Bründlteiche
+Oberer Ganitzsee
+Fischweiher
+Gainfarn
+Haibach ob der Donau
+Buch-Sankt Magdalena
+Rellstal
+Brand
+Wilhering
+Spitzbrettköpfl
+Rußbach
+Pirbachkogel
+Hoher Rosenkogel
+Hohe Heide
+Kummenberg
+Zanzenberg
+Eichtal
+Seepark Kinderbecken
+Pesenthein am Millstätter See
+Turningtal
+Hermannstal
+Stallental
+Tobaj
+Sankt Peter im Sulmtal
+Alte Haltestelle
+Waldteich Würnitz
+Bodenloses Tümpel
+Werkskanal
+Mitterriegelgraben
+Öhn
+Raunzgraben
+Schafkampspitze - Cima delle Pecore
+Beilspitze
+Bumsenkar
+Blindenmarkt
+Mühlteich
+Wassertalbach
+Steindlberg
+Kreischbergsee
+Filterbecken V2 und V3
+Gstoßhöhe
+Tiefruck
+Gserwaldbach
+Seichtwasserzone Grünanger
+Vals
+Brandstättergraben
+Bachfalle
+Lainsachbachtal
+Hupfau
+Waldhausen
+Kötschachtal
+Witzala
+Hörzendorfer See
+Fresach
+Trisslbach
+Oberwang
+Grießltal
+Sankt Urban
+Ascher Riedl
+Pöchlarn
+Zlattengraben
+Altenburgerbach
+Hechenbergl
+Gleinstätten
+Röttingbach
+Mattersburg
+Windischbühel
+Suhi vrh
+Mettersdorf am Saßbach
+Admont
+Häuslteich
+Krautingsee
+Regenüberlaufbecken RÜB II Innstraße
+Wasserrückhaltebecken
+Übelbachgraben
+Fuchsberggraben
+Neunerkogel
+Kuhgraben
+Wörgltal
+P. 2397
+Mautern in Steiermark
+Osser
+Grafenedter Bach
+Dreihufeisenberg
+Grüneckkogel
+Essigbach
+Koglerteich
+Thomasberg
+Kundegrabenbach
+Baden
+Kreuzlacke
+Steinsee
+Neugebirggraben
+Balkesiedlung
+Zirl
+Sonnwendbachl
+Schneegraben
+Krieriegel
+Hillebrandkopf
+Kallham
+Falschbach
+Maierkogel
+Südrinne
+Sexegertenbach
+Blaues Wasser
+Plotscherkogel
+Liebochbach
+Dölsach
+Erlental
+Sankt Johann im Saggautal
+Gundental
+Weiden an der March
+Röthlestal
+Dörfelgraben
+Stanzach
+Bretterspitze
+Lenau Insel
+Edenbach
+Fladenhofergraben
+Passothengraben
+Auerding
+Hüttendorf Teich
+Mittermoosen See
+Fronriegel
+Kleinpertenschlag
+Oberlaafeld
+Englhart
+Habichtskauz, Feuersalamander
+Grössingtal
+Wurmstein
+Buchenberg
+Raggenkopf
+Iseltal
+Stratzing
+Zellhofer Bach
+Haslwald
+Baggersee Liefering 5
+Oberzeillern
+Schallahoferbach
+Kühkarsee
+Kienach
+Zweite Grebenzenhöhe
+Larchkarlkopf
+Neustift bei Güssing
+Brandl Lacke
+Manning
+Tappenkarsee
+Mariazell
+Mühldorf
+Heimjoch (Eiskönigspitze)
+Prebachgraben
+Kleiner Lanschützgraben
+Höhenbachtal
+Prentgraben
+Mattsee
+Scharzeredt
+Schneebergseelein
+Löschwasserteich Schirnes
+Friedberg
+Ehnbachklamm
+Gleirschtal
+Pfeifergraben
+Lignitztal
+Wendling
+Vockentalbach
+Pölzleiten
+Wilde Ries
+Enzelsdorf
+Lexerseabl
+Lenglach
+Wartenstein
+Gimbach
+Kappl
+Bartlmühlgraben
+Schwarzenberggraben
+Kotkäfer Kogel
+Amberger Alm
+Pattighamried
+Gaubitsch
+Auf der Stang
+Lohn
+Rupferbach
+Tauglboden
+KW Hubalpenbach
+Weichstetten Ost
+Berlgraben
+Löschteich Bahnhof
+Graunock
+Angererhöhe
+Reichersberger Bucht
+Goldbergsee
+Fürstenbrunn
+Stainz
+Kuchl
+Mitterndorf an der Fischa
+See 13
+Weitzengraben
+Teich Laimergrube
+Rettenegg
+Wolfsbach
+Mistkorbwerberbachl
+Eilerbach
+Gerlostal
+Toffisgraben West
+Oberer Rosenhofer Teich
+Ober Hammerschmidgraben
+Martinsberg
+Karchham
+Abfalterer See
+Dobersberg
+Vilsalptal
+Klingenbach/Klimpuh
+Marina Raderbauer
+Gerlos
+Hennerkogel
+Stausee Plölitzen
+Mitterkeil
+Zell-Schaida/Sele-Šajda
+Hinterer Bruderkogel
+Graßdorf
+Lang-Eibel-Schlucht
+Traisenbach
+Großschörgern
+Neudörfl
+Galgenbichl
+Schiedeck
+Falterspitze
+Winterteich
+Sooß
+Lindgraben
+Endstraß
+Schwimmteich
+Kleblach-Lind
+Hammerlgraben
+Grünplanbach
+Zuppatgraben
+Unteres Kar
+Kappelberg
+Vogelalmgraben
+Doktorteich
+Krieglach-Schwöbing
+Munderfing
+Obdach
+Weitensfeld
+Diemröth
+Runse Klieschgraben
+Mondteich
+Kohlmaißhöhe
+Blumaugraben
+Allhangbach
+Schlapferweggraben
+Seyfriedberg
+Inzersdorf im Kremstal
+Harschbichl
+Oberschirka
+Bergisel
+Puchenau
+Granatenkogel - Monte dei Granati
+St. Florian
+Kohfidisch
+Angergraben
+Töbelekar
+Lantschfeldtal
+Platzriese
+Untere Hochwanne
+Kessellahner
+Kopfing im Innkreis
+Aistbergthal
+Moarbach
+Donau-Oder-Kanal Becken II
+Brandstetterkogel
+Beschneiungsteich St. Jakob
+Zatschbach
+Egidibach
+Prellenkirchen
+Knittelfeld
+Feuchtbiotop
+Leitengraben
+Kleines Schareck
+Klamm
+Bernreitergraben
+Sieghartstalgraben
+Großmugl
+Lärchegg
+Stelzen
+Misling
+Grollerkopf
+Winterbach
+Sankt Michael im Lungau
+Pasching
+Fischteich Schleifer 1
+Anlauftal
+Pirker Teich
+Bockgrube
+Schraakogel
+Hilkering
+Donnersteingraben
+Sumpfkopf
+Gams bei Hieflau
+Eggerteich
+Weyer
+Fadenauberg
+Stimmersee
+Zemmgrund
+Mitterbach am Erlaufsee
+Babenbergersee I
+Sigharting
+Schneeröselkogel
+Steglüßteich
+Ramlerhöhe
+Völser Au
+Wengergraben
+Bründeltal
+Vollern
+Geröllrückhaltebecken Innerer Weißenbach
+Daxenberg
+Stadelwandgraben
+Badesee Burgau
+Schrein
+Buschandlwand
+Grillenstein
+Strüblweiher
+Brunnkarkopf
+Taschachtal
+Lurchweiher
+Tagesspeicher Roßwiese
+Oberminathal
+Steyreck
+Lichtenwörth
+Steinberg am Rofan
+Großer Gebra (Ranggen)
+Schafskopf
+Ortskanal
+Anlandebecken 3
+Turnersee
+Exelbach
+Zufluss Hilmteich
+Kleiner Gemeindeteich
+Ratzenberg
+Hengstgraben
+Hinterer Kesselgupf
+Hofer
+Almsee
+Großes Übeltal
+Hausleiten
+Niederfellabrunn
+Ellmautal
+Hasenlacken
+Hohenthurn
+Per-Albin-Hansson-Siedlung Ost
+Zigeunergraben
+Prägraten am Großvenediger
+Lachgraben
+Uderner Giessen
+Leindl Teich
+Syhrnbach
+Rabenwand
+Brandkuppe
+Fischteich Pirktl
+Unter-St.-Veit
+Dietach
+Grötschen
+Klostergraben
+Damüls
+Seilergraben
+Triebendorf
+Schwebenlacke
+Schrottbauerbach
+Gebetsberg
+Jauernikgupf / Križni vrh
+Windacher Daunkogel (Vorgipfel)
+Innernsee
+Fürstkogel
+Wald der Ewigkeit
+Kienbergturm
+Hintere Lobspitze
+Gerbersgraben
+Weingraben/Bajngrob
+Hahntennental
+Großhöflein
+Ekartsberg (Tanzboden)
+Brauteich
+Markgraben
+Kundl
+Himmelrichtobel
+Spießbach
+Desselbrunn
+Herbersdorf
+Kaunerberger Hangkanal
+Ferlach
+Anetzberg
+Mauternbach
+Lasnigkeuschenbach
+Ernstbrunn
+Selzthal
+Fabriksteich
+Pfaffenbühel
+Oberer Langkarsee
+Pulkau
+Kummerstal
+Tosbecken
+Gügling
+Moschitzberg
+Alharting
+Yspertal
+Großer Bockstein
+Gschwandt
+Kirchberg am Walde
+Höflein an der Hohen Wand
+Fludergraben
+Quellschutzgebiet
+Glanzgschirr
+Auwald
+Katsdorf
+Lengau
+Röschitz
+Dürrental
+Bezirk Neusiedl am See
+Bezirk Hallein
+Richterhöhe
+Warther Wanne
+Altmannsdorfer Graben
+Gasen
+Untermitterdorf
+Rehstattgraben
+Gampern
+Grabern
+Rametsberg
+Stössing
+Waxenberg
+Ratschengrabenbach
+Moosedt
+Zmuck
+Blabergkogel
+Lerchbach
+Kirchham
+Pühra
+Mittagkogel
+Kleiner Happ
+Loibltal
+Mosing
+Ihlehengraben
+Grundbachl
+Harrbergsee
+Obritzberg-Rust
+Häberlebach
+Gollisteinkögel
+Brandbach (Königswaldbach)
+Meiseldorf
+Angerertal
+Alberndorf im Pulkautal
+Kalchgrubenbach
+Salzgraben
+Schreiberbach
+Hirschengraben
+Weingarten Teich
+Ochsenriedel
+Jochgrubenkopf
+Prinzersdorf
+Rauchtal
+Föhrenhain
+Schinkenbichl
+Woleggleskar
+Schroffengegend
+Steinriegel
+Grubbergbach
+Brettsteingraben
+Hochschober
+Rasendorf
+Perschling
+Traubenberg
+Rojach
+Tauplitzsee
+Schladnitzgraben
+Scheifling
+Rinderertobel
+Neue Welt
+Kettenbach
+Kottingbrunn
+Kleinarl
+Kleinschörgern
+Hellbrunner Berg
+Anlandebecken 9
+Bad Sankt Leonhard im Lavanttal
+Strasswaldbach
+Lichtenau im Mühlkreis
+Bärensteingraben
+Rohrbach an der Gölsen
+Auerlingsee
+Katzeneck
+Braunötzhof
+Farchern
+Bad Vöslau
+Urbeleskar
+Weite Lacke
+Blumberg
+Garsten Nord
+Rechberg
+Großwarasdorf/Veliki Borištof
+Arzbachtal
+Straßburg
+Natterersee
+Gänserndorf
+Heuschupfenwaldl
+Lugauer Ostgipfel
+Schimmerljuden
+Mühlbachtal
+Reichaubach
+Fronbachgraben
+Hausberg
+Giampkopf
+Stubangergraben
+Sankt Anton im Montafon
+Karlestal
+Aigen-Schlägl
+Bezirk Bregenz
+Achau
+Schiefegg
+Venser Tobel
+Zemendorf-Stöttera
+Aist
+Winterbühel
+Obersteinköpfl
+Mostelgraben
+Offensee
+Kurzenkirchen
+Hopffeldköpfe
+Grüngürtel
+Kreised
+Vischers Teich
+Steinbruchteich
+Rosenteich
+Ephemerer Tümpel beim Krautwächterhaus
+Jagerniggbach
+Pockenbergbach
+Fürstenfeld
+Ärgerbalzgraben
+Seerbach
+Schinkengraben
+Schindlergraben
+Wildengraben
+Neukirchen am Großvenediger
+Wasserfallspitze
+Ort im Innkreis
+Erigabenbach
+Pinsdorf
+Klinget
+Zöls Teich
+Katzelhofer Höhe
+Vorderkaralm
+Kasberg
+Ellensbach
+Rechnitzbach
+Gloggnitz
+Schäfiskopf
+Hainschbach
+Blutsgraben
+Gödersdorfer Feistritzbach
+Harbachgraben
+Wörglerbach
+Kindberg
+Achenberg
+Eiblgraben
+Rosental
+Daglesbach
+Kemeten
+Drabunaschach/Drabunaže
+Kühweißhorn
+Allhartsberg
+Lizumer Reckner
+Augustinbach
+Buchbauernbach
+Senftenbergeramt
+Markt Hartmannsdorf
+Schönenbacher Tal
+Modergraben
+Seebacher Teich
+Außerer Bremstallbach
+Haslau - Maria Ellend
+Bärenthal
+Hubertusteich
+Ruederkarspitze
+Lasern
+Regenbecken
+Ebersdorf
+Kadutschen
+Mattig
+Lunglgrabenbach
+Ertltal
+Hochlicht
+Stollbergsiedlung
+Walserkarle
+Schlaghaltbach
+Mühltal
+Höbmannsdorf
+2. Teich
+Ramstall
+Lindlsee
+Bad Großpertholz
+Almosengraben
+Fürpass Teich
+Schwalbengraben
+Feichttal
+Goldifastlgrabenbach
+Gamskarsee
+Weißach
+Bergla
+Gföllgraben
+Mitterberger Latschenfeld
+Utzenaich
+Windlöcherhöhe
+Kronberg
+Hoher Koppen
+Deutschkreutz
+Abenteuerspielplatz Rum
+Hoher Trailing
+Hirzykogel
+Burgauberg-Neudauberg
+Otterteich
+Gschaidberg
+St. Leonhard bei Freistadt
+Bischelsroid
+Ebenthal in Kärnten
+Rohrbachgraben
+Glanzer Bach
+Meissl-Teiche
+Gschleinshöfe
+Kematen am Innbach
+Apetlon
+Steinfeldspitze-Nordost-Gipfel
+Gabertal
+Locker Teich
+Kaponigtal
+Schanze
+Kiesbachl
+Farmtal
+Waldfeld
+Karangerbach
+Schildmauer
+Abfluss aus der Hohlen Gasse
+Oberer Bärenkopf
+Südlicher Zurybach
+Fauchagraben
+Sarotla
+Zinkitz
+Heiligenkreuz im Lafnitztal
+Nesselgraben
+Illitschhöhe
+Dobranbergbach
+Raabs an der Thaya
+Rainbach im Innkreis
+Goslitzbach
+Astilbenteich
+Große Neuteich
+Allentsteig
+Schöfgrabenbach
+Pinkenreit
+Kirchberg
+Kleinschneiderkogel
+Gugler
+Hochbehälter Utschgraben
+Westliche Fluhspitze
+Bären Graben
+Urpaß
+Herrenköpfl
+Geiselsdorf
+Stübming
+Mandorf
+Schneemoosgraben
+Windhagersee
+Schacher
+St. Martin
+Dietharts
+Brunnenschutzgebiet
+St. Peter am Hart
+Kumbergsee
+Löschwasserbehälter
+Dürrekopfspitze
+Würmlacher Polinik
+Eisbach
+Niederer Eichham
+Großer Kalkgraben
+Judenbichl
+Fuschl am See
+Außerrotte
+Lammertal
+Hinterschiefling
+Mörter Teich
+Scheimersch
+Pyrawang
+Weitra
+St. Pölten
+Neustifter Bach
+Jedenspeigen
+Hoheneck
+Peterngraben
+Bezirk Murau
+Unterweitersdorf
+Knappenbäudlsee
+Kapuzinerinsel
+Seiring
+Badesee Sonnberg
+Spillern
+Kaminspitz
+Krenngraben
+Baumgarten am Tullnerfeld
+Sommerriesbach
+Hühnerkar
+Nikelsdorf
+Fallesinkar
+Bärntaler Lacke
+Au am Leithaberge
+Schwarzlochkopf
+Kasperkopf
+Fraidlbach
+Rettenbacher Köpfl
+Grubigstein-Vorgipfel
+Kappler Kopf
+Bergwerksteich Buresch
+Perschitzbach
+Nikolaigraben
+Lösenbach
+Stierbach
+Langwied
+Naturteich Mösle
+Wanglspitze
+Sieggraben
+Seetalersee
+Sankt Josef
+Schlössletobelbach
+Stadl-Paura
+Dachsgraben
+Erster Gerinnedurchlaß
+Unterinntal
+Landfraß
+Neutal
+Steinbachtal
+Ziegelhaidengraben
+Falbeson
+Reichers
+Stiglberg
+Ennsdorf
+Gmünd in Kärnten
+Buchtal
+Vöslauergraben
+Tulfes
+Oberletzen
+Fuggari
+Oberweidau
+Oberhenndorf
+Trummgraben
+Pfenniggrub
+Haunschmiedteich
+Waier
+Wagner
+Nedertalbachl
+Grafenhof
+Staubgrabenbach
+Schüttergraben
+Puchet
+Ödenkar
+Stausee
+Oberprambach
+Haunoldstein
+Metzgerries
+Potzneusiedl
+Haunsberg
+Oberes Gailtal
+Hafenbecken 2
+Nessiteich
+Lauterach
+Golling an der Erlauf
+Exenbachgraben
+Gablitz
+Pilatussee
+Erdweis
+Siebenbrunnen
+Windautal
+Ranzenkopf
+Rettenegg
+Farstrinne
+Pirkhof
+Reitzendorfer Teich
+Lasnitzental
+Ritteralmbach
+Gießhübl
+Hochburg-Ach
+Elsbethen
+Lachegggraben
+Mühlkamp Restgerinne
+Schneiderkare
+Thannbach
+Bad Schönau
+Ernsthofen
+Vorderriedingbach
+Seidlwinkltal
+Hofstadt
+Schall
+Gries am Brenner
+Rosegg
+Schaidmoosgraben
+Kotzgraben
+Bannwald
+Kohlstattgraben
+Kuchling-Teich
+Roßbach
+Bezirk Villach-Land
+Hagenmühle
+Unterbergen/Podgora
+Fischbachgraben
+Haidlacke
+Kainzenalplgraben
+Markogel
+Unterreit
+Rossatz
+Hart bei Graz
+Knappental
+Flüchtlestal
+Grabäugl Teich
+Kleiner Spiegelteich
+Schelchental
+Mötschendorfbrunngrabenbach
+Losner
+Krumau am Kamp
+Umhausen
+Große Fuchsleiten
+Leisberg
+Hochmahd
+Leonharder See
+Bezirk Horn
+Kogelnigbach
+Prosseggklamm
+Fiala-Teich
+Sandgraben
+Rastbacher Teich
+Mitterberg
+Brühl
+Breitenhilm
+Östlicher Auer von Welsbachgraben
+Hirschegg-Pack
+Nestlerbach II
+Ringendorf
+Klauskogel
+See C
+Forchet
+St. Marienkirchen an der Polsenz
+Jägertal
+Lesachtal
+Siebenbrunnengraben
+Bildstein
+Auenfeldwanne
+Finsterklammbach
+Neuberg im Burgenland/Nova Gora
+Naturdenkmal Taborteich
+Wieselburg
+Hasenbühelgraben
+Weißenbachgraben
+Jouschitzen
+Mittlerer Schacherteich
+Magdalensbergerbach
+Lauskogelteich
+Helenenteich
+Sattelhorn
+Biotop Peergrube
+Kleinkarle
+Ennsleitengraben
+Zederhaustal
+Stetten
+Auhäuser
+Zeindorf
+Zollhäuslbach
+Hollerbrunn
+Haberedt
+Buckliger Schneidergraben
+Langer Berg
+Windischgarsten
+Oberer Zappenweiher
+Ur-Forellen
+Strubtal
+Hochalptal
+Sankt Gilgen
+Teufelweiher
+Obergallspach
+Hütteldorf
+Fließer Berg
+Kaiserstein
+Niederleitenbach
+Mayrhofen
+Bezirk Scheibbs
+Bananensee
+Kleine Erlauf
+Baumgarten/Pajngrt
+Karnersee
+Am Schwabenwald
+Erlauf
+Ringkogel
+Wildpfad
+Schleedorf
+Lippbauerbach
+Wodesee
+Oberer Bach
+Gralla
+Kleiner Lambach
+Mahlbach
+Wodesee
+Oberer Bach
+Gralla
+Kleiner Lambach
+Mahlbach
+Theustobel
+Außerdorf
+Mitterfladnitz
+Niederösterreich
+Waschbachl
+Vorderer Feuerkogel
+Illwitzen
+Fulpmes
+Piegerbach
+Bezirk Südoststeiermark
+Kitzbühel
+Frauenbichl
+Schrattenbach
+Bärgraben
+Pretallerkogel
+Ringwall
+Neusiedl am See
+Unterer Rupaninsee
+Unterhörnbach
+Radau
+St. Agatha
+Grün
+Hundsheimer Insel
+Grimmenstein
+Fronstadl
+Steegen
+Wald
+Fischamend
+Dürrbach
+Großes Gaistal
+Waldstein
+Biberbachkar
+Geißlergraben
+Heldenberg
+Laliderer Wand
+Schulteich Seyfrieds
+Stockteich
+Figur-See
+Wiesmath
+Lavantegg
+Heugraben
+Stierlacke
+Schöcklbach
+Ködnitztal
+Zillergründl
+Rubner Teich
+Burstgraben
+Jerzens
+Münzbach
+Großer Gradensee
+Dornegger Schwimmbad
+Kotwiesenteich
+Friedreichsteich
+Niedernsill
+St. Anna am Aigen
+Hundskehle
+Obertraun
+Rosenhotterberg
+Weilbach
+Griesgraben
+Schlossbühel
+Eitelsberg
+Seebach
+Pöttsching
+Suchbach Staubecken
+Längental
+Sankt Andrä-Höch
+Nenzing
+Wiener Graben
+Hubertuswegbachl
+Saberneggbach
+Oedgraben
+Rauchköpfe
+Altarm
+Römerspitz
+Haider Berg
+Tannenbach
+Pegasusbrunnen
+Baumgraben
+Halbturn
+Gugelzipfgraben
+Feuerköpfl
+Oetz
+Steigengraben
+Pechberg
+Hörsching
+Kesselkopf
+Kleintal
+Brennkogel
+Unternberg
+Kartäuserteich
+Mitterzinken
+Bschlabertal
+Sulzberg
+Neue Siedlung
+Plankengraben
+Weidmaißriegel
+Vordere Plattenspitze
+Rote Burg
+Reitecksee Badesee
+Bromberg
+Liebesinsel
+Ausee 1
+Neundling
+Weigstatt
+Zweinitz
+Zirbenrinne
+Kempen
+Krakolinigbach
+Meilbrunnen
+Neuhaus am Klausenbach
+Forellenstation Prefelnigteich
+Speichersee Enzingerboden
+Santenbach
+Bärnbach
+Dorotheer Wald
+Hammern
+Mautern an der Donau
+Grünbach
+Mettensdorf
+Teuchl
+Wieselburg-Land
+Strechen
+Granstein
+Ungerding
+Pazüeltal
+Brunneralplbach
+Plannereck
+Unterer Stuckensee
+Hinterbrühl
+Lacken
+Vallülasee
+Schönengrundbach
+Ofental
+Sankt Lorenzen im Paltental
+Serlesseen
+Ried im Traunkreis
+Grötschbach
+Fuchslochgraben
+Fadengraben
+Vorderer Sulzkogel
+Bärnerkogel
+Archbach
+Staudachhof
+Denglbichl
+Großer Kollmannstock
+Rüssel
+Kaltwasserbach
+Gößgraben
+Ochsenmoos
+Bäreneggtöbele
+Alte Schanze IX
+Wolfpassinger Ortsgraben
+Hirschensee
+Obeliskteich
+Spittal an der Drau
+Pielachberg
+Frauenhofenbach
+Hirnkopf
+Mikejgaben
+Wolfsee
+Geiersberg
+St. Veit im Mühlkreis
+Pierbach
+Totes Kreuz
+Raninggraben
+Brunnleitengraben
+Gastacherwände
+Steirische Kalkspitze
+Weißenbach am Lech
+Kleiner Bockgraben
+Feldhütl
+Salige Fräulein Brunnen
+Klafferturm
+Uferrückbau Witzelsdorf
+Schnellerviertel
+Waldkirchen an der Thaya
+Froschteich
+Arndorf bei Sankt Ruprecht an der Raab
+Sitzenhart
+Hohe Lacke
+Schönwies
+Miesbodensee
+Heiligenleiten
+Leiben
+Karfreitagsteich
+Riesergraben
+Gallzein
+Jabing
+Vesulbach
+Maria-Lanzendorf
+Ennshafenbecken Ost
+Sonntagwanne
+Levis
+Malikerbach
+Jammertal
+Speichersee
+Stiefing
+Hühnerbühel
+Hatschengraben
+Großedling
+Vornbacher Enge
+Habicht
+Sillian
+Zwenenwaldbach, Gagenalmbach
+Hinter Schwarzmooskogel
+Piestingtal
+Grottenhof
+Hexenlackl
+Sankt Stefan im Gailtal
+Gelber Turm
+Suchtal
+Brunn an der Wild
+Breitlehnerturm
+Hornbachtal
+Velden am Wörther See
+Hochbirg
+Kitzstallgraben
+Klafterreith
+Bürmoos
+Traualpsee
+Althöllteich
+Purgstall
+Krapfenkarwald
+Naturbadesee Wald am Schoberpaß
+Zsigmondykopf
+St. Ulrich im Mühlkreis
+Klettergarten Spiegelstein
+Hollenburger Teich
+Schuttgraben
+Leopoldschlag
+Gnaning
+Wimhub
+Schlossalpengraben
+Westlicher Kobaldbach
+Dietlhölle
+Baytal
+Hochwasserrückhaltebecken Auhof
+Flachauer Teich
+Vöcklabruck
+Hohes Känzele
+Bernhardsthal
+Ligist
+Zandlacher Boden
+Hochwasserschutzmaßnahme Kutschenitza
+Speikogel
+Ackerlbach
+Graben, 10m tief
+Junssee
+Unterberger Bach
+Lehnerberg Runsen
+Turnau
+Murspitzen
+Lassee
+Garberskopf
+Udelsdorf
+Kleiner Traunstein
+Dambach
+Petronell-Carnuntum
+Wechselbach
+Krummsee
+Königskar
+Pischelsdorf am Engelbach
+Seegraben
+Feistritz
+Rabnitz
+Geburtstagsinsel
+Krems an der Donau
+Hoadteich
+Schneetal
+Koblhof
+Hinteres Sonnwendjoch Westgipfel
+Fuchslochturm
+Asangteich
+Luckengraben
+Wolfsöfen
+Pflockgraben
+Loischkopf
+Großer Eisgraben
+Auerbacher Berg
+Angelteich am Gächtle
+Hatzlbach
+Bretterspitzengräben
+Langenthal
+Sankt Leonhard am Forst
+Plentennöckl
+Bauernsee
+Dürrenecksee
+Süßenberg
+Mariazell
+Fresacher Bach
+Plattiger Habach
+Großes Rosskar
+Hochwanne
+Schönbachkopf
+Kottingersdorf
+Zinn
+Badesee Neukirchen
+Amertaler See
+Bodenhofen
+Kleiner Gamsstein
+Scharrntal
+Bezirk Waidhofen an der Thaya
+Peterbühel
+Eisenkogel
+Antlaßgraben
+Polsterteich
+Jagerhöh
+Kehralmsee
+Hornblicksee
+Hundsbach
+Ledererkogel
+Gradental
+Unterer Malfragkopf
+Eissee
+Fischsee
+Königswand
+Würflach
+Seblasspitze
+Muritzental
+Privatries
+Loiblbach
+Lodischgraben
+Drachenkopf
+Pittental
+Badebiotop 2
+Tröskasee
+Enzersfeld im Weinviertel
+Vordere Gamsflucht
+Weiher Überwasser
+Prieglbach
+Höchstein
+Kleinschladnitzgraben
+Wollschlagergraben
+Bezirk Linz-Land
+Amesreith
+Gippelgraben
+Laßnitzhöhe
+Kleiner Bärenstein
+Aist-Mühlbach
+Floschen
+Praxmarer Grießkogel
+Pfaffental
+St. Stefan/Šteben
+Trieben
+Weißer Kreuzgraben
+kleiner Fuchsteich
+Schabbauergraben
+RHB Mettmach Nord
+Hochwolkersdorf
+Fieberbrunn
+Holzwiese
+Polstergraben
+Bleichstattbachl
+Mining
+Wildalmrotkopf
+Mailberg
+Mitterberggraben
+Waidhofen an der Thaya-Land
+Bezirk St. Johann im Pongau
+Oberwiesenbach
+Luginger See
+Seichstein
+Zell an der Pram
+Kleiner falscher Totengraben
+Seibersdorf
+Grasstallsee
+Mitterholzleiten
+Untergleisbach
+Großer Reitergraben
+Gemstal
+Stücklergraben
+Hausteich
+Unbenanntes Gerinne [k.A.]
+Fehring
+Schweiberbach
+Lienz
+Riegelberg
+Leobendorf
+Hundsfeldsee
+Ockertbach
+Kalbenschweiggraben
+Vösendorfer Graben
+Rubensdorf
+Rohrbacher Kogel
+Friesingergrabenbach
+Oberreithbach
+Gamsengraben
+Goldbrunn
+Waldbach-Mönichwald
+Blarergraben
+Natschbach-Loipersbach
+Hohenweilerbach
+Biotop Unterhart
+Göttlesbrunn-Arbesthal
+Ochsenbrunnlacke
+Zehnerkogel
+Teufenbachtal
+Staldenbach
+Schmiedviertel
+Gersgerbach - Seitengraben
+Heitatobel
+Glashütte
+Apfenthal
+Hochglocker
+Haag am Hausruck
+Leitzersdorf
+Göpfritz an der Wild
+Ternberg
+Rotschüttbach
+Proßegg
+Eisbodenlacke
+Dornreithgraben
+Kohlberggraben
+Preinbach
+Silbergraben
+Langpitze
+Brotriegel
+Tschwarzner Bach
+Lans
+Schloss Haus
+Jasweingraben
+Kleiner Jauling
+Rossfallgraben
+Achtal
+Forsterspitz-Biotop
+Pfunds
+Gschwendgraben
+Röllgraben
+Rabengraben
+Innere Ragnitz
+Garnitzenklamm
+Kirchbichl
+Apolloteich
+Teschengraben
+Sendlbach
+Wöllersdorf-Steinabrückl
+Gstöckat
+Scheitelgraben
+Kreuzbühel
+Rodlingbach
+Falzthurntal
+Wollsberg
+Lobmingtal
+Löbelgraben
+Leukental
+Winklern bei Oberwölz
+Stuibental
+Oberes Hahnpfalzköpfl
+Ludhamer Bach
+Seeache
+Unrechttraisen
+Nikolaussee
+Navistal
+Hochwasserrückhaltebecken Teichstätt West
+Etlas
+Sammergraben
+Schwarzer Balken
+Himmelsteich
+Trattenbach
+Stübingtal
+Fichtenbach
+Guttal
+Hüttenmühle
+Geistgraben
+Sankt Georgen an der Stiefing
+Rhein
+Sankt Marein im Mürztal
+Niederlehen
+Weißkirchen an der Traun
+Laaer Berg
+Krasser Teich Nr. 6
+Steirerbach
+Höllerberg
+Heidersee
+Wunschbach
+Bezirk Leoben
+Laglerspitz
+Waldburger Bach
+Bärenkarlkogel
+Schindeltal
+Stückl
+Muarlwald
+Bezirk Graz-Umgebung
+Feistritz-Seitenarm
+Teesdorf
+Adlhaming
+Halbturn
+Altenbergertal
+Muttlerkopf
+Wißabach
+Halsband-Wehrvogel
+Schwarzau im Gebirge
+Forstau
+Pengelstein
+Rothof
+Marchtrenk
+Lantschfeldbach
+Schottensee
+Hochhorn
+Asberg
+Kömmelgupf/Komeljski Vrh
+Neu-Fünfhaus
+Innerer Hahlkogel
+Mölbling
+Marentestobelbach
+Obergaisbergsee
+Grabenschusterbach
+Klinserschlucht
+Volksgartenteich
+Kräuterin
+Authal
+Hengsberg
+Winkeltal
+Westlicher Najadenbrunnen
+Edelweiher
+Imlautal
+Pöndorf
+Elmer Muttekopf
+Weißenhöhe
+Kleiner Haselgraben
+Taxaklamm
+Ort im Innkreis
+Obergufer
+Geißbigl
+Lebring
+Rauchwart
+Rückhaltebecken Rohrberg
+Großer Spiegelteich
+Nafingköpfl
+Vordere Plattenkogelgräben
+Stoibenbach
+Millstatt am See
+Harmannsgraben
+Loitzenberg
+Gansterbach
+Oberneusetzberg
+Huda Jama
+St. Gotthard im Mühlkreis
+Reinthalergraben
+Panzenbeckgraben
+Kleiner Anzingerberg
+Brandstrattgraben
+Burgberg
+Bezirk Amstetten
+Ritzling
+Lölling
+Vergaldner Schneeberg
+Haller Schrofen
+Gersthof
+Teufelsbach
+Deutsch Goritz
+Innervillgraten
+Sankt Sebastian
+Rabelsberg
+Dörfler Teich
+Grantnerbach
+Neukematen
+Kapelln
+Schettgraben
+Oberer Klaffersee
+Letina See
+Mittlerer Murauerkopf
+Bretstein vor der Kirche
+Greizer Spitze
+Roßebenbach
+Waideggerbach
+Hochegg
+Biberwier
+Unterer Kaltenbachsee
+Müselbach
+Kohlerbach
+Dolina
+Neumarkt im Hausruckkreis
+Sonnberg
+Hengstlberggraben
+Wildlahnertal
+Seefeld-Kadolz
+Riererbach
+Stegesbachl
+Pfustertobelbach
+Anglerteich
+Retentionsbecken 2
+Grub I
+Joslbauergraben
+Großes Palfenhorn
+Wallsberg
+Assling
+Hafnerberg
+Schmalzhofen
+Kleiner Roter Graben
+Speicher Zillergründl
+Oberriedl
+Freikopf
+Kienersee I
+Reiterriegel
+Hollabrunn
+Rum
+Niklasdorfgraben
+Gierlinger Bach
+Prikalitz
+Goritschach/Goriče
+Übering
+Hamingerhöhe
+Tieftal
+Treschmitzbach
+Ilzbach Au
+Sonnensee
+Brunnen am Kornsteinplatz
+Phönixberg
+Durrnock
+Schwarzagraben
+Grundtal
+Ingeringgraben
+Suppersberg
+Hintersee
+Faselbergkopf
+Poneggenbach
+Römersee
+Dritte Grebenzenhöhe
+Schwarten
+Gmairersee
+Stauanlage Stadtwerke
+Kohlgrube
+Pfarrkirchen bei Bad Hall
+Gümplespitze
+Ramsau am Dachstein
+Freizeitsee
+Quelltobelbach
+Brücklhöhe
+Schwabenberg
+Stanachergraben
+Oberndorf in Tirol
+Ebelsberg
+Sautens
+In der Grün
+Rothgrübl
+Seebodenkogel
+Rossloch
+Vorderer Hochgraben
+Zeutschach
+Mödritschgraben
+Tritachkogel
+Esterhazysee
+Maierhofergraben
+Grubalacke
+Eferding
+Piz Val Gronda
+Althofen
+Unterach am Attersee
+Ohlsdorf
+Pehigen
+Günselsdorf
+Äußerer Lehnertalbach
+Pibersteinersee
+Versickerungsbecken
+Kleiner Ringkogel
+Mölltal
+Lustbühel
+Moserweiher
+Mittlerer Hüttkarsee 2
+Großgmain
+Unterer Gamskarlsee
+Pernegger Graben
+Bad Ischl
+Sauhaufen
+Weißenwäschgraben
+Torpfeiler
+Ortsteich Albrechtsberg
+Madleinsee
+Hedenigbach
+Feistritz ob Bleiburg
+Merzeder
+Helenental
+Pepiteich
+Lambrechten
+Kanlergraben
+Enzekogel
+Unterkriechham
+Rohrwiese
+Sauwasser
+Scharmesbach
+Holzschnittgraben
+Trastal
+Ramsgrubner See
+Olchingerbach
+Edelschrott
+Schafhaltgraben
+Golzgraben
+Hochsteinerberg
+Lustenau
+Steinkarlkopf
+Hinterraintöbele
+Fischbassin
+Tannheim
+Stinglbach
+Bad Bleiberg
+Bach von Rainfeld
+Biotop
+Rappental
+Fels am Wagram
+Hippach
+Gallbrunn
+Gretlern
+Oberfritztal
+Wasserfallgraben
+Nepomuk 5
+Töpferkogel
+Gutenbrunnbach
+Aspach
+Leitibach
+Ladendorf
+Große Steinwand
+Jägerkogel
+Viehtriftgraben
+Berg
+Verwalltal
+Aspang-Markt
+Pallas
+Groß Sankt Florian
+Masnerkopf
+Tintelsbach
+Reichenspitze
+Kartobelbach
+Maria Jeutendorf
+Albrechtsberg an der Großen Krems
+Moosburg
+Meerauge/Jezerce
+Balschtebach
+Elendbergsee
+Feldteich
+Hochrappenkopf Nordgipfel
+Rodl
+Nunitzgraben
+Gamperlgraben
+Mieserkogel
+Bäribach
+Feldkirch
+Bodenmoosgraben
+Sittendorfer Teich
+Lahnbach
+Dolzer
+Regau
+Kälberalmbach
+Niederleis
+Speicher Gmünd
+Oberbayrdorf
+Dreihöfen
+Rennergraben
+Sollenau
+Wang
+Südliche Sonnenwand
+Kirchfelder Seelein
+Radvanovský potok
+Weerberg
+Stripsenkopf
+Steinfeldrinne
+Hagental
+Grandgraben
+Schiffermüllerbach
+Kübgraben
+Bonegg
+Runder Teich 2
+Kelchsauer Ache
+Brennhüttental
+Blaiktalgraben
+Brunnenkar
+Vereinsteich
+Wildmahdkarsee
+Helmkasuar
+Traunerbach
+Voistal
+Stratzdorf
+Rederinsel
+Littring
+Wasserfassung Kraftwerk Wiesberg
+Gunzenach/Kobelach
+Breinmühlbach
+Großer Sonnblick
+Griestal
+Bauernmaiß
+Lang
+Güfelsee
+Bischofsteich
+Viehdorf
+Tiefental
+Zogelsgraben
+Engiadina Bassa
+Bruckberg
+Lamersberg
+Wetzles
+Würgelhäusl
+Speicher Paalbach
+Sonnkarköpfl
+Winklerner Almsee
+Sulzkarsee
+Rauhirschbach
+Sickerbecken ÖBB-Tunnel
+Grünsbacher Dorfbrunnen
+Bad Loipersdorf
+Wattental
+Speckeisee
+Linden-Ensemble bei der Dorfkirche St. Ulrich
+Mödersdorf
+Eschauergraben
+Mieders
+Hintsteingraben
+Teichfeld
+Speicherteich Holzalm
+Rondellenwasser
+Dreißenteich
+Dorfbecken
+Hochwasserrückhaltebecken Mariatrosterbach
+Signalspitze
+Ilfental
+Altschwendt
+Skotschildabach
+Panoramasee
+Weinbergerbachl
+Schraglbach
+Mutatobelbach
+Liebensdorf
+Schiechgraben
+Raggaschlucht
+Lechnergraben
+Wolfsberg
+Kernbründlbach
+Michelbachgraben
+Sandgrube Mäder
+Koppe
+Großer Weißenbach
+Berghausbach
+Waizenkirchen
+Fiechterbach
+Maloško poldne / Mallestiger Mittagskogel
+Thalmannsbach
+Unterwuchel
+Hofstättgraben
+Vorderes Wildmahdkar
+Gschrittsee
+Fischteich der Österreichischen Bundesforste
+Fuscher Ache
+Schmallüsse
+Wasserkargraben
+Sittlingerkogel
+Chemie-Teiche
+Wendlerbach
+Wippenham
+Hallegger Teiche
+Kraxenkogel
+Weitgraben
+Wiesmannsreith
+Spannkogel
+Breitenstein
+Woch
+Leddinsrunse
+Klein Greinsfurth
+Hinterer Steingraben
+Fensterlooh
+Resilacke
+Valetschistobel
+Unterer Alpguessee
+Vorderhorn
+Lesachtal
+Wartmannstetten
+Schloßberg
+Pöls
+Flexensee
+Östlicher Ladizturm
+Ampass
+Kleinweikersdorf
+Lerchhaltbach
+Bachüberleitungen zum Speicher Längental
+Faggen
+Steinerkirchen an der Traun
+Annenviertel
+Schlaming
+Hochfilzen
+Reitlesrinne
+Rinnensee
+Strengen
+Sterzer See
+Speicherteich Römerstraße
+Angath
+Eschenau im Hausruckkreis
+Kolbentalbach
+Neuzeltweg
+Steirisches Ennstal
+Sankt Martin bei Lofer
+
+Kleiner Landsberg
+Tauberspitze
+Brandeben
+Bregenzer Achtal
+Schatzinsel
+Ringelsdorf-Niederabsdorf
+Haselgraben
+Burgteich
+Sagmüllerbach
+Speicherteich 1
+Kreuztal
+Eggenburg
+Kleiner Otwinskogel
+Geralkopf
+Schwendle
+Kranzingerberg
+Atzenbrugg
+Rückhaltebecken Weintalried
+Kroisenteich
+Guntramsdorf
+Maisgraben
+Pechtlerbach
+Sighartstein
+Hardegg
+Schlitters
+Fernitzer Ortsgraben
+Pabenberg
+Alsenbach
+Hinterautal
+Saugraben
+Römerzeitliches Gräberfeld
+Nußbach
+Silberbrunngraben
+Mittlere Wütenkarspitze
+Speicherteich Alpenhof
+Krottenkopfkar
+Kampspitze
+Ghagtal
+Trautmannsdorf an der Leitha
+Valschavieler Maderer
+St. Oswald bei Freistadt
+Kantnig
+Kolmitzental
+Weiten
+Bacherspitze
+Äußerer Hoher Kogel
+Steinmäuerlgraben
+Grimlinggraben
+Knirschensteinberg
+Naskogel
+Thüringen
+Aichfeld-West
+Insel
+Ladinigbach
+Inn. Pfanntalbach
+Naas
+Brandenberg
+Kaiser Maximilian Rast
+Röhrabrunner Bach
+Kammersee
+Zwischenlager 1
+Westlicher Augstenbergkopf
+Frankenfels
+Spitzeneggweiher
+Dombachgraben
+Oberer Hochalmsee
+Abfaltersbachgraben
+Zimitz
+Kolonie
+Zobelhof Christbaumhof
+Höllseichgraben
+Teich Stibor
+Kaunertal
+Marchgraben
+Unterlochen
+Kalköfen
+Überackern
+Schülanbach
+Speicherteich Kaisersee
+Hernstein
+Schlossweiher, Pitze
+Wasserofen
+Lasseinbucht
+Exlwöhr
+St. Johanner Bach
+Eselgraben
+Schöngößsee
+Ebniter Ache
+Flachau
+Klauser Stausee
+Dračice
+Pabneukirchen
+Rohr im Burgenland
+Tramoitschig
+Schleiferbachteich
+Hüttschlag
+Tramser Badeweiher
+Grundfeldsee
+Godererkogel
+Greistenbach
+Schildorn
+Berglisee
+Sankt Johann am Tauern
+Strohwolln
+Taborkogel
+Böser Graben
+Schafsee
+Knieparz unter der Leithen
+St. Martin im Innkreis
+Jurigraben
+Neusiedl bei Pfaffenhof
+Fladnitzbach
+Weinitzen
+Endl Teich
+Riedfeldgraben
+Sindhöring
+Floitengrund
+Dieslingsee
+Endtalgraben
+Deimelbach
+Mühlbachl
+Moosentwässerung
+Ringtal
+Michelbach
+Loosgräben
+Wetzsteinkogel
+Grän
+Zagglbach
+Arriach
+Obernberger See
+Irlachgraben
+Ebenau
+Schönfurggespitze
+Purngraben
+Waldwiesenberg
+Göthenwasser
+Pfarrhof
+Laufern
+Schwanenstadt
+Weyersdorfer Bach
+Poligraben
+Labillbach
+Niederer Trailing
+Schönwieskopf
+Pramet
+Axams
+Hüttenbichl
+Jachenpoint
+Bichleralmbach
+Großhartberg
+Schneckenkogel
+Langenzersdorf
+Satteltal
+Holzgraben
+Manschektobelgraben
+Schimpelsee
+Unterer Sommerwandsee
+Buchensteinwand
+Schmiedgraben
+Birkerhöhe
+Bühel
+Sarotlatal
+Stall
+Rauth
+Gartenteich
+Vorderer Langtalsee
+Pogendorf
+Kaltenberg
+Weidengraben
+Mühlbichl
+Klammerlinggraben
+Rheinholz
+Gipsteich
+Aupark
+Unterschloßberg
+Mörtersdorf
+Rems
+Paradeisinsel
+Schanzlsee
+Schöder
+Altmünster
+Unterdoppl
+Plofergraben
+Taufkirchen an der Pram
+Moschenitzenbach
+Schergengraben
+Gallaunbach
+Elixhausen
+Gamskarlgraben
+Hainburg an der Donau
+Ranggen
+Ebniter Tal
+Maria Laach am Jauerling
+Obereck
+Pferde Schwemme
+Hochtristen
+Prollingbach
+Kotgraben
+Lafental
+Ameisgraben
+Stadtgraben
+Eidenham
+Unterer Wildalmsee
+Diebsgraben
+Kahler Berg
+Tannscharten
+Lahnkarbach
+Gumprechtsberg
+Kreuzgraben
+Stadl-Hausruck
+Drauschleife
+Bürgerausee
+Hollgrabenbach
+Wälderwanne
+Steigenspitze
+Boarnlacke
+Tauernmossbach
+Stanzer Tal
+Matzpark Teich
+Wiener Neustadt
+Hinterer Schneegraben
+Wagnertal
+Rinnwald
+Fliederbach
+Käfertal
+Schöngrabern
+Herbstteich
+Oberkappel
+Kaunertal
+Hörzenbrunn
+Riedersbacher Lacke
+Praunfalk
+Limbergerbach
+Samertal
+Vorderhornbach
+Ohnemoaßkogel
+Hofkirchen an der Trattnach
+Heugraben
+Payerbachgraben
+Steinbergalmbach
+Kraischaberg
+Reichenfels
+Regierungsviertel
+Krimmler Ache
+Gosaueck
+Birkbach
+Rabenstein an der Pielach
+Jagergraben
+Kainbach bei Graz
+Wernerbach
+Högergraben
+Wasser Reservoir
+Grabenberg
+Malerteich
+Spitzwiese
+Schmiedeck
+Sankt Michael im Burgenland
+Lensbach
+Niedersee
+Eibelsau
+Kötschmanngrabenbach
+Kaltbründlberg
+Raab-Felsen
+Roter Nock
+Krimml
+Haltengraben
+Moschendorf
+Grabnerspitze
+Badeteich Trasdorf
+Groß-Gößgraben
+Rum
+Zöfing
+Hachgraben
+Tortal
+Losenstein
+Hochklemm
+Bodendorfer Wald
+Schwarzenbach an der Pielach
+Straning-Grafenberg
+Löschteich Spindelgraben
+Fischteich Koller
+Geierswand
+Oberdrauburg
+Kollerseben
+Vogelschutzallee
+Eichkögl
+Zaißen
+Saulach
+Grafenschachen
+Pillichsdorf
+Tschirgant Runsen
+Madautal
+Tribbachspitze - Punta di Rio Torbo
+Bad Fischau-Brunn
+Pama/Bijelo Selo
+Bacherdorf
+Bischofshofen
+Malta
+Hasengraben
+Nachklärbecken 8
+Karriegel
+Rennbichl
+Ottensheim
+Thumlingbach
+Löschteich Jarolden
+Bezirk Reutte
+Trattengraben
+Molfritz
+Mühlviertel
+Aheimberg
+Blaue Lacke
+Kleiner Neuteich
+Tiefbrunnau
+Gauninger Holz
+Parzinnspitze
+Foppmandl
+Großer Saugraben
+Erdstallgraben
+Purkersdorf
+Kreuzgraben
+Schoaßkogel
+Friedlau
+Mutters
+Spitzmäuerl
+Arzler Pitzeklamm
+Unterfeistritz
+Untererbach
+Hollersbachtal
+Hofstätten an der Raab
+Breitdach
+Decherlacke
+Ottendorfer Bach, Mühlbach
+Kolomanibrunnen
+Pfarrerteich
+Marbling
+Tränk
+Gruft
+Großes Krummtal
+Zischkaberg
+Miesenbach
+Türnsee
+Tossetbauerbach
+Weidengraben
+Iselteich
+Antonienhöhe
+Reingers
+Adlerspitz Dritter Kopf
+Nasserein
+Thal
+Rotsteinofen
+Pröller
+Gerbersdorf
+Finsterriegelkar
+Kalser Tal
+Fotschertal
+Hacklabach
+Seitenarm Bregenzer Ach
+Hareding
+Königsdorf
+Hirschkogel
+Obertal
+Bernkogel
+Schrabatz
+Ohnerstorf
+Kellau
+Zwergsee
+Moosbergriedel
+Bezirk Feldkirchen
+Unterpeischlach
+Gössenberg
+Goldseen
+Trestlgraben
+Gschwendtberg
+Unterhart
+Gehringsbach
+Oberer Bluntausee
+Stumberg
+Gaberlingbach
+Nussdorf
+Imst
+Schwarzensee
+Fuchsgrabenbach
+Stallmauer
+Plabutschviertel
+Rotlechstausee
+Danklköpfl
+Fußtal
+Puchberger Bach
+Aschergraben
+Lammer
+Speicherteich Gerent
+Prozessteich
+Brunnenthal
+Arnikariedel
+Gsenget
+Schön
+Jeßnitzbach
+Hochpfadgraben
+Becken 2
+Krottenkopfbach
+Ranzengraben
+Hartergraben
+Ludersdorf
+Safenberg
+Afritzer See

@@ -1,19 +1,24 @@
-# Start from official Python image
-FROM python:3.8
+FROM python:3.14-slim-bookworm
 
-# Set working directory inside container
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /usr/local/bin/uv
+
 WORKDIR /workspace
 
-# Install system dependencies (FontForge + optional tools)
 RUN apt-get update && apt-get install -y \
     fontforge \
+    inkscape\
     vim \
-    inkscape \
-    && rm -rf /var/lib/apt/lists/*
-    
+    git \
+    locales-all \
+ && rm -rf /var/lib/apt/lists/*
 
-# Copy requirements file
-COPY requirements.txt .
+ENV LANG=de_DE.UTF-8
+ENV LANGUAGE=de_DE:de
+ENV LC_ALL=de_DE.UTF-8
 
-# Install Python packages
-RUN pip install --no-cache-dir -r requirements.txt
+RUN uv venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
+ENV VIRTUAL_ENV="/opt/venv"
+
+COPY requirements.in .
+RUN uv pip install -r requirements.in

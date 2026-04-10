@@ -5,14 +5,13 @@ import subprocess
 import sys
 
 
-CUSTOM_FONTS_DIR = '/workspaces/SynthMap/fonts'
-SYSTEM_FONT_DIR = '/usr/share/fonts/opentype/'
-FONT_PATHS = []
 
-def create_custom_font():
+
+def create_custom_font(CUSTOM_FONTS_DIR):
     # Path to the Base Font, the font that will be modified to fit the historic map text font
     base_font = os.path.join(CUSTOM_FONTS_DIR, "base_font", "BaseFont.ttf")
     svg_font_dir = os.path.join(CUSTOM_FONTS_DIR, "svg_fonts")
+    FONT_PATHS = []
 
     if not os.path.exists(base_font):
         raise Exception(f"BaseFont.ttf does not exist: {base_font}")
@@ -130,8 +129,11 @@ def create_custom_font():
         # list all the created font paths
         FONT_PATHS.append(font_path)
 
+    return FONT_PATHS
 
-def install_custom_font():
+
+
+def install_custom_font(SYSTEM_FONT_DIR, FONT_PATHS):
 
     os.makedirs(SYSTEM_FONT_DIR, exist_ok=True)
 
@@ -156,5 +158,11 @@ def install_custom_font():
 
 
 # RUN EVERYTHING
-create_custom_font()
-install_custom_font()
+def run_create_custom_font(CUSTOM_FONTS_DIR='/workspaces/SynthMap/fonts', SYSTEM_FONT_DIR = '/usr/share/fonts/opentype/'):
+
+    FONT_PATHS = create_custom_font(CUSTOM_FONTS_DIR)
+    install_custom_font(SYSTEM_FONT_DIR, FONT_PATHS)
+
+
+# Run via start_fontforge.sh
+run_create_custom_font()

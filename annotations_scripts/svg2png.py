@@ -1,17 +1,21 @@
 import os
 import subprocess
 
-def svg2png(svg_source_dir, png_dir, svg_filename):
-    source_svg = os.path.join(svg_source_dir, svg_filename)
-    png_path = os.path.join(png_dir, svg_filename.split(".")[0] + ".png")
+def svg2png():
+    svg_source_dir = "/workspaces/SynthMap/synth_maps/svg_maps_w_background"
+    png_dir = "/workspaces/SynthMap/synth_maps/png_maps"
+    for file_name in os.listdir(svg_source_dir):
+        source_svg = os.path.join(svg_source_dir, file_name)
+        png_path = os.path.join(png_dir, f"{file_name.replace(".svg", "")}.png")
 
-    command =   "inkscape "\
-                "--export-type=png "\
-                "--export-dpi=500 "\
-                f"--export-filename={png_path} "\
-                f"{source_svg}"
 
-    # Run the command
-    subprocess.run(command, shell=True, check=True)
+        command =   "inkscape "\
+                    "--export-type=png "\
+                    "--export-width=1000 "\
+                    f"--export-filename={png_path} "\
+                    f"{source_svg}"
 
-    return png_path
+        # "--export-dpi=500 "\
+        # Run the command
+        subprocess.run(command, shell=True, check=True)
+

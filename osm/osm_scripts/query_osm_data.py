@@ -205,6 +205,7 @@ def download_place_names(country_code):
 
             # Remove duplicates and sort
             names = sorted(list(set(names)))
+            names = [elem.replace('"', '').replace("'", "") for elem in names]
 
             # Merge mountain_ranges into mountains
             if category == "mountain_ranges":
@@ -249,8 +250,8 @@ def create_small_training_file(places, save_dir, filename="small_training_data.t
     
     all_names = []
     for category, names in places.items():
-        if len(names) > 100:
-            all_names.extend(names[::floor(len(names) / 100)])
+        if len(names) > 500:
+            all_names.extend(names[::floor(len(names) / 500)])
         else:
             all_names.extend(names)
 
@@ -275,3 +276,8 @@ def run_osm_logic(country_code, osm_save_dir):
         # Save small and full training data in osm_
         create_full_training_file(places, osm_save_dir)
         create_small_training_file(places, osm_save_dir)
+
+
+
+if __name__ == "__main__":
+    run_osm_logic("AT", "/workspaces/SynthMap/osm/osm_data")
