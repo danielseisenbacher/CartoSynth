@@ -44,14 +44,21 @@ def build_annotations(bezier_dict):
             annotation_entry["id"] = count
             annotation_entry["bezier_pts"] = []
             annotation_entry["bezier_pts"].extend([round(coord, 1) for point in bezier["upper_bezier_points"] for coord in point])
-            annotation_entry["bezier_pts"].extend([round(coord, 1) for point in bezier["lower_bezier_points"] for coord in point])
+            annotation_entry["bezier_pts"].extend([round(coord, 1) for point in bezier["lower_bezier_points"][::-1] for coord in point]) #clockwise
             annotation_entry["rec"] = []
-            annotation_entry["rec"].extend([character_map[i["letter"]] for i in bezier["letters"]])
+            
+            # PADDING
+            MAX_LEN = 50
+            NULL_CHAR = 96  # padding token
+            rec = [character_map.get(i["letter"], 96) for i in bezier["letters"]]
+            rec = rec[:MAX_LEN]
+            rec = rec + [NULL_CHAR] * (MAX_LEN - len(rec))
+            annotation_entry["rec"] = rec
+
             annotation_entry["bbox"] = bezier["bbox"]
             coco_template["annotations"].append(annotation_entry)
             count += 1
 
-
     # write annotation to json
-    json.dump(coco_template, open("/workspaces/SynthMap/annotations/annotation.json", "w"))
+    json.dump(coco_template, open("/workspaces/SynthMap/annotations/train_96voc.json", "w"))
 

@@ -1,3 +1,4 @@
+import unicodedata
 import random
 from math import sqrt
 from random import randint, choice
@@ -40,8 +41,18 @@ def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezie
     small_training_data = "/workspaces/SynthMap/osm/osm_data/small_training_data.txt"
     with open(small_training_data, "r") as f:
         for row in f:
-            if row != "":
-                training_data.append(row.strip())
+            cleaned_row = unicodedata.normalize('NFKC', row.strip())
+            len_substrings = [len(substring) for substring in cleaned_row.split(" ")]
+            if min(len_substrings) < 2:
+                # discard very short words
+                continue
+            elif max(len_substrings) > 25:
+                # discard very long words
+                continue
+
+            if cleaned_row != "":
+                training_data.append(cleaned_row)
+            
 
 
     counter = 0

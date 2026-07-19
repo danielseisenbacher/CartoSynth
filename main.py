@@ -28,7 +28,7 @@ font_config = {"font1": {"font_size_range": [20, 40], "can_display_numeric": Fal
                }
 
 
-# check if custom fonts are installed
+'''# check if custom fonts are installed
 result = subprocess.run(["bash", "/workspaces/SynthMap/font_scripts/start_fontforge.sh"],check=True)
 
 # check if training data exists
@@ -46,8 +46,7 @@ synth_map_maker.run_synth_map_maker(
     min_bezier_on_canvas=min_bezier_on_canvas, 
     max_bezier_on_canvas=max_bezier_on_canvas, 
     canvas_size=canvas_size
-)
-
+)'''
 
 
 bezier_dict = bezier_builder.build_bezier()

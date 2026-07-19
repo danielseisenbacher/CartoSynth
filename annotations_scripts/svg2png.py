@@ -18,4 +18,5 @@ def svg2png():
         # "--export-dpi=500 "\
         # Run the command
         subprocess.run(command, shell=True, check=True)
+        print(f"svg2png processed for {file_name}")
 
