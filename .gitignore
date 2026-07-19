@@ -28,3 +28,10 @@ Thumbs.db
 # Logs
 *.log
 
+# Images etc
+*.jpg
+*.jpeg
+*.svg
+*.png
+*.tif
+*.tiff
