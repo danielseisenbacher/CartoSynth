@@ -8,9 +8,9 @@ import subprocess
 # font config
 canvas_size = 1000
 min_bezier_on_canvas=5
-max_bezier_on_canvas=15
+max_bezier_on_canvas=10
 
-min_blur_level = 16
+min_blur_level = 18
 max_blur_level = 24
 min_opacity = 68
 max_opacity = 78
@@ -33,8 +33,8 @@ font_config = {
 result = subprocess.run(["bash", "/workspaces/SynthMap/font_scripts/start_fontforge.sh"],check=True)
 
 # check if training data exists
-osm_path = "/workspaces/SynthMap/osm/osm_data/small_training_data.txt"
-if not os.path.exists(osm_path):
+osm_path = "/workspaces/SynthMap/osm/osm_data/full_training_data.txt"
+if os.path.exists(osm_path):        #not
     osm_save_dir = "/workspaces/SynthMap/osm/osm_data"
     query_osm_data.run_osm_logic("AT", osm_save_dir)
 else:
@@ -43,7 +43,7 @@ else:
 
 synth_map_maker.run_synth_map_maker(
     font_config, 
-    how_many_svgs=200,
+    how_many_svgs=2000,
     min_bezier_on_canvas=min_bezier_on_canvas, 
     max_bezier_on_canvas=max_bezier_on_canvas, 
     canvas_size=canvas_size

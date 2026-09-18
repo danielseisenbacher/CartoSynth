@@ -235,7 +235,8 @@ def create_full_training_file(places, save_dir, filename="full_training_data.txt
         all_names.extend(names)
 
     all_names = sorted(list(set(all_names)))
-
+    shuffle(all_names)
+    
     with open(save_file, "w", encoding="utf-8") as f:
         for name in all_names:
             f.write(name + "\n")
