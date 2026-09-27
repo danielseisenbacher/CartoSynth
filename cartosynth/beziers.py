@@ -330,6 +330,28 @@ def draw_letter_bbox(paths: list, attributes: list, text_relation_dict: dict):
     return paths, attributes
 
 
+def straight_bezier(start, end):
+    """Straight line as cubic bezier (control points at 1/3 and 2/3)."""
+    return [
+        start,
+        (start[0] + (end[0] - start[0]) / 3, start[1] + (end[1] - start[1]) / 3),
+        (start[0] + 2 * (end[0] - start[0]) / 3, start[1] + 2 * (end[1] - start[1]) / 3),
+        end
+    ]
+
+
+def runs_forward(control_points, start, end):
+    """False if the fitted curve doubles back against the direction start -> end."""
+    chord = np.subtract(end, start)
+    curve = np.array([bezier_point(control_points, t) for t in np.linspace(0, 1, 20)])
+    return bool(np.all(np.diff(curve, axis=0) @ chord >= -1e-6))
+
+
+def bezier_point(control_points, t):
+    p = np.array(control_points, dtype=float)
+    return (1 - t) ** 3 * p[0] + 3 * t * (1 - t) ** 2 * p[1] + 3 * t ** 2 * (1 - t) * p[2] + t ** 3 * p[3]
+
+
 def fit_cubic_bezier(text_relation: list) -> dict:
     """
     Fit a cubic Bezier curve to a set of points using least squares.
@@ -365,32 +387,16 @@ def fit_cubic_bezier(text_relation: list) -> dict:
             word_lower_bezier_points.append(letter["ul"])
             word_lower_bezier_points.append(letter["ur"])
 
-        if len(word_upper_bezier_points) < 4:
-            start = word_upper_bezier_points[0]
-            end = word_upper_bezier_points[-1] if len(word_upper_bezier_points) > 1 else start
-
-            # Linear interpolation to create 4 control points
-            word_upper_bezier_points = [
-                start,
-                (start[0] + (end[0] - start[0]) / 3, start[1] + (end[1] - start[1]) / 3),
-                (start[0] + 2 * (end[0] - start[0]) / 3, start[1] + 2 * (end[1] - start[1]) / 3),
-                end
-            ]
-
-        if len(word_lower_bezier_points) < 4:
-            start = word_lower_bezier_points[0]
-            end = word_lower_bezier_points[-1] if len(word_lower_bezier_points) > 1 else start
-
-            # Linear interpolation to create 4 control points
-            word_lower_bezier_points = [
-                start,
-                (start[0] + (end[0] - start[0]) / 3, start[1] + (end[1] - start[1]) / 3),
-                (start[0] + 2 * (end[0] - start[0]) / 3, start[1] + 2 * (end[1] - start[1]) / 3),
-                end
-            ]
+        # words with 1-2 letters: a cubic through 2-4 points is underdetermined or loops
+        # when neighbouring letters overlap on a tight curve -> straight lines
+        short_word = len(word) <= 2
+        letter_corners = [*word_upper_bezier_points, *word_lower_bezier_points]   # for the bbox
+        if short_word:
+            word_upper_bezier_points = straight_bezier(word_upper_bezier_points[0], word_upper_bezier_points[-1])
+            word_lower_bezier_points = straight_bezier(word_lower_bezier_points[0], word_lower_bezier_points[-1])
 
         # build bounding box
-        all_points = [*word_upper_bezier_points, *word_lower_bezier_points]
+        all_points = letter_corners
         x_min = min([i[0] for i in all_points])
         y_min = min([i[1] for i in all_points])
         x_max = max([i[0] for i in all_points])
@@ -407,6 +413,8 @@ def fit_cubic_bezier(text_relation: list) -> dict:
         }
 
         for upper_lower_keyword in ["upper_bezier_points", "lower_bezier_points"]:
+            if short_word:
+                continue
             points = np.array(text_relation_dict[random_word_id][upper_lower_keyword])
             x = points[:, 0]
             y = points[:, 1]
@@ -426,13 +434,11 @@ def fit_cubic_bezier(text_relation: list) -> dict:
             Pseudoinverse = np.linalg.pinv(BezierCoeff(t))
             control_points = Pseudoinverse.dot(data)
 
-            # Convert to list of tuples of floats
-            text_relation_dict[random_word_id][upper_lower_keyword] = [
-                (float(control_points[0, 0]), float(control_points[0, 1])),
-                (float(control_points[1, 0]), float(control_points[1, 1])),
-                (float(control_points[2, 0]), float(control_points[2, 1])),
-                (float(control_points[3, 0]), float(control_points[3, 1]))
-            ]
+            fitted = [tuple(float(v) for v in control_points[i]) for i in range(4)]
+            first, last = tuple(points[0]), tuple(points[-1])
+            if not runs_forward(fitted, first, last):
+                fitted = straight_bezier(first, last)   # fit doubled back: fall back to a straight line
+            text_relation_dict[random_word_id][upper_lower_keyword] = fitted
 
     return text_relation_dict
 
