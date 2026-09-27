@@ -27,7 +27,7 @@ bezier of each word, dot: reading start.*
 - [Without Docker / VS Code devcontainer](#without-docker--vs-code-devcontainer)
 - [Project structure](#project-structure)
 - [Troubleshooting](#troubleshooting)
-- [Licences and attribution](#licences-and-attribution)
+- [Licences and attribution](#licences-and-attribution) (code: MIT)
 
 ## Quick start
 
@@ -306,6 +306,9 @@ output/                 generated runs (not in git)
 
 ## Licences and attribution
 
+- CartoSynth (code, configs, demo backgrounds and the glyph outlines in
+  `data/fonts/glyphs/`, traced from sheets of the Austro-Hungarian 3rd Military Survey,
+  1869-1887) is released under the [MIT licence](LICENSE).
 - Word lists in `data/words/` are derived from OpenStreetMap data,
   © OpenStreetMap contributors, available under the
   [Open Database License (ODbL)](https://www.openstreetmap.org/copyright). Keep this
