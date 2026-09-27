@@ -3,8 +3,13 @@ import base64
 import itertools
 import random
 
+# Ink on the 3LA scans is dark but not fully opaque: hachures and contour lines show through a little.
+MIN_GLYPH_OPACITY = 0.75
+MAX_GLYPH_OPACITY = 0.95
+
+
 def replace_path_id(match):
-    opacity = round(random.uniform(0.75, 0.85), 2)
+    opacity = round(random.uniform(MIN_GLYPH_OPACITY, MAX_GLYPH_OPACITY), 2)
     filter_id = random.randint(0, 9)
     path_num = re.search(r'\d+', match.group(0)).group()
     return f'id="path{path_num}" style="opacity:{opacity};filter:url(#filter_{filter_id})"'
@@ -14,7 +19,12 @@ from PIL import Image
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-def add_glyph_artefacts(min_blur_level=0.25, max_blur_level=0.75):
+def add_glyph_artefacts(min_blur_level=0.3, max_blur_level=0.7, min_roughness=0.4, max_roughness=1.2):
+    """
+    Degrades the glyphs so they look printed and scanned instead of vector-sharp:
+    frayed edges (fractal noise displacement, `roughness` in px), blur and varying opacity.
+    Displacement and blur move edges by ~1-2 px at most, so the bezier annotations stay valid.
+    """
     glyph_path_dir = os.path.join(BASE_DIR, "synth_maps", "svg_maps_with_glyph_paths")
     maps_with_artefacts_dir = os.path.join(BASE_DIR, "synth_maps", "svg_maps_with_artefacts")
     os.makedirs(maps_with_artefacts_dir, exist_ok=True)
@@ -26,18 +36,35 @@ def add_glyph_artefacts(min_blur_level=0.25, max_blur_level=0.75):
     for file in os.listdir(glyph_path_dir):
         if not file.endswith('.svg'):
             continue
-        # Build defs block with 10 filters of varying blur
+        # Build defs block with 10 filters of varying roughness and blur
         all_filters = '<defs id="defs1">\n'
         for filter_strength in range(10):
             blur = round(random.uniform(min_blur_level, max_blur_level), 2)
+            roughness = round(random.uniform(min_roughness, max_roughness), 2)
+            frequency = round(random.uniform(0.4, 1.2), 2)
+            seed = random.randint(0, 9999)
             all_filters += f"""  <filter
         style="color-interpolation-filters:sRGB"
         id="filter_{filter_strength}"
-        x="-0.05"
-        y="-0.05"
-        width="2"
-        height="2">
+        x="-0.1"
+        y="-0.1"
+        width="1.2"
+        height="1.2">
+        <feTurbulence
+          type="fractalNoise"
+          baseFrequency="{frequency}"
+          numOctaves="2"
+          seed="{seed}"
+          result="noise_{filter_strength}" />
+        <feDisplacementMap
+          in="SourceGraphic"
+          in2="noise_{filter_strength}"
+          scale="{roughness}"
+          xChannelSelector="R"
+          yChannelSelector="G"
+          result="rough_{filter_strength}" />
         <feGaussianBlur
+          in="rough_{filter_strength}"
           stdDeviation="{blur}"
           id="feGaussianBlur_{filter_strength}" />
       </filter>"""

@@ -22,12 +22,13 @@ def get_random_font(bezier_word, font_config):
         if len(possible_fonts) == 0:
             raise Exception
 
-        chosen_font = choice(list(font_config.keys()))
+        chosen_font = choice(list(possible_fonts.keys()))
 
-        if not possible_fonts[chosen_font]["uppercase_possible"]:
+        # numeric fonts have no case flags
+        if not possible_fonts[chosen_font].get("uppercase_possible", True):
             bezier_word = bezier_word.lower()
 
-        if not possible_fonts[chosen_font]["lowercase_possible"]:
+        if not possible_fonts[chosen_font].get("lowercase_possible", True):
             bezier_word = bezier_word.upper()
         
         return chosen_font, bezier_word
@@ -41,6 +42,40 @@ def get_random_font(bezier_word, font_config):
 
 
 from PIL import Image
+
+
+# ---------------------------------------------------------------------------
+# Realism settings, measured on the real 3LA train split (1994 labels):
+# 41% of labels are elevation numbers (74% 3 digits, 23% 4 digits, median 635,
+# 10-90% quantiles 298-1470), straight and horizontal (99% within +-10 deg), and
+# often next to a small red marker. Median label height: words 42 px, numbers 24 px
+# (hand-drawn boxes with margin); font sizes in main.py are chosen to get close to that.
+# ---------------------------------------------------------------------------
+ELEVATION_SHARE = 0.4
+ELEVATION_FONT_SCALE = 0.7
+ELEVATION_MAX_ANGLE_DEG = 6
+ELEVATION_MARKER_PROB = 0.5
+
+# ink is dark grey/brown on the scans, not pure black; some numbers are printed red-brown
+INK_COLOURS = ["#1f1b18", "#26221f", "#2b2520", "#352d26", "#3d3a36", "#433a31"]
+RED_INK_COLOURS = ["#7a2e24", "#8c3b2c", "#94412f"]
+RED_ELEVATION_PROB = 0.25
+MARKER_COLOUR = "#a8392b"
+
+
+def random_elevation():
+    """Elevation label with the digit/value distribution of the real 3LA maps."""
+    if random.random() < 0.02:
+        return str(randint(1, 99))
+    # lognormal around the real median: ~21% get 4 digits, quantiles close to the real ones
+    return str(int(min(max(np.random.lognormal(np.log(650), 0.55), 100), 2999)))
+
+
+def random_ink(is_elevation=False):
+    if is_elevation and random.random() < RED_ELEVATION_PROB:
+        return choice(RED_INK_COLOURS)
+    return choice(INK_COLOURS)
+
 
 def get_map_template_files(map_templates_dir=None):
     if map_templates_dir is None:
@@ -111,17 +146,27 @@ def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezie
         proposed_font_config = []
         proposed_paths_buffers = svgpathtools.Path()
         words = []
+        markers = []
 
         for elem in range(random_number):
-            bezier_word = training_data[counter]
-            random_font, modified_bezier_word = get_random_font(bezier_word, font_config)
-            training_data[counter] = modified_bezier_word
-            bezier_word = training_data[counter]
+            is_elevation = random.random() < ELEVATION_SHARE
+            if is_elevation:
+                bezier_word = random_elevation()
+                random_font, bezier_word = get_random_font(bezier_word, font_config)
+                random_font_size = max(8, round(randint(
+                    font_config[random_font]['font_size_range'][0],
+                    font_config[random_font]['font_size_range'][-1]
+                ) * ELEVATION_FONT_SCALE))
+            else:
+                bezier_word = training_data[counter]
+                random_font, modified_bezier_word = get_random_font(bezier_word, font_config)
+                training_data[counter] = modified_bezier_word
+                bezier_word = training_data[counter]
 
-            random_font_size = randint(
-                font_config[random_font]['font_size_range'][0],
-                font_config[random_font]['font_size_range'][-1]
-            )
+                random_font_size = randint(
+                    font_config[random_font]['font_size_range'][0],
+                    font_config[random_font]['font_size_range'][-1]
+                )
 
             print(f'Bezier {elem+1}/{random_number}: {bezier_word} [font: {random_font}, font_size: {random_font_size}]')
 
@@ -129,7 +174,7 @@ def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezie
                 bezier_word, random_font, random_font_size, canvas_width, canvas_height
             )
 
-            while not bezier_len_required:
+            while not bezier_len_required and not is_elevation:
                 # sometimes the word is too long for the canvas, in this case we need to reduce the word length
                 if len(bezier_word) <= 2:
                     break
@@ -140,26 +185,35 @@ def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezie
                 )
 
             if not bezier_len_required:
-                counter = (counter + 1) % len(training_data)
+                if not is_elevation:
+                    counter = (counter + 1) % len(training_data)
                 continue
 
             new_path, proposed_paths_buffers = propose_a_path(
                 bezier_len_required,
                 existing_paths_buffers=proposed_paths_buffers,
                 canvas_width=canvas_width,
-                canvas_height=canvas_height
+                canvas_height=canvas_height,
+                straight=is_elevation,
+                max_angle_deg=ELEVATION_MAX_ANGLE_DEG
             )
 
             if new_path is None:
                 print(f"↺ Could not place bezier {elem+1} on canvas, skipping...")
-                counter = (counter + 1) % len(training_data)
+                if not is_elevation:
+                    counter = (counter + 1) % len(training_data)
                 continue
 
             proposed_paths.append(new_path)
-            proposed_font_config.append({"font": random_font, "font_size": random_font_size})
+            proposed_font_config.append({"font": random_font, "font_size": random_font_size,
+                                         "fill": random_ink(is_elevation)})
             words.append(bezier_word)
 
-            counter = (counter + 1) % len(training_data)
+            if is_elevation and random.random() < ELEVATION_MARKER_PROB:
+                markers.append(elevation_marker(new_path, random_font_size, canvas_width, canvas_height))
+
+            if not is_elevation:
+                counter = (counter + 1) % len(training_data)
 
         save_to_svg(
             beziers=proposed_paths,
@@ -168,7 +222,8 @@ def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezie
             canvas_width=canvas_width,
             canvas_height=canvas_height,
             template_name=template_file,
-            proposed_font_config=proposed_font_config
+            proposed_font_config=proposed_font_config,
+            markers=markers
         )
 
         print()
@@ -176,7 +231,46 @@ def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezie
         print("\n\n")
 
 
-def propose_a_path(bezier_len_required, existing_paths_buffers, max_curvature=0.5, canvas_width=1000, canvas_height=None, canvas_size=None, canvas_buffer=10):
+def elevation_marker(path, font_size, canvas_width, canvas_height):
+    """Small red point symbol left or right of an elevation number (not text, so not annotated)."""
+    radius = max(2.0, font_size * 0.18)
+    gap = font_size * 0.45
+    direction = path.end - path.start
+    unit = direction / abs(direction) if abs(direction) else complex(1, 0)
+    anchor = path.start - unit * gap if random.random() < 0.5 else path.end + unit * gap
+    x = min(max(anchor.real, radius + 1), canvas_width - radius - 1)
+    y = min(max(anchor.imag - font_size * 0.3, radius + 1), canvas_height - radius - 1)
+    return {"x": round(x, 1), "y": round(y, 1), "r": round(radius, 1)}
+
+
+def add_path_buffers(bezier, existing_paths_buffers, canvas_buffer):
+    """Circles along the path so later words keep their distance."""
+    for cp in bezier.points(np.linspace(0, 1, 30)):
+        existing_paths_buffers.append(
+            svgpathtools.path.Arc(
+                start=complex(cp.real, cp.imag - canvas_buffer * 2),
+                radius=complex(canvas_buffer * 2, canvas_buffer * 2),
+                rotation=0,
+                large_arc=False,
+                sweep=True,
+                end=complex(cp.real, cp.imag + canvas_buffer * 2)
+            )
+        )
+        existing_paths_buffers.append(
+            svgpathtools.path.Arc(
+                start=complex(cp.real, cp.imag + canvas_buffer * 2),
+                radius=complex(canvas_buffer * 2, canvas_buffer * 2),
+                rotation=0,
+                large_arc=False,
+                sweep=True,
+                end=complex(cp.real, cp.imag - canvas_buffer * 2)
+            )
+        )
+    return existing_paths_buffers
+
+
+def propose_a_path(bezier_len_required, existing_paths_buffers, max_curvature=0.5, canvas_width=1000, canvas_height=None, canvas_size=None, canvas_buffer=10,
+                   straight=False, max_angle_deg=6):
     if canvas_size is not None:
         if isinstance(canvas_size, (tuple, list)):
             canvas_width, canvas_height = canvas_size
@@ -211,6 +305,23 @@ def propose_a_path(bezier_len_required, existing_paths_buffers, max_curvature=0.
             random.randint(canvas_buffer, canvas_width - canvas_buffer),
             random.randint(canvas_buffer, canvas_height - canvas_buffer)
         )
+
+        if straight:
+            # elevation numbers: straight, almost horizontal, left to right
+            angle = np.radians(random.uniform(-max_angle_deg, max_angle_deg))
+            start = complex(*starting_point)
+            end = start + bezier_len_required * complex(np.cos(angle), np.sin(angle))
+            straight_bezier = svgpathtools.path.CubicBezier(
+                start=start, control1=start + (end - start) / 3, control2=start + 2 * (end - start) / 3, end=end
+            )
+            if border_buffer.intersect(straight_bezier, justonemode=True):
+                print("↺ line outside of canvas - ", end="")
+                continue
+            if existing_paths_buffers.intersect(straight_bezier, justonemode=True):
+                print("↺ line touches other bezier - ", end="")
+                continue
+            print("✓ done")
+            return straight_bezier, add_path_buffers(straight_bezier, existing_paths_buffers, canvas_buffer)
 
         # skewed towards horizontal text
         x_length = random.betavariate(3, 1) * bezier_len_required
@@ -271,37 +382,12 @@ def propose_a_path(bezier_len_required, existing_paths_buffers, max_curvature=0.
                 print("↺ bezier touches other bezier - ", end="")
                 continue
 
-            buffer_center_points = new_bezier.points(np.linspace(0, 1, 30))
-
-            for cp in buffer_center_points:
-                existing_paths_buffers.append(
-                    svgpathtools.path.Arc(
-                        start=complex(cp.real, cp.imag - canvas_buffer * 2),
-                        radius=complex(canvas_buffer * 2, canvas_buffer * 2),
-                        rotation=0,
-                        large_arc=False,
-                        sweep=True,
-                        end=complex(cp.real, cp.imag + canvas_buffer * 2)
-                    )
-                )
-
-                existing_paths_buffers.append(
-                    svgpathtools.path.Arc(
-                        start=complex(cp.real, cp.imag + canvas_buffer * 2),
-                        radius=complex(canvas_buffer * 2, canvas_buffer * 2),
-                        rotation=0,
-                        large_arc=False,
-                        sweep=True,
-                        end=complex(cp.real, cp.imag - canvas_buffer * 2)
-                    )
-                )
-
             print("✓ done")
-            return new_bezier, existing_paths_buffers
+            return new_bezier, add_path_buffers(new_bezier, existing_paths_buffers, canvas_buffer)
 
 
 
-def save_to_svg(beziers, words, file_name, buffers=None, border=None, special=None, canvas_size=None, canvas_width=1000, canvas_height=None, template_name="", proposed_font_config=None):
+def save_to_svg(beziers, words, file_name, buffers=None, border=None, special=None, canvas_size=None, canvas_width=1000, canvas_height=None, template_name="", proposed_font_config=None, markers=None):
     if canvas_size is not None:
         if isinstance(canvas_size, (tuple, list)):
             canvas_width, canvas_height = canvas_size
@@ -330,8 +416,13 @@ def save_to_svg(beziers, words, file_name, buffers=None, border=None, special=No
             bezier_reference_id=f"bezier{idx}",
             bezier_text=word,
             font_family=font_config["font"],
-            font_size=font_config["font_size"]
+            font_size=font_config["font_size"],
+            fill=font_config.get("fill", "#000")
         )
+
+    # elevation point symbols; every element needs an id (bezier_builder reads all ids)
+    for idx, marker in enumerate(markers or []):
+        path_str += svg_templates.get_elevation_marker_template(f"elevation_marker{idx}", marker["x"], marker["y"], marker["r"], MARKER_COLOUR)
 
     if buffers:
         path_str += f'<path d="{buffers.d()}" fill="none" stroke="#000000" stroke-width="0.1" />\n'

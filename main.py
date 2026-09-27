@@ -19,14 +19,14 @@ max_opacity = 74
 
 # create svgs using osm data and put the data onto bezier
 font_config = {
-    "font1": {"font_size_range": [20, 40], "can_display_numeric": False, "can_display_letters": True, "uppercase_possible": True, "lowercase_possible": False, "fallback": False},
-    "font2": {"font_size_range": [20, 40], "can_display_numeric": False, "can_display_letters": True, "uppercase_possible": False, "lowercase_possible": True, "fallback": False},
-    "font3": {"font_size_range": [20, 40], "can_display_numeric": False, "can_display_letters": True, "uppercase_possible": True, "lowercase_possible": True, "fallback": False},
-    "font4": {"font_size_range": [20, 40], "can_display_numeric": False, "can_display_letters": True, "uppercase_possible": True, "lowercase_possible": False, "fallback": False},
-    "font5": {"font_size_range": [20, 40], "can_display_numeric": False, "can_display_letters": True, "uppercase_possible": True, "lowercase_possible": True, "fallback": False},
-    "font6": {"font_size_range": [20, 40], "can_display_numeric": False, "can_display_letters": True, "uppercase_possible": True, "lowercase_possible": True, "fallback": True},
-    "font7": {"font_size_range": [20, 40], "can_display_numeric": True, "can_display_letters": False, "fallback": False},
-    "font8": {"font_size_range": [20, 40], "can_display_numeric": True, "can_display_letters": False, "fallback": False}
+    "font1": {"font_size_range": [30, 60], "can_display_numeric": False, "can_display_letters": True, "uppercase_possible": True, "lowercase_possible": False, "fallback": False},
+    "font2": {"font_size_range": [30, 60], "can_display_numeric": False, "can_display_letters": True, "uppercase_possible": False, "lowercase_possible": True, "fallback": False},
+    "font3": {"font_size_range": [30, 60], "can_display_numeric": False, "can_display_letters": True, "uppercase_possible": True, "lowercase_possible": True, "fallback": False},
+    "font4": {"font_size_range": [30, 60], "can_display_numeric": False, "can_display_letters": True, "uppercase_possible": True, "lowercase_possible": False, "fallback": False},
+    "font5": {"font_size_range": [30, 60], "can_display_numeric": False, "can_display_letters": True, "uppercase_possible": True, "lowercase_possible": True, "fallback": False},
+    "font6": {"font_size_range": [30, 60], "can_display_numeric": False, "can_display_letters": True, "uppercase_possible": True, "lowercase_possible": True, "fallback": True},
+    "font7": {"font_size_range": [30, 60], "can_display_numeric": True, "can_display_letters": False, "fallback": False},
+    "font8": {"font_size_range": [30, 60], "can_display_numeric": True, "can_display_letters": False, "fallback": False}
 }
 
 
