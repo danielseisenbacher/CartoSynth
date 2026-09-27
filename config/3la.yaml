@@ -1,0 +1,59 @@
+# Synthetic tiles for the 3rd Military Survey of Austria-Hungary (3LA).
+# Settings measured on the real 3LA annotations (1994 labels, train split):
+#   - 41% of labels are elevation numbers: 74% 3 digits, 23% 4 digits,
+#     median 635, 10-90% quantiles 298-1470; straight and horizontal
+#     (99% within +-10 deg), often next to a small red point symbol
+#   - median label height: words 42 px, numbers 24 px
+#   - ink dark grey/brown, slightly frayed and blurred by the scan
+# Target model: MapTextPipeline (Rumsey weights, VOC_SIZE 148).
+
+run_name: 3la
+num_maps: 2000
+
+backgrounds:
+  dir: data/backgrounds/3la            # AI-generated, text-free 3LA-style tiles
+
+words:
+  file: data/words/austria_small.txt
+
+labels_per_map: [2, 5]
+
+fonts:
+  # built from glyphs cut out of 3LA sheets: ./cartosynth.sh fonts
+  styles:
+    - {family: font1, size: [30, 60], letters: true, digits: false, uppercase: true,  lowercase: false, fallback: false}
+    - {family: font2, size: [30, 60], letters: true, digits: false, uppercase: false, lowercase: true,  fallback: false}
+    - {family: font3, size: [30, 60], letters: true, digits: false, uppercase: true,  lowercase: true,  fallback: false}
+    - {family: font4, size: [30, 60], letters: true, digits: false, uppercase: true,  lowercase: false, fallback: false}
+    - {family: font5, size: [30, 60], letters: true, digits: false, uppercase: true,  lowercase: true,  fallback: false}
+    - {family: font6, size: [30, 60], letters: true, digits: false, uppercase: true,  lowercase: true,  fallback: true}
+    - {family: font7, size: [30, 60], letters: false, digits: true, fallback: false}
+    - {family: font8, size: [30, 60], letters: false, digits: true, fallback: false}
+
+numbers:
+  share: 0.4
+  font_scale: 0.7
+  max_angle_deg: 6
+  median: 650
+  sigma: 0.55
+  marker_prob: 0.5
+
+ink:
+  colours: ["#1f1b18", "#26221f", "#2b2520", "#352d26", "#3d3a36", "#433a31"]
+  number_colours: ["#7a2e24", "#8c3b2c", "#94412f"]
+  number_colour_prob: 0.25
+
+effects:
+  glyph_opacity: [0.75, 0.95]
+  blur: [0.3, 0.7]
+  roughness: [0.4, 1.2]
+  scan:
+    enabled: true
+    blur: [0.2, 0.5]
+    jpeg_quality: [55, 85]
+
+annotation:
+  vocabulary: voc148
+  max_length: 25
+  case_fallback: {"Ö": "ö", "Ü": "ü"}   # voc148 has no uppercase Ö/Ü
+  file_name: train_148voc.json

@@ -1,0 +1,11 @@
+# Python dependencies (installed in the Docker image, see docker/Dockerfile).
+# System tools needed as well: Inkscape >= 1.2, FontForge, fontconfig.
+numpy==2.5.3
+scipy==1.18.1
+svgpathtools==1.8.0
+pillow==12.3.0
+PyYAML==6.0.3
+requests==2.34.2
+opencv-python-headless==5.0.0.93   # glyph background removal (cartosynth glyphs)
+vtracer==0.6.15                    # glyph vectorisation (cartosynth glyphs)
+pytest==9.1.1

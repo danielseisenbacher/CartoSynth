@@ -1,0 +1,4 @@
+# only requirements.txt and docker/ are needed to build the image
+*
+!requirements.txt
+!docker/

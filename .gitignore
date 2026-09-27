@@ -1,41 +1,26 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
+*.py[cod]
+.pytest_cache/
 
-# font data
-fonts/png_fonts/
-fonts/svg_fonts/
-fonts/tiff_fonts/
-map_templates/
+# Generated runs
+output/
 
-# Generated Synth Maps & annotation visualization
-synth_maps/
-annotations/annotation_visualized/
+# Your data (large and/or not yours to publish): backgrounds, glyph images, built fonts
+data/backgrounds/
+data/fonts/glyph_scans/
+data/fonts/glyph_images/
+data/fonts/build/
+data/fonts/files/
+data/fonts/base/
 
-# OS files
+# OS / editors
 .DS_Store
 Thumbs.db
 *~
-
-# Editor
+*.swp
 .vscode/
 .idea/
-*.swp
 
 # Logs
 *.log
-
-# Images etc
-*.jpg
-*.jpeg
-*.svg
-*.png
-*.tif
-*.tiff
-# backup of the first (96voc) synth run
-synth_maps_v1_96voc/
-# backup of the second (148voc, no numbers) synth run used for the first finetuning
-synth_maps_v2_148voc/

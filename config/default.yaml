@@ -1,0 +1,100 @@
+# CartoSynth default configuration.
+#
+# Every option is listed here with its default. A run config (e.g. config/3la.yaml)
+# only needs the keys it changes; it is merged on top of this file.
+# Relative paths are resolved against the repository root.
+
+# --- Run ---------------------------------------------------------------------
+run_name: example            # output goes to <output_dir>/<run_name>/
+output_dir: output
+num_maps: 10                 # number of synthetic map tiles
+seed: null                   # integer for reproducible runs, null = random
+keep_intermediate: true      # keep the SVG stages (svg/1_text ... svg/4_background)
+
+# --- Backgrounds ---------------------------------------------------------------
+# Text-free map images the text is drawn on. You have to provide these
+# (see README, "Backgrounds"). Tiles are used in order and repeat if
+# num_maps > number of backgrounds.
+backgrounds:
+  dir: examples/backgrounds
+  canvas_size: null          # tile size without backgrounds, e.g. [1000, 1000] (with backgrounds: their size)
+
+# --- Words ---------------------------------------------------------------------
+words:
+  file: data/words/austria_small.txt   # one label per line (may contain spaces)
+  shuffle: false             # shuffle the list once at start (true recommended for new lists)
+  min_word_length: 2         # rows with a shorter word are skipped
+  max_word_length: 25        # rows with a longer word are skipped (= annotation max_length)
+
+labels_per_map: [2, 5]       # min, max number of labels placed on one tile
+
+# --- Fonts ---------------------------------------------------------------------
+# `family` is the font family name as fontconfig/Inkscape sees it:
+#   - a system font (check with `./cartosynth.sh shell` -> `fc-list : family`),
+#   - a font file you put into data/fonts/files/, or
+#   - a font built from glyph images with `./cartosynth.sh fonts` (family = folder name).
+# Each style says what it can render; labels only get a style that fits them.
+fonts:
+  styles:
+    - family: DejaVu Serif
+      size: [30, 60]         # font size range in px
+      letters: true
+      digits: true
+      uppercase: true        # false: labels are lower-cased for this style
+      lowercase: true        # false: labels are upper-cased for this style
+      fallback: true         # used when no other style fits
+    - family: DejaVu Sans
+      size: [30, 60]
+      letters: true
+      digits: true
+      uppercase: true
+      lowercase: true
+      fallback: false
+
+# --- Numeric labels (e.g. elevation points) -------------------------------------
+numbers:
+  share: 0.0                 # fraction of labels that are numbers instead of words (0 = off)
+  font_scale: 0.7            # font size relative to the chosen style's size
+  max_angle_deg: 6           # numbers are straight and at most this far from horizontal
+  median: 650                # value distribution: lognormal around `median`
+  sigma: 0.55
+  min_value: 100
+  max_value: 2999
+  small_share: 0.02          # fraction of 1-2 digit numbers
+  marker_prob: 0.0           # probability of a small point symbol next to the number (not annotated)
+  marker_colour: "#a8392b"
+
+# --- Label placement ---------------------------------------------------------------
+placement:
+  max_curvature: 0.5         # max curvature of word baselines
+  canvas_buffer: 10          # px kept free at the border and between labels
+  max_attempts: 150          # placement attempts per label before it is skipped
+
+# --- Appearance ------------------------------------------------------------------
+ink:
+  colours: ["#000000"]       # one is picked per label
+  number_colours: []         # alternative colours for numbers (e.g. red-brown)
+  number_colour_prob: 0.0    # probability that a number uses number_colours
+
+effects:
+  glyph_opacity: [0.75, 0.85]
+  blur: [0.25, 0.75]         # Gaussian blur of the glyphs in px
+  roughness: [0.0, 0.0]      # frayed edges: displacement in px (0 = off)
+  scan:                      # applied to the whole rendered tile
+    enabled: false
+    blur: [0.2, 0.5]
+    jpeg_quality: [55, 85]
+
+# --- Annotations -------------------------------------------------------------------
+annotation:
+  # Character dictionary of the text spotter you train:
+  #   voc96  - AdelaiDet/ABCNet/DeepSolo 96 classes (printable ASCII, pad 96)
+  #   voc148 - MapTextPipeline Rumsey model (ASCII + umlauts etc., pad 148)
+  #   path to a .txt file with one character per line (pad = number of characters + 1)
+  vocabulary: voc96
+  max_length: 25             # length of `rec`; must match the model (25 for DeepSolo/MapTextPipeline)
+  # Characters that are not in the dictionary but encoded as another one,
+  # e.g. {"Ö": "ö"} for voc148. Rows whose words still contain unknown
+  # characters are removed from the word list before rendering.
+  case_fallback: {}
+  file_name: annotations.json
