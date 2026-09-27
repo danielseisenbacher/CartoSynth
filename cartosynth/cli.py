@@ -52,11 +52,12 @@ def cmd_visualize(args):
 def cmd_fonts(args):
     from . import fonts
     from .vocab import Vocabulary
-    from .words import load_words
+    from .words import check_short_tokens, load_words
     if not args.check_only:
         fonts.build_fonts(base_font=args.base_font and resolve(args.base_font), install=args.install)
     cfg = config_from(args.config)
-    words = load_words(cfg["words"], Vocabulary.from_config(cfg["annotation"]))
+    vocab = Vocabulary.from_config(cfg["annotation"])
+    words = load_words(cfg["words"], vocab) + check_short_tokens(cfg["short_labels"], vocab)
     ok = fonts.check_coverage(cfg, words)
     if args.list:
         print("\nInstalled font families:\n  " + "\n  ".join(fonts.available_families()))

@@ -27,3 +27,18 @@ def test_generate_default_config(tmp_path):
 
     with pytest.raises(FileExistsError):
         generate(cfg)
+
+
+def test_generate_with_short_labels(tmp_path):
+    cfg = load_config(overrides={"num_maps": 3, "seed": 5, "output_dir": str(tmp_path), "run_name": "short",
+                                 "short_labels": {"share": 0.6, "tokens": {"W": 2, "Gr": 1, "n.": 1}}})
+    assert generate(cfg)
+    dirs = run_dirs(cfg)
+    with open(f"{dirs.root}/annotations.json", encoding="utf-8") as f:
+        coco = json.load(f)
+    short = [a for a in coco["annotations"] if a["transcription"] in {"W", "Gr", "n."}]
+    assert short, "no short labels generated"
+    for ann in short:
+        pts = np.array(ann["bezier_pts"]).reshape(2, 4, 2)
+        angle = np.degrees(np.arctan2(*(pts[0, 3] - pts[0, 0])[::-1]))
+        assert abs(angle) <= 10.5     # straight, near-horizontal

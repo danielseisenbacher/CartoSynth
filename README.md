@@ -41,8 +41,10 @@ python tools/backgrounds/cut_subtiles.py -i generated/ -o data/backgrounds/<proj
 
 **2. Words.** A UTF-8 file with one label per line (`words.file`). Included: Austrian place
 names from OpenStreetMap (`data/words/austria_small.txt`, `austria_full.txt`). Other
-countries: `./cartosynth.sh words CH switzerland`. Numbers (e.g. elevations) are generated,
-see `numbers.*`.
+countries: `./cartosynth.sh words CH switzerland`. Numbers (e.g. elevations) are generated
+(`numbers.*`), single letters and abbreviations like "W" or "Wh." are drawn from a weighted
+token list (`short_labels.*`). `python tools/label_stats.py <annotations.json>` derives both
+from real training annotations.
 
 **3. Fonts.** Each entry in `fonts.styles` names a font family and what it can draw
 (letters, digits, upper/lower case). Either use installed fonts / `.ttf` files in

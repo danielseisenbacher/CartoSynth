@@ -3,7 +3,8 @@
 #   - 41% of labels are elevation numbers: 74% 3 digits, 23% 4 digits,
 #     median 635, 10-90% quantiles 298-1470; straight and horizontal
 #     (99% within +-10 deg), often next to a small red point symbol
-#   - median label height: words 42 px, numbers 24 px
+#   - 12% single letters / abbreviations (W, H, Gr, B., Wh., ...), see short_labels
+#   - median label height: words 42 px, numbers 24 px, single letters 29 px
 #   - ink dark grey/brown, slightly frayed and blurred by the scan
 # Target model: MapTextPipeline (Rumsey weights, VOC_SIZE 148).
 
@@ -37,6 +38,16 @@ numbers:
   median: 650
   sigma: 0.55
   marker_prob: 0.5
+
+# Single letters and abbreviations: 12 % of the real training labels (train split only), e.g.
+# "W" (Wirtshaus) and "H"; single letters are ~0.67x the height of words and nearly horizontal.
+# Values from: python tools/label_stats.py <3LA train_sub annotations>
+short_labels:
+  share: 0.12
+  tokens: {"W": 70, "H": 38, "A": 13, "Gr": 10, "B": 10, "B.": 9, "zu": 8, "Au": 6, "n": 5, "Wh.": 4, "Kg": 4, "Wh": 3, "n.": 3, "In": 3, "v": 3, "J": 3, "IM": 2, "Fl.": 2, "Fl": 2, "M.": 1, "Im": 1, "Gr.": 1, "W.": 1, "in": 1, "d.": 1, "Am": 1, "GP": 1, "v.": 1, "Hm": 1, "Pf.": 1, "JH": 1, "Kl": 1, "Fh": 1}
+  font_scale_single: 0.67
+  font_scale: 0.95
+  max_angle_deg: 10
 
 ink:
   colours: ["#1f1b18", "#26221f", "#2b2520", "#352d26", "#3d3a36", "#433a31"]

@@ -64,6 +64,18 @@ numbers:
   marker_prob: 0.0           # probability of a small point symbol next to the number (not annotated)
   marker_colour: "#a8392b"
 
+# --- Short labels (single letters, abbreviations) --------------------------------
+# Maps often carry short tokens (e.g. "W" for Wirtshaus, "Gr", "Wh.") that word lists do not
+# contain. They are drawn by weight from `tokens`, on straight near-horizontal baselines, only in
+# font styles that render them unchanged (an uppercase "W" is never lower-cased).
+# `tools/label_stats.py <annotations.json>` prints shares, tokens and sizes of real annotations.
+short_labels:
+  share: 0.0                 # fraction of labels that are short tokens (0 = off)
+  tokens: {}                 # token: weight, e.g. {"W": 70, "H": 38, "Gr": 10}
+  font_scale_single: 0.65    # size of 1-character tokens relative to the style's size
+  font_scale: 1.0            # size of longer tokens
+  max_angle_deg: 10          # baselines are straight and at most this far from horizontal
+
 # --- Label placement ---------------------------------------------------------------
 placement:
   max_curvature: 0.5         # max curvature of word baselines

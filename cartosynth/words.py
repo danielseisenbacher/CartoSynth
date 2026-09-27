@@ -41,3 +41,15 @@ def load_words(words_cfg, vocab):
     if not words:
         raise ValueError("No usable words in the word list")
     return words
+
+
+def check_short_tokens(short_cfg, vocab):
+    """Short label tokens must be encodable and not longer than the annotation length."""
+    if short_cfg["share"] <= 0:
+        return []
+    bad = [t for t in short_cfg["tokens"] if not vocab.is_encodable(t) or len(t) > vocab.max_length]
+    if bad:
+        raise ValueError(f"short_labels.tokens not encodable in the annotation dictionary: {bad}")
+    tokens = list(short_cfg["tokens"])
+    print(f"Short labels: {len(tokens)} tokens, share {short_cfg['share']:.0%}")
+    return tokens

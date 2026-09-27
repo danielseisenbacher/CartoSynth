@@ -42,12 +42,19 @@ def canvas_for(tile_nr, cfg, backgrounds):
 
 # --- labels ------------------------------------------------------------------------------
 
-def choose_style(label, styles):
-    """Random font style that can render `label`; adapts the case for single-case styles."""
+def choose_style(label, styles, keep_case=False):
+    """
+    Random font style that can render `label`; adapts the case for single-case styles.
+    keep_case: only styles that render the label unchanged (short tokens like "W" or "n.").
+    """
     has_digit = bool(re.search(r'\d', label))
     has_letter = any(c.isalpha() for c in label)
     fitting = [s for s in styles
                if (s.get("digits", False) or not has_digit) and (s.get("letters", False) or not has_letter)]
+    if keep_case:
+        fitting = [s for s in fitting
+                   if (s.get("uppercase", True) or not any(c.isupper() for c in label))
+                   and (s.get("lowercase", True) or not any(c.islower() for c in label))]
     if not fitting:
         fitting = [s for s in styles if s.get("fallback")][-1:]
     style = random.choice(fitting)
@@ -64,6 +71,22 @@ def random_number(numbers_cfg):
         return str(random.randint(1, 99))
     value = np.random.lognormal(np.log(numbers_cfg["median"]), numbers_cfg["sigma"])
     return str(int(min(max(value, numbers_cfg["min_value"]), numbers_cfg["max_value"])))
+
+
+def random_short_label(short_cfg):
+    """Short token (single letter, abbreviation), drawn by weight."""
+    tokens = list(short_cfg["tokens"])
+    return random.choices(tokens, weights=[short_cfg["tokens"][t] for t in tokens])[0]
+
+
+def label_kind(cfg):
+    """'number', 'short' or 'word' according to numbers.share and short_labels.share."""
+    r = random.random()
+    if r < cfg["numbers"]["share"]:
+        return "number"
+    if r < cfg["numbers"]["share"] + cfg["short_labels"]["share"]:
+        return "short"
+    return "word"
 
 
 def ink_colour(cfg, is_number):
@@ -185,6 +208,7 @@ def create_svgs(cfg, words, dirs):
         print(f"WARNING: no backgrounds in {cfg['backgrounds']['dir']}, tiles stay blank")
     styles = cfg["fonts"]["styles"]
     numbers_cfg = cfg["numbers"]
+    short_cfg = cfg["short_labels"]
     low, high = cfg["labels_per_map"]
     word_idx = 0
 
@@ -195,25 +219,34 @@ def create_svgs(cfg, words, dirs):
         labels, markers = [], []
         buffers = svgpathtools.Path()
         for _ in range(random.randint(low, high)):
-            is_number = random.random() < numbers_cfg["share"]
+            kind = label_kind(cfg)
+            is_number = kind == "number"
             if is_number:
                 style, text = choose_style(random_number(numbers_cfg), styles)
                 font_size = max(8, round(random.randint(*style["size"]) * numbers_cfg["font_scale"]))
+                max_angle = numbers_cfg["max_angle_deg"]
+            elif kind == "short":
+                style, text = choose_style(random_short_label(short_cfg), styles, keep_case=True)
+                scale = short_cfg["font_scale_single"] if len(text) == 1 else short_cfg["font_scale"]
+                font_size = max(8, round(random.randint(*style["size"]) * scale))
+                max_angle = short_cfg["max_angle_deg"]
             else:
                 style, text = choose_style(words[word_idx], styles)
                 font_size = random.randint(*style["size"])
                 word_idx = (word_idx + 1) % len(words)
 
             length = text_measure.text_length(text, style["family"], font_size, width, height, dirs.tmp)
-            # too long for the tile: shorten words (numbers are dropped)
-            while not length and not is_number and len(text) > 2:
+            # too long for the tile: shorten words (numbers and short tokens are dropped)
+            while not length and kind == "word" and len(text) > 2:
                 text = text[:-1].strip()
                 length = text_measure.text_length(text, style["family"], font_size, width, height, dirs.tmp)
             if not length:
                 continue
 
+            # numbers and short tokens: straight, near-horizontal; words: curved
             bezier, buffers = propose_a_path(length, buffers, width, height, cfg["placement"],
-                                             straight=is_number, max_angle_deg=numbers_cfg["max_angle_deg"])
+                                             straight=kind != "word",
+                                             max_angle_deg=max_angle if kind != "word" else 0)
             if bezier is None:
                 print(f"    could not place '{text}', skipped")
                 continue

@@ -45,6 +45,17 @@ def validate(cfg):
         errors.append("fonts.styles needs one style with `fallback: true`")
     if cfg["numbers"]["share"] > 0 and not any(s.get("digits") for s in cfg["fonts"]["styles"]):
         errors.append("numbers.share > 0 but no font style has `digits: true`")
+    short = cfg["short_labels"]
+    if short["share"] > 0 and not short["tokens"]:
+        errors.append("short_labels.share > 0 but short_labels.tokens is empty")
+    if cfg["numbers"]["share"] + short["share"] > 1:
+        errors.append("numbers.share + short_labels.share must not exceed 1")
+    if any(weight <= 0 for weight in short["tokens"].values()):
+        errors.append("short_labels.tokens weights must be positive")
+    not_text = [t for t in short["tokens"] if not isinstance(t, str) or not t.strip()]
+    if not_text:
+        # e.g. unquoted No / On / Off are read by YAML as booleans
+        errors.append(f"short_labels.tokens must be quoted strings, got {not_text}")
     low, high = cfg["labels_per_map"]
     if not 0 < low <= high:
         errors.append("labels_per_map must be [min, max] with 0 < min <= max")

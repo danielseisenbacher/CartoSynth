@@ -340,6 +340,30 @@ def straight_bezier(start, end):
     ]
 
 
+def short_word_edges(word):
+    """
+    Upper and lower edge (left -> right) of a 1-2 letter word: a box aligned with the baseline that
+    encloses all letter boxes. Joining the first letter's top-left with the last letter's top-right
+    instead would tilt the edge when the letters differ in height ("n.", "Gr").
+    """
+    corners = np.array([letter[k] for letter in word for k in ("ll", "lr", "ul", "ur")], dtype=float)
+    reference = word[0].get("bezier_ref")
+    if reference is not None:
+        direction = np.subtract(reference[3], reference[0])       # baseline chord
+    else:
+        direction = np.subtract(word[-1]["lr"], word[0]["ll"])
+    t_hat = direction / (np.linalg.norm(direction) or 1.0)
+    n_hat = np.array([-t_hat[1], t_hat[0]])     # points to the visual bottom in SVG coordinates
+    along, across = (corners - corners[0]) @ t_hat, (corners - corners[0]) @ n_hat
+
+    def point(t, n):
+        return tuple(float(v) for v in corners[0] + t * t_hat + n * n_hat)
+
+    upper = straight_bezier(point(along.min(), across.min()), point(along.max(), across.min()))
+    lower = straight_bezier(point(along.min(), across.max()), point(along.max(), across.max()))
+    return upper, lower
+
+
 def runs_forward(control_points, start, end):
     """False if the fitted curve doubles back against the direction start -> end."""
     chord = np.subtract(end, start)
@@ -392,8 +416,7 @@ def fit_cubic_bezier(text_relation: list) -> dict:
         short_word = len(word) <= 2
         letter_corners = [*word_upper_bezier_points, *word_lower_bezier_points]   # for the bbox
         if short_word:
-            word_upper_bezier_points = straight_bezier(word_upper_bezier_points[0], word_upper_bezier_points[-1])
-            word_lower_bezier_points = straight_bezier(word_lower_bezier_points[0], word_lower_bezier_points[-1])
+            word_upper_bezier_points, word_lower_bezier_points = short_word_edges(word)
 
         # build bounding box
         all_points = letter_corners

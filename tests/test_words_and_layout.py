@@ -56,3 +56,49 @@ def test_straight_paths_stay_on_canvas():
         assert abs(angle) <= 6.01
     marker = number_marker(bezier, 20, 500, 400)
     assert 0 < marker["x"] < 500 and 0 < marker["y"] < 400
+
+
+def test_short_label_sampling_follows_weights():
+    from cartosynth.layout import random_short_label
+    random.seed(0)
+    draws = [random_short_label({"tokens": {"W": 3, "Gr": 1}}) for _ in range(4000)]
+    assert 0.7 < draws.count("W") / len(draws) < 0.8
+
+
+def test_keep_case_never_changes_short_tokens():
+    random.seed(0)
+    lower_only = {"family": "lower", "size": [10, 20], "letters": True, "digits": False,
+                  "uppercase": False, "lowercase": True, "fallback": False}
+    styles = STYLES + [lower_only]
+    for token in ["W", "Gr", "n.", "Wh.", "IM"]:
+        for _ in range(50):
+            style, text = choose_style(token, styles, keep_case=True)
+            assert text == token, (token, style["family"])
+
+
+def test_label_kind_shares():
+    from cartosynth.layout import label_kind
+    random.seed(0)
+    cfg = load_config(overrides={"numbers": {"share": 0.4},
+                                 "short_labels": {"share": 0.12, "tokens": {"W": 1}}})
+    kinds = [label_kind(cfg) for _ in range(10000)]
+    assert abs(kinds.count("number") / 10000 - 0.40) < 0.02
+    assert abs(kinds.count("short") / 10000 - 0.12) < 0.02
+
+
+def test_short_label_config_is_validated():
+    import pytest
+    with pytest.raises(ValueError, match="quoted strings"):
+        load_config(overrides={"short_labels": {"share": 0.1, "tokens": {False: 1}}})   # YAML: unquoted No
+    with pytest.raises(ValueError, match="must not exceed 1"):
+        load_config(overrides={"numbers": {"share": 0.9}, "short_labels": {"share": 0.2, "tokens": {"W": 1}},
+                               "fonts": {"styles": STYLES}})
+    with pytest.raises(ValueError, match="tokens is empty"):
+        load_config(overrides={"short_labels": {"share": 0.1}})
+
+
+def test_unencodable_short_token_is_rejected():
+    import pytest
+    from cartosynth.words import check_short_tokens
+    with pytest.raises(ValueError, match="not encodable"):
+        check_short_tokens({"share": 0.1, "tokens": {"Č": 1}}, Vocabulary(VOC148))

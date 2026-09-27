@@ -21,7 +21,7 @@ from . import beziers, coco, effects, fonts, layout, render
 from .check import check_run
 from .config import run_dirs
 from .vocab import Vocabulary
-from .words import load_words
+from .words import check_short_tokens, load_words
 
 
 def stage(name):
@@ -44,7 +44,8 @@ def generate(cfg, overwrite=False):
 
     vocab = Vocabulary.from_config(cfg["annotation"])
     words = load_words(cfg["words"], vocab)
-    if not fonts.check_coverage(cfg, words):
+    short_tokens = check_short_tokens(cfg["short_labels"], vocab)
+    if not fonts.check_coverage(cfg, words + short_tokens):
         raise RuntimeError("Some font styles are not installed, see above (./cartosynth.sh fonts)")
 
     started = time.time()
