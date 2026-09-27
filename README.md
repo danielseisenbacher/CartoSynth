@@ -34,7 +34,7 @@ bezier of each word, dot: reading start.*
 You only need **Docker** (Linux, macOS or Windows with WSL2).
 
 ```bash
-git clone https://github.com/danielseisenbacher/SynthMap.git CartoSynth
+git clone https://github.com/danielseisenbacher/CartoSynth.git
 cd CartoSynth
 ./cartosynth.sh generate config/default.yaml -n 5    # builds the Docker image on first use (~5 min)
 ./cartosynth.sh visualize output/example             # annotation overlays -> output/example/previews/
