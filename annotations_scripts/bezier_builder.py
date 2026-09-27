@@ -1,4 +1,5 @@
 import os
+import re
 import uuid
 from svgpathtools import svg2paths, wsvg, Path, Line, CubicBezier, parse_path
 import subprocess
@@ -9,9 +10,10 @@ from scipy.special import comb as n_over_k
 from scipy.optimize import minimize_scalar
 
 
-svg_with_glyphs_dir = "/workspaces/SynthMap/synth_maps/svg_maps_with_glyphs"
-svg_with_glyph_paths_dir = "/workspaces/SynthMap/synth_maps/svg_maps_with_glyph_paths"
-svg_annotated_dir ="/workspaces/SynthMap/annotations/annotation_visualized"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+svg_with_glyphs_dir = os.path.join(BASE_DIR, "synth_maps", "svg_maps_with_glyphs")
+svg_with_glyph_paths_dir = os.path.join(BASE_DIR, "synth_maps", "svg_maps_with_glyph_paths")
+svg_annotated_dir = os.path.join(BASE_DIR, "annotations", "annotation_visualized")
 
 def check_dirs() -> None:
     """
@@ -94,7 +96,7 @@ def match_text_to_path_id(svg_with_glyph_paths: str, glyph_to_path_reference:dic
         count = 0
 
         #print(path_reference)
-        for word in label.split(" "):
+        for word in [w for w in label.split(" ") if w]:
             for letter in word:
                 text_part.append({"path_id": path_nrs[count], "letter": letter, "bezier_ref": glyph_to_path_reference[path_nrs[count]]})
                 count += 1
@@ -375,6 +377,9 @@ def fit_cubic_bezier(text_relation: list) -> dict:
 
     for word in text_relation:
 
+        if not word:
+            continue
+
         random_word_id = str(uuid.uuid4())
         word_upper_bezier_points = []
         word_lower_bezier_points = []
@@ -566,10 +571,12 @@ def build_bezier() -> dict:
     bezier_dict = {}
 
     # annotate each file in svg with glyphs dir
-    for file in os.listdir(svg_with_glyphs_dir):
+    sorted_files = sorted(
+        [f for f in os.listdir(svg_with_glyphs_dir) if f.endswith(".svg")],
+        key=lambda x: int(re.search(r'\d+', x).group()) if re.search(r'\d+', x) else x
+    )
+    for file in sorted_files:
         print(f"Processing file {file}...")
-        if not file.endswith(".svg"):
-            print(f"Ignoring {file}")
 
         svg_with_glyph_paths = glyphs_to_paths(os.path.join(svg_with_glyphs_dir, file))
         print("svg to path done")

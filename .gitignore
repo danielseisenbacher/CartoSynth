@@ -35,3 +35,5 @@ Thumbs.db
 *.png
 *.tif
 *.tiff
+# backup of the first (96voc) synth run
+synth_maps_v1_96voc/

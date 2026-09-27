@@ -6,7 +6,11 @@ import os
 import numpy as np
 import svgpathtools
 from synth_maps_scripts import (bezier_length_test, svg_templates)
+from annotations_scripts import voc148
+from collections import Counter
 import re
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def get_random_font(bezier_word, font_config):
@@ -36,9 +40,23 @@ def get_random_font(bezier_word, font_config):
         return fallback_font, bezier_word
 
 
-def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezier_on_canvas=40, canvas_size=1000):
+from PIL import Image
+
+def get_map_template_files(map_templates_dir=None):
+    if map_templates_dir is None:
+        map_templates_dir = os.path.join(BASE_DIR, "map_templates")
+    if not os.path.exists(map_templates_dir):
+        return [], map_templates_dir
+    files = [f for f in os.listdir(map_templates_dir) if f.endswith(('.png', '.jpg', '.jpeg', '.svg'))]
+    files.sort(key=lambda x: int(re.search(r'\d+', x).group()) if re.search(r'\d+', x) else x)
+    return files, map_templates_dir
+
+
+def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezier_on_canvas=40, canvas_size=None, map_templates_dir=None):
     training_data = []
-    small_training_data = "/workspaces/SynthMap/osm/osm_data/small_training_data.txt"
+    dropped_chars = Counter()
+    dropped_rows = 0
+    small_training_data = os.path.join(BASE_DIR, "osm", "osm_data", "small_training_data.txt")
     with open(small_training_data, "r") as f:
         for row in f:
             cleaned_row = unicodedata.normalize('NFKC', row.strip())
@@ -50,17 +68,44 @@ def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezie
                 # discard very long words
                 continue
 
+            # discard rows the 148voc dictionary cannot transcribe, so no word is rendered without a label.
+            # get_random_font may upper-/lowercase the word, so all variants must be encodable (ß -> SS is fine).
+            variants = (cleaned_row, cleaned_row.upper(), cleaned_row.lower())
+            if not all(voc148.is_encodable(v) for v in variants):
+                dropped_rows += 1
+                dropped_chars.update(set().union(*(voc148.unencodable_chars(v) for v in variants)))
+                continue
+
             if cleaned_row != "":
                 training_data.append(cleaned_row)
-            
 
+    print(f"Loaded {len(training_data)} words, dropped {dropped_rows} rows not encodable in 148voc: {dict(dropped_chars)}")
+
+    template_files, map_templates_dir = get_map_template_files(map_templates_dir)
 
     counter = 0
     for svg_nr in range(how_many_svgs):
+        # Determine canvas dimensions for this SVG
+        template_file = ""
+        if canvas_size is not None:
+            if isinstance(canvas_size, (tuple, list)):
+                canvas_width, canvas_height = canvas_size
+            else:
+                canvas_width = canvas_height = canvas_size
+            if template_files:
+                template_file = template_files[svg_nr % len(template_files)]
+        elif template_files:
+            template_file = template_files[svg_nr % len(template_files)]
+            template_path = os.path.join(map_templates_dir, template_file)
+            with Image.open(template_path) as im:
+                canvas_width, canvas_height = im.size
+        else:
+            canvas_width, canvas_height = 1000, 1000
+
         print('='*50)
-        print(f'Building svg {svg_nr}..')
+        print(f'Building svg {svg_nr} [size: {canvas_width}x{canvas_height}, template: {template_file}]..')
         print('-' * 50)
-        random_number = randint(min_bezier_on_canvas,max_bezier_on_canvas)
+        random_number = randint(min_bezier_on_canvas, max_bezier_on_canvas)
 
         proposed_paths = svgpathtools.Path()
         proposed_font_config = []
@@ -73,7 +118,6 @@ def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezie
             training_data[counter] = modified_bezier_word
             bezier_word = training_data[counter]
 
-            
             random_font_size = randint(
                 font_config[random_font]['font_size_range'][0],
                 font_config[random_font]['font_size_range'][-1]
@@ -81,33 +125,49 @@ def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezie
 
             print(f'Bezier {elem+1}/{random_number}: {bezier_word} [font: {random_font}, font_size: {random_font_size}]')
 
-            bezier_len_required = bezier_length_test.test_word_length(bezier_word, random_font, random_font_size, canvas_size)
-
+            bezier_len_required = bezier_length_test.test_word_length(
+                bezier_word, random_font, random_font_size, canvas_width, canvas_height
+            )
 
             while not bezier_len_required:
-                # sometimes the word is too long for the canva, in this case we need to reduce the word length
-                training_data[counter] = bezier_word[:-1]
+                # sometimes the word is too long for the canvas, in this case we need to reduce the word length
+                if len(bezier_word) <= 2:
+                    break
+                training_data[counter] = bezier_word[:-1].strip()
                 bezier_word = training_data[counter]
-                bezier_len_required = bezier_length_test.test_word_length(bezier_word, random_font, random_font_size, canvas_size)
+                bezier_len_required = bezier_length_test.test_word_length(
+                    bezier_word, random_font, random_font_size, canvas_width, canvas_height
+                )
 
+            if not bezier_len_required:
+                counter = (counter + 1) % len(training_data)
+                continue
 
             new_path, proposed_paths_buffers = propose_a_path(
                 bezier_len_required,
-                existing_paths_buffers=proposed_paths_buffers
+                existing_paths_buffers=proposed_paths_buffers,
+                canvas_width=canvas_width,
+                canvas_height=canvas_height
             )
 
+            if new_path is None:
+                print(f"↺ Could not place bezier {elem+1} on canvas, skipping...")
+                counter = (counter + 1) % len(training_data)
+                continue
+
             proposed_paths.append(new_path)
-            proposed_font_config.append({"font": random_font,"font_size": random_font_size})
+            proposed_font_config.append({"font": random_font, "font_size": random_font_size})
             words.append(bezier_word)
 
-            counter += 1
-            pass
+            counter = (counter + 1) % len(training_data)
 
         save_to_svg(
             beziers=proposed_paths,
             words=words,
             file_name=f"{svg_nr}.svg",
-            canvas_size=canvas_size,
+            canvas_width=canvas_width,
+            canvas_height=canvas_height,
+            template_name=template_file,
             proposed_font_config=proposed_font_config
         )
 
@@ -116,22 +176,40 @@ def create_svg(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezie
         print("\n\n")
 
 
-def propose_a_path(bezier_len_required, existing_paths_buffers, max_curvature=0.5, canvas_size=1000, canvas_buffer=10):
+def propose_a_path(bezier_len_required, existing_paths_buffers, max_curvature=0.5, canvas_width=1000, canvas_height=None, canvas_size=None, canvas_buffer=10):
+    if canvas_size is not None:
+        if isinstance(canvas_size, (tuple, list)):
+            canvas_width, canvas_height = canvas_size
+        else:
+            canvas_width = canvas_height = canvas_size
+    elif canvas_height is None:
+        if isinstance(canvas_width, (tuple, list)):
+            canvas_width, canvas_height = canvas_width
+        else:
+            canvas_height = canvas_width
+
     b = canvas_buffer
-    s = canvas_size - canvas_buffer
+    bx = canvas_width - canvas_buffer
+    by = canvas_height - canvas_buffer
     border_buffer = svgpathtools.Path(
-        svgpathtools.path.Line(complex(b,b), complex(s,b)),
-        svgpathtools.path.Line(complex(s,b), complex(s,s)),
-        svgpathtools.path.Line(complex(s,s), complex(b,s)),
-        svgpathtools.path.Line(complex(b,s), complex(b,b))
+        svgpathtools.path.Line(complex(b, b), complex(bx, b)),
+        svgpathtools.path.Line(complex(bx, b), complex(bx, by)),
+        svgpathtools.path.Line(complex(bx, by), complex(b, by)),
+        svgpathtools.path.Line(complex(b, by), complex(b, b))
     )
 
     line_outside_count = 0
     line_touches_other_bezier_count = 0
+    total_attempts = 0
     while True:
+        total_attempts += 1
+        if total_attempts > 150:
+            print(f"No valid placement found after {total_attempts} attempts")
+            return None, existing_paths_buffers
+
         starting_point = (
-            random.randint(canvas_buffer, canvas_size - canvas_buffer),
-            random.randint(canvas_buffer, canvas_size - canvas_buffer)
+            random.randint(canvas_buffer, canvas_width - canvas_buffer),
+            random.randint(canvas_buffer, canvas_height - canvas_buffer)
         )
 
         # skewed towards horizontal text
@@ -146,21 +224,16 @@ def propose_a_path(bezier_len_required, existing_paths_buffers, max_curvature=0.
         if border_buffer.intersect(new_path, justonemode=True):
             print("↺ line outside of canvas - ", end="")
             line_outside_count += 1
-            if line_outside_count > 100:
-                print(f"No result found after {line_outside_count} iterations")
-                pass
             continue
 
         if existing_paths_buffers.intersect(new_path, justonemode=True):
             print("↺ line touches other bezier - ", end="")
             line_touches_other_bezier_count += 1
-            if line_touches_other_bezier_count > 100:
-                print(f"No result found after {line_touches_other_bezier_count} iterations")
-                pass
             continue
 
         # Bezier loop
-        while True:
+        bezier_placed = False
+        for _ in range(50):
             random_x_offset = random.randint(-int(bezier_len_required), int(bezier_len_required))
             random_y_offset = random.randint(-int(bezier_len_required), int(bezier_len_required))
             control_point_1 = complex(starting_point.real + random_x_offset, starting_point.imag + random_y_offset)
@@ -228,8 +301,19 @@ def propose_a_path(bezier_len_required, existing_paths_buffers, max_curvature=0.
 
 
 
-def save_to_svg(beziers, words, file_name, buffers=None, border=None, special=None, canvas_size=1000, proposed_font_config=None):
-    svg_template = svg_templates.get_svg_template(canvas_size)
+def save_to_svg(beziers, words, file_name, buffers=None, border=None, special=None, canvas_size=None, canvas_width=1000, canvas_height=None, template_name="", proposed_font_config=None):
+    if canvas_size is not None:
+        if isinstance(canvas_size, (tuple, list)):
+            canvas_width, canvas_height = canvas_size
+        else:
+            canvas_width = canvas_height = canvas_size
+    elif canvas_height is None:
+        if isinstance(canvas_width, (tuple, list)):
+            canvas_width, canvas_height = canvas_width
+        else:
+            canvas_height = canvas_width
+
+    svg_template = svg_templates.get_svg_template(canvas_width, canvas_height, template_name=template_name)
 
     path_str = ''
     path_beziers = [svgpathtools.Path(bezier) for bezier in beziers]
@@ -260,17 +344,19 @@ def save_to_svg(beziers, words, file_name, buffers=None, border=None, special=No
 
     svg_template = svg_template.replace("BEZIER_LIST", path_str)
 
-    with open(os.path.join("/workspaces/SynthMap/synth_maps/svg_maps_with_glyphs", file_name), "w") as f:
+    output_dir = os.path.join(BASE_DIR, "synth_maps", "svg_maps_with_glyphs")
+    os.makedirs(output_dir, exist_ok=True)
+    with open(os.path.join(output_dir, file_name), "w") as f:
         f.write(svg_template)
 
 
 
-def run_synth_map_maker(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezier_on_canvas=40, canvas_size=1000):
-    # font_config = {"font6": {"font_size_range": [7]}}
+def run_synth_map_maker(font_config, how_many_svgs=10, min_bezier_on_canvas=20, max_bezier_on_canvas=40, canvas_size=None, map_templates_dir=None):
     create_svg(
         font_config, 
         how_many_svgs=how_many_svgs, 
         min_bezier_on_canvas=min_bezier_on_canvas, 
         max_bezier_on_canvas=max_bezier_on_canvas,
-        canvas_size=canvas_size
-        )
+        canvas_size=canvas_size,
+        map_templates_dir=map_templates_dir
+    )

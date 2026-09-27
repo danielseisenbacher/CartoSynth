@@ -281,4 +281,5 @@ def run_osm_logic(country_code, osm_save_dir):
 
 
 if __name__ == "__main__":
-    run_osm_logic("AT", "/workspaces/SynthMap/osm/osm_data")
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    run_osm_logic("AT", os.path.join(BASE_DIR, "osm", "osm_data"))

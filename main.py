@@ -6,14 +6,15 @@ import os
 import subprocess
 
 # font config
-canvas_size = 1000
-min_bezier_on_canvas=5
-max_bezier_on_canvas=10
+# Set canvas_size = None to automatically use the dimensions of each image in map_templates
+canvas_size = None
+min_bezier_on_canvas=2
+max_bezier_on_canvas=5
 
-min_blur_level = 18
-max_blur_level = 24
-min_opacity = 68
-max_opacity = 78
+min_blur_level = 23
+max_blur_level = 27
+min_opacity = 64
+max_opacity = 74
 
 
 # create svgs using osm data and put the data onto bezier
@@ -29,13 +30,16 @@ font_config = {
 }
 
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 # check if custom fonts are installed
-result = subprocess.run(["bash", "/workspaces/SynthMap/font_scripts/start_fontforge.sh"],check=True)
+fontforge_script = os.path.join(BASE_DIR, "font_scripts", "start_fontforge.sh")
+result = subprocess.run(["bash", fontforge_script], check=True)
 
 # check if training data exists
-osm_path = "/workspaces/SynthMap/osm/osm_data/full_training_data.txt"
-if os.path.exists(osm_path):        #not
-    osm_save_dir = "/workspaces/SynthMap/osm/osm_data"
+osm_save_dir = os.path.join(BASE_DIR, "osm", "osm_data")
+osm_path = os.path.join(osm_save_dir, "full_training_data.txt")
+if not os.path.exists(osm_path):
     query_osm_data.run_osm_logic("AT", osm_save_dir)
 else:
     print("Training data already exists.")

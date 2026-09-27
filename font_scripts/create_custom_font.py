@@ -157,8 +157,11 @@ def install_custom_font(SYSTEM_FONT_DIR, FONT_PATHS):
     print("All fonts installed!")
 
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DEFAULT_FONTS_DIR = os.path.join(BASE_DIR, "fonts")
+
 # RUN EVERYTHING
-def run_create_custom_font(CUSTOM_FONTS_DIR='/workspaces/SynthMap/fonts', SYSTEM_FONT_DIR = '/usr/share/fonts/opentype/'):
+def run_create_custom_font(CUSTOM_FONTS_DIR=DEFAULT_FONTS_DIR, SYSTEM_FONT_DIR='/usr/share/fonts/opentype/'):
 
     FONT_PATHS = create_custom_font(CUSTOM_FONTS_DIR)
     install_custom_font(SYSTEM_FONT_DIR, FONT_PATHS)

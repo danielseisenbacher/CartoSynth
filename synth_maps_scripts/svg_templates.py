@@ -1,9 +1,16 @@
-def get_svg_template(canvas_size=1000):
+def get_svg_template(canvas_width=1000, canvas_height=None, template_name=""):
+    if canvas_height is None:
+        if isinstance(canvas_width, (tuple, list)):
+            canvas_width, canvas_height = canvas_width
+        else:
+            canvas_height = canvas_width
+
+    template_attr = f' data-template="{template_name}"' if template_name else ''
     return f'''<?xml version="1.0" encoding="UTF-8" standalone="no"?>
         <svg
-            width="{canvas_size}"
-            height="{canvas_size}"
-            viewBox="0 0 {canvas_size} {canvas_size}"
+            width="{canvas_width}"
+            height="{canvas_height}"
+            viewBox="0 0 {canvas_width} {canvas_height}"{template_attr}
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
